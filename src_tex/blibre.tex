@@ -1,0 +1,478 @@
+
+\documentclass[twoside,12pt]{book}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{fancyhdr}
+\usepackage{lettrine,microtype,xcolor}
+\usepackage{geometry}
+%\usepackage[showframe]{geometry}
+%\usepackage[para,symbol*,bottom,flushmargin]{footmisc}
+%\usepackage[para,symbol*,bottom]{footmisc}
+%\usepackage[para,symbol*]{footmisc}
+\usepackage[para,symbol*,flushmargin]{footmisc}
+\usepackage{fourier-orns}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage[object=vectorian]{pgfornament}
+
+\renewcommand{\familydefault}{pplj} 
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+
+% \raggedbottom
+
+% Footnote settings
+%----------------------------------------------------
+
+% The prefix 'bl' is used for all defined vars, commands, etc. meaning 'biblia-libre'
+
+% Using the same symbol for all footnotes because:
+%	1. many footnotes (like in a bible) always crash footnote counter.
+%	2. footnote counter is reset every footnote.
+%	3. footnotes must not use numbers to avoid confusing them with verse numbers.
+
+\DefineFNsymbols*{blSymbols}{*****************************************************************
+**********************************************************************************************}
+
+\setfnsymbol{blSymbols}
+
+% \interfootnotelinepenalty=0
+% \addtolength{\skip\footins}{2pc plus 5pt}
+% \setlength{\skip\footins}{5pt}
+
+% Page layout.
+%-----------------------------------------------------
+
+\geometry{
+	letterpaper,
+	top = 20mm,
+	bottom = 20mm,
+	inner = 25mm,
+	outer = 10mm,
+	footskip = 8mm,
+	headsep = 3mm,
+	headheight = 20mm,
+}
+
+\pagenumbering{gobble}
+
+% Fonts to use. 
+%-----------------------------------------------------
+
+% in fonts folder
+\newfontface\blSetDSHermannGotisch{DSHermannGotisch}
+\newfontface\blSetDSRomantiques{DSRomantiques}
+\newfontface\blSetWieynkFrakturVignetten{WieynkFrakturVignetten}
+\newfontface\blSetRothenburgDecorative{RothenburgDecorative}
+
+% in texlive full install
+\input Acorn.fd
+\newfontface\blSetAcorn{Acorn}
+
+% in system (linux)
+\newfontface\blSetDavidCLM{David CLM}
+
+\newcommand{\blHebrewOne}[2]{\blSetDavidCLM\fontsize{#1}{40}\selectfont \RL{#2}}
+
+% Some colors to use.
+%-----------------------------------------------------
+\definecolor{blMarron}{RGB}{60,30,10}
+\definecolor{blDarkblue}{RGB}{0,0,80}
+\definecolor{blLightblue}{RGB}{80,80,80}
+\definecolor{blDarkgreen}{RGB}{0,80,0}
+\definecolor{blDarkgray}{RGB}{0,80,0}
+\definecolor{blDarkred}{RGB}{80,0,0}
+
+% Header and Footer variables.
+%-----------------------------------------------------
+
+\newcommand{\blBookNameMeaning}{}
+\newcommand{\blBookNumber}{MyBookNumber}
+\newcommand{\blHebrewBookName}{MyHebrewBookName}
+\newcommand{\blBookName}{MyBookName}
+\newcommand{\blBookNameTranslit}{MyBookNameTranslit}
+
+\newcommand{\blChapterNumber}{MyChapterNum}
+
+% Variable setters y formated getters
+%-----------------------------------------------------
+
+\newcommand{\blSetBookNameMeaning}[1]{\renewcommand{\blBookNameMeaning}{#1}}
+\newcommand{\blSetBookNumber}[1]{\renewcommand{\blBookNumber}{#1}}
+\newcommand{\blSetHebrewBookName}[1]{\renewcommand{\blHebrewBookName}{#1}}
+\newcommand{\blSetBookName}[1]{\renewcommand{\blBookName}{#1}}
+\newcommand{\blSetBookNameTranslit}[1]{\renewcommand{\blBookNameTranslit}{#1}}
+
+\newcommand{\blSetChapterNumber}[1]{\renewcommand{\blChapterNumber}{#1}}
+
+\newcommand{\blGetVerse}[1]{%
+\setcounter{footnote}{0}%
+\textsuperscript{#1}%
+}
+
+\newcommand{\blGetVerseX}[2]{%
+\footnote{#2}\blGetVerse{#1}%
+}
+
+\newcommand{\blIniChar}[1]{%
+\blSetAcorn\selectfont{#1}%
+}
+
+\newcommand{\blIniWord}[1]{%
+\blSetRothenburgDecorative\selectfont{#1}%
+}
+
+\newcommand{\blIniNum}[1]{%
+\blSetDSRomantiques\selectfont{#1}%
+}
+
+
+% Header and Footer look.
+%-----------------------------------------------------
+
+\newcommand{\blOrnament}{ \vspace{3ex}\noindent \textcolor{blDarkgray}{\hrulefill~ \raisebox{-2.5pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone   \floweroneright \decotwo \aldineleft\decothreeright \decofourright \leafleft} ~  \hrulefill \\ \vspace{3ex}}}
+
+\newcommand{\blOddOrnament}{\noindent \textcolor{blDarkgray}{ \raisebox{-1.9pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone}}}
+
+\newcommand{\blEvenOrnament}{\noindent \textcolor{blDarkgray}{\raisebox{-1.9pt}[10pt][10pt]{\decoone \floweroneright \decotwo \aldineleft \decothreeright \decofourright \leafleft} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafleft}}}
+
+\newcommand{\blTopOrnament}{\noindent \textcolor{blDarkgray}{\raisebox{-2.1pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{~~~\decofourleft \decotwo \decofourright~~~} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{ \leafleft}} \vspace{0mm}}
+
+\newcommand\blGetOrnament[3][black]{
+	\resizebox{#2}{!}{\pgfornament[color = #1,ydelta=-40pt]{#3}}
+}
+
+\newcommand\blBookOrnament{{\blSetWieynkFrakturVignetten\fontsize{50}{40}\selectfont P}}
+
+\newcommand\blGetBookTitle{
+	{\textcolor{blDarkgreen}{\center{
+		% \blGetOrnament[blDarkgreen]{0.7\linewidth}{85} \\
+		\blOrnament
+		 \hfill \hfill {\blHebrewOne{50}{\blHebrewBookName}} \hfill \blBookOrnament \\
+		% \blGetOrnament[blDarkgreen]{0.2\linewidth}{71} \\
+		\blBookNameMeaning \\ \blBookNameTranslit \\
+		(\blBookName) \\
+	}}}
+	\vspace{1cm}
+}
+
+
+\makeatletter
+\def\headrule{\blTopOrnament}
+\makeatother
+
+\pagestyle{fancy}
+
+\fancyhf{}
+
+\newcommand{\blTopInner}{\blBookName \space \blChapterNumber}
+\newcommand{\blTopCenter}{\blBookNumber}
+\newcommand{\blTopOuter}{\blBookNameTranslit \space \blChapterNumber}
+
+\newcommand{\blBottomOuter}{\blChapterNumber \space \blHebrewOne{12}{\blHebrewBookName}}
+\newcommand{\blBottomOdd}{
+	\blEvenOrnament \\ \large \hfill \sffamily\bf \textcolor{blDarkgray}{\leafNE ~~~ \blBottomOuter}
+}
+\newcommand{\blBottomEven}{
+	\blOddOrnament \\ \large \sffamily\bf \textcolor{blDarkgray}{\blBottomOuter ~~~ \reflectbox{\leafNE}} \hfill
+}
+
+\fancyhead[LO,RE]{\blTopInner}
+\fancyhead[CO,CE]{\blTopCenter}
+\fancyhead[RO,LE]{\blTopOuter}
+
+\fancyfoot[LO]{\blBottomOdd}
+\fancyfoot[RE]{\blBottomEven}
+
+\fancypagestyle{plain}{
+	\fancyhead{}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\headrule}{}
+}
+
+\newcommand{\blStartBook}{%
+	\thispagestyle{plain}%
+	\blGetBookTitle%
+}
+
+\newcommand{\blEndBook}{%
+	\center{\textcolor{blDarkgray}{\reflectbox{\blBookOrnament}\blBookOrnament}}%
+	\cleardoublepage%
+}
+
+\newcommand{\blSubTitle}[1]{
+	\vspace{2ex}
+	\centerline{\textcolor{blDarkgray}{\textbf{\fontsize{16}{40}\selectfont #1}}}%
+}
+
+
+%====================================================================================================
+%START OF DOCUMENT
+%====================================================================================================
+\begin{document}
+%\begin{multicols}{2}
+
+%\thispagestyle{empty}
+
+\blSetBookNameMeaning{En el comienzo}
+\blSetBookNumber{1}
+\blSetHebrewBookName{בראשית}
+\blSetBookName{Genesis}
+\blSetBookNameTranslit{Bereshit}
+\blStartBook
+
+\blSetChapterNumber{1}
+
+%{\blSetAcorn\selectfont ABCDEF GHIJKL MNÑOPQ RSTUVW XYZ 01234 56789}
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\blSubTitle{Subtitulo numero Uno}
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniChar{FU}}{\blIniWord{turo}}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{\blIniNum{150}}{Future}
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+\lettrine{125 }
+autem ex multis \blGetVerse{5}et per alia media concludit idem. \blGetVerse{3}Hic enim primo ostendit, quod anima \blGetVerseX{9}{my note 1 at the margin}rationalis 
+non est virtus \blGetVerseX{1}{my note 2 at the margin}in corpore, ita quod secundum esse vel
+operationem vel utrumque ad \blGetVerseX{7}{my note 3 at the margin}corporis harmoniam dependeat.
+
+
+\blEndBook
+
+%\end{multicols}
+\end{document}
+

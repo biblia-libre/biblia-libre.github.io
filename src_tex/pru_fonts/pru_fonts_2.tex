@@ -1,0 +1,35 @@
+
+\documentclass[10pt]{memoir}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\usepackage{xunicode}
+
+\setdefaultlanguage{english}
+\setotherlanguage{hebrew}
+%\usepackage{polyglossia,xltxtra,fontspec,xunicode}
+
+%\newfontface\blSetAharoniCLM{Aharoni CLM}
+\newfontface\blSetDavidCLM{David CLM}
+\newfontface\blSetFrankRuehlCLM{Frank Ruehl CLM}
+
+\newcommand{\blInitSz}{20}
+
+\begin{document}
+
+DavidCLM
+{\blSetDavidCLM\fontsize{\blInitSz}{40}\selectfont 
+ABCD EFGH IJKL MNOP QRST UVWX \RL{פםןו טארק} YZab cdef ghij klmn opqr stuv wxyz 0123 4567 89 \\
+\RL{
+פםןו טארק ףךלח יעכג דשץת צמנה בסז
+}
+} 
+
+FrankRuehlCLM
+{\blSetDavidCLM\fontsize{\blInitSz}{40}\selectfont 
+ABCD EFGH IJKL MNOP QRST UVWX \RL{פםןו טארק} YZab cdef ghij klmn opqr stuv wxyz 0123 4567 89 \\
+\RL{
+פםןו טארק ףךלח יעכג דשץת צמנה בסז
+}
+} 
+
+\end{document}
