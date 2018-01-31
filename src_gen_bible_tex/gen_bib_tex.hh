@@ -2,14 +2,21 @@
 #ifndef GB_GEN_BIB_TEX_H
 #define GB_GEN_BIB_TEX_H
 
+#include <assert.h>
 #include <stdio.h>
 
 #include <string>
 #include <iostream>
 #include <sstream>
 
+#define GB_VERSES_PTH "REINA_VALERA.txt"
+#define GB_REFS_PTH "REFS.txt"
+#define GB_SUBTITU_PTH "SUBTITU.txt"
+
 #define GB_KEY_SEP '+'
 #define GB_REF_SEP '|'
+#define GB_RNG_SEP '-'
+#define GB_KRF_SEP '.'
 
 #define MARK_USED(X)  ((void)(&(X)))
 
@@ -20,36 +27,63 @@
 #define gb_cstr(the_str) (const_cast<char *>(the_str))
 
 #define gb_out std::cout
+#define gb_err std::cerr
 
 
 #ifdef __cplusplus
 extern "C"{
 #endif
 
-enum file_pth_t {
-	gb_verses_pth = 0,
-	gb_refs_pth = 1,
-	gb_subtitu_pth = 2,
-	gb_invalid_pth = 100
-};
+bool 
+gb_call_assert(bool vv_ck, const char* file, int line, const char* ck_str, const char* msg);
 
-const char* INPUT_PATHS[] = {
-	"REINA_VALERA.txt",
-	"REFS.txt",
-	"SUBTITU.txt"
-};
+#define gb_assert(vv, msg) gb_call_assert(vv, __FILE__, __LINE__, #vv, msg)
 
+#define GB_CK(vv) gb_assert(vv, NULL)
+#define GB_CK_PRT(vv, msg) gb_assert(vv, msg)
+
+inline 
+int
+cmp_int(int const & n1, int const & n2){ 
+	if(n1 == n2){ return 0; }
+	if(n1 < n2){ return -1; }
+	return 1;
+}
+
+extern const char* BOOKS_NAMES[][6];
 
 typedef std::ostream gb_ostream;
 typedef std::string gb_string;
 
-class prog_args {
+class verse_key {
+public:
+	int book;
+	int chapter;
+	int verse;
+
+	verse_key(){
+		init_verse_key();
+	}
+
+	~verse_key(){}
+
+	void init_verse_key(){
+		book = -1;
+		chapter = -1;
+		verse = -1;
+	}
+
+};
+
+int cmp_verse_key(verse_key& vk1, verse_key& vk2);
+
+class tex_gen {
 public:
 	gb_string	help_str;
 	gb_string	version_str;
 
 	bool		op_with_images;
-	gb_string 	op_pth_verses;
+	int			op_dbg_prt;
 
 	FILE* 		verses;
 	FILE* 		subtitles;
@@ -64,22 +98,25 @@ public:
 	size_t ref_sz;
 	size_t subtitu_sz;
 
-	prog_args(){
-		init_prog_args();
+	tex_gen(){
+		init_tex_gen();
 	}
 
-	~prog_args();
+	~tex_gen();
 
-	void 	init_prog_args();
-	void 	print_paths();
+	void 	init_tex_gen();
 
 	bool	get_args(int argc, char** argv);
-	FILE*	open_file(file_pth_t id);
+	FILE*	open_file(gb_string& nm);
 
-	bool	get_line(FILE* ff);
-	char*	get_key(char* line, int& book, int& chapter, int& verse);
-	bool	get_ref(char* value, int& book, int& chapter, int& verse);
+	char*	get_line(FILE* ff);
+	char*	get_key(char* line, verse_key& vk, char sep = GB_KEY_SEP);
+	bool	get_ref(char*& value, verse_key& vk);
+
+	void	print_file(FILE* ff);
+	void	test_print_file();
 };
+
 
 #ifdef __cplusplus
 }

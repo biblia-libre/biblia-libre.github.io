@@ -75,27 +75,54 @@ const char* BOOKS_NAMES[][6] = {
 {"apocalipsis", "Rev", "Revelación", "Jazon Yojanan", "", "חזון יוחנן"}
 };
 
+bool 
+gb_call_assert(bool vv_ck, const char* file, int line, const char* ck_str, const char* msg)
+{	
+	if(! vv_ck){
+		fprintf(stderr, "ASSERT '%s' FAILED\nFILE= %s\nLINE=%d \n", ck_str, file, line);
+		if(msg != NULL){
+			fprintf(stderr, "MSG=%s\n", msg);
+		}
+		fprintf(stderr, "------------------------------------------------------------------\n");
+	}
+	assert(vv_ck);
+	return vv_ck;
+}
+
+void 
+gb_abort_func(long val, const char* msg){
+	fprintf(stderr, "\nABORTING_WITH_ERR=%ld %s\n", val, msg);
+	
+	exit(EXIT_FAILURE);
+}
+
+
 FILE*
-prog_args::open_file(file_pth_t id){
-	FILE* fpth = fopen(INPUT_PATHS[id], "r");
+tex_gen::open_file(gb_string& nm){
+	FILE* fpth = fopen(nm.c_str(), "r");
 	if(fpth == NULL){
-		fprintf(stderr, "ERROR. Can NOT open file %s\n", INPUT_PATHS[id]);
+		fprintf(stderr, "ERROR. Can NOT open file %s\n", nm.c_str());
 		exit(1);;
 	}
 	return fpth;
 }
 
 void
-prog_args::init_prog_args(){
+tex_gen::init_tex_gen(){
 
 	help_str =
-		"[-h | -v | -paths] "
-		"-pth_verses <verses_path> \n"
+		"[ -h | -v | -tex ]\n"
+		"\t[ -pth_verses <verses_path> "
+		"| -pth_refs <refs_path> "
+		"| -pth_subtitu <subtitles_path> "
+		"]"
 		"\n"
 		"-h : print help.\n"
 		"-v : print version.\n"
-		"-paths : print the paths to be used.\n"
+		"-tex : generate tex files.\n"
 		"-pth_verses : set the verses path to <verses_path>.\n"
+		"-pth_refs : set the references path to <refs_path>.\n"
+		"-pth_subtitu : set the subtitles path to <subtitles_path>.\n"
 		"\n"
 		;
 
@@ -105,7 +132,7 @@ prog_args::init_prog_args(){
 		;
 		
 	op_with_images = false;
-	op_pth_verses = "./ALL_VERSES.txt";
+	op_dbg_prt = -1;
 
 	verses = NULL;
 	subtitles = NULL;
@@ -121,22 +148,19 @@ prog_args::init_prog_args(){
 	subtitu_sz = 0;
 };
 
-void 
-prog_args::print_paths(){
-	gb_ostream& os = gb_out;
-	
-	os << "pth_verses = " << op_pth_verses << "\n";
-}
-
 bool
-prog_args::get_args(int argc, char** argv)
+tex_gen::get_args(int argc, char** argv)
 {
-	gb_ostream& os = gb_out;
+	gb_ostream& os = gb_err;
 	MARK_USED(os);
 
 	bool prt_help = false;
 	bool prt_version = false;
 	bool prt_paths = false;
+
+	gb_string verses_pth = GB_VERSES_PTH;
+	gb_string refs_pth = GB_REFS_PTH;
+	gb_string subtitu_pth = GB_SUBTITU_PTH;
 	
 	for(long ii = 1; ii < argc; ii++){
 		gb_string the_arg = argv[ii];
@@ -152,8 +176,27 @@ prog_args::get_args(int argc, char** argv)
 			int kk_idx = ii + 1;
 			ii++;
 
-			op_pth_verses = argv[kk_idx];
+			verses_pth = argv[kk_idx];
+		} else if((the_arg == "-pth_refs") && ((ii + 1) < argc)){
+			int kk_idx = ii + 1;
+			ii++;
+
+			refs_pth = argv[kk_idx];
+		} else if((the_arg == "-pth_subtitu") && ((ii + 1) < argc)){
+			int kk_idx = ii + 1;
+			ii++;
+
+			subtitu_pth = argv[kk_idx];
+		} else if((the_arg == "-dbg") && ((ii + 1) < argc)){
+			int kk_idx = ii + 1;
+			ii++;
+
+			op_dbg_prt = atoi(argv[kk_idx]);
 		}
+	}
+
+	if(argc <= 1){
+		prt_help = true;
 	}
 	
 	if(prt_help){
@@ -164,111 +207,150 @@ prog_args::get_args(int argc, char** argv)
 		os << argv[0] << " " << version_str << "\n";
 		return false;
 	}
-	if(prt_paths){
-		print_paths();
-		return false;
-	}
+	os << "pth_verses = " << verses_pth << "\n";
+	os << "refs_pth = " << refs_pth << "\n";
+	os << "subtitu_pth = " << subtitu_pth << "\n";
 
-	verses = open_file(gb_verses_pth);
-	subtitles = open_file(gb_refs_pth);
-	references = open_file(gb_subtitu_pth);
+	verses = open_file(verses_pth);
+	subtitles = open_file(refs_pth);
+	references = open_file(subtitu_pth);
 
 	return true;
 }
 
-prog_args::~prog_args(){
+tex_gen::~tex_gen(){
 	if(verses != NULL){ fclose(verses); }
 	if(subtitles != NULL){ fclose(subtitles); }
 	if(references != NULL){ fclose(references); }
+
+	if(verse_line != NULL){ free(verse_line); }
+	if(ref_line != NULL){ free(ref_line); }
+	if(subtitu_line != NULL){ free(subtitu_line); }
 }
 
 
 int main(int argc, char **argv){
 	gb_ostream& os = gb_out;
-	prog_args the_args;
+	tex_gen txg;
 
-	bool args_ok = the_args.get_args(argc, argv);
+	bool args_ok = txg.get_args(argc, argv);
 	if(args_ok){
-		os << "ARGS_OK\n";
+		gb_err << "ARGS_OK\n";
 	}
+
+	txg.test_print_file();
 
 	return 0;
 }
 
-bool
-prog_args::get_line(FILE* ff){
+char*
+tex_gen::get_line(FILE* ff){
 	size_t read_sz;
-
+	char* resp = NULL;
 	if(ff == verses){
-		if(verse_line != NULL){ free(verse_line); }
-		verse_line = NULL;
-		verse_sz = 0;
 		read_sz = getline(&verse_line, &verse_sz, verses);
-		if(read_sz == -1){ free(verse_line); verse_line = NULL; return false; }
+		resp = verse_line;
 	}
 	else if(ff == subtitles){
-		if(subtitu_line != NULL){ free(subtitu_line); }
-		subtitu_line = NULL;
-		subtitu_sz = 0;
 		read_sz = getline(&subtitu_line, &subtitu_sz, subtitles);
-		if(read_sz == -1){ free(subtitu_line); subtitu_line = NULL; return false; }
+		resp = subtitu_line;
 	}
 	else if(ff == references){
-		if(ref_line != NULL){ free(ref_line); }
-		ref_line = NULL;
-		ref_sz = 0;
 		read_sz = getline(&ref_line, &ref_sz, references);
-		if(read_sz == -1){ free(ref_line); ref_line = NULL; return false; }
+		resp = ref_line;
 	} 
 	else {
-		return false;
+		return NULL;
 	}
-	return true;
+
+	if(read_sz == -1){ return NULL; }
+	return resp;
 }
 
 char*
-prog_args::get_key(char* line, int& book, int& chapter, int& verse){
-	book = -1;
-	chapter = -1;
-	verse = -1;
+tex_gen::get_key(char* line, verse_key& vk, char the_sep){
+	vk.init_verse_key();
 	char* pt_str = line;
 	char* pt_sep = NULL;
 	for(int aa = 0; aa < 3; aa++){
-		pt_sep = strchr(pt_str, GB_KEY_SEP);
+		pt_sep = strchr(pt_str, the_sep);
 		if(pt_sep == NULL){ 
-			fprintf(stderr, "ERROR. Cannot find separator '%c' in line:\n%s\n\n", GB_KEY_SEP, line);
+			fprintf(stderr, "ERROR. Cannot find separator '%c' in line:\n%s\n\n", the_sep, line);
 			exit(1);;
 		}
 		*pt_sep = '\0';
 		switch(aa){
 		case 0:
-			book = atoi(pt_str);
+			vk.book = atoi(pt_str);
 		break;
 		case 1:
-			chapter = atoi(pt_str);
+			vk.chapter = atoi(pt_str);
 		break;
 		case 2:
-			verse = atoi(pt_str);
+			vk.verse = atoi(pt_str);
 		break;
 		}
-		*pt_sep = GB_KEY_SEP;
+		*pt_sep = the_sep;
 		pt_str = pt_sep + 1;
 	}
 	return pt_str;
 }
 
 bool
-prog_args::get_ref(char* value, int& book, int& chapter, int& verse){
-	book = -1;
-	chapter = -1;
-	verse = -1;
-	char* pt_str = value;
-	char* pt_sep = NULL;
-	if(*pt_str != GB_REF_SEP){
+tex_gen::get_ref(char*& value, verse_key& vk){
+	if((*value != GB_REF_SEP) && (*value != GB_RNG_SEP)){
 		fprintf(stderr, "ERROR. Cannot find separator '%c' in value:\n%s\n\n", GB_REF_SEP, value);
 		exit(1);;
 	}
-	pt_sep = strchr(pt_str, GB_KEY_SEP);
-	
+	value++;
+	value = get_key(value, vk, GB_KRF_SEP);
+	if(*value == GB_KEY_SEP){
+		return false;
+	}
+	return true;
+}
+
+int cmp_verse_key(verse_key& vk1, verse_key& vk2){
+	int c1 = 0;
+	c1 = cmp_int(vk1.book, vk2.book);
+	if(c1 != 0){ return c1; }
+	c1 = cmp_int(vk1.chapter, vk2.chapter);
+	if(c1 != 0){ return c1; }
+	c1 = cmp_int(vk1.verse, vk2.verse);
+	if(c1 != 0){ return c1; }
+	return 0;
+}
+
+void
+tex_gen::print_file(FILE* ff){
+	char* ln = NULL;
+	char* val = NULL;
+	verse_key vk;
+	verse_key prv_vk;
+	while((ln = get_line(ff)) != NULL){
+		printf("%s", ln);
+		/*
+		val = get_key(ln, vk);
+		printf("PRV_KEY= %d %d %d ", prv_vk.book, prv_vk.chapter, prv_vk.verse);
+		printf("KEY= %d %d %d \n\tVAL= %s", vk.book, vk.chapter, vk.verse, val);
+		GB_CK(cmp_verse_key(prv_vk, vk) == -1);
+		prv_vk = vk;
+		*/
+	}
+}
+
+void
+tex_gen::test_print_file(){
+	switch(op_dbg_prt){
+	case 1:
+		print_file(verses);
+	break;
+	case 2:
+		print_file(subtitles);
+	break;
+	case 3:
+		print_file(references);
+	break;
+	};
 }
 
