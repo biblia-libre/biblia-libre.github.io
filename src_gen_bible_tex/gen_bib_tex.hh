@@ -13,10 +13,14 @@
 #define GB_REFS_PTH "REFS.txt"
 #define GB_SUBTITU_PTH "SUBTITU.txt"
 
+#define GB_OFFSET_STR_END 2
+
 #define GB_KEY_SEP '+'
 #define GB_REF_SEP '|'
 #define GB_RNG_SEP '-'
 #define GB_KRF_SEP '.'
+
+#define GB_STR_END '\0'
 
 #define MARK_USED(X)  ((void)(&(X)))
 
@@ -115,6 +119,9 @@ public:
 
 	void	print_file(FILE* ff);
 	void	test_print_file();
+	char*	get_subtitle_kind(char* value, char& kind);
+	void	set_content_end(char* line, int line_sz);
+	void	reset_content_end(char* line, int line_sz);
 };
 
 

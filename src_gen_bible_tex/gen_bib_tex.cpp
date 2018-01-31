@@ -212,8 +212,8 @@ tex_gen::get_args(int argc, char** argv)
 	os << "subtitu_pth = " << subtitu_pth << "\n";
 
 	verses = open_file(verses_pth);
-	subtitles = open_file(refs_pth);
-	references = open_file(subtitu_pth);
+	subtitles = open_file(subtitu_pth);
+	references = open_file(refs_pth);
 
 	return true;
 }
@@ -249,14 +249,17 @@ tex_gen::get_line(FILE* ff){
 	char* resp = NULL;
 	if(ff == verses){
 		read_sz = getline(&verse_line, &verse_sz, verses);
+		verse_sz = read_sz;
 		resp = verse_line;
 	}
 	else if(ff == subtitles){
 		read_sz = getline(&subtitu_line, &subtitu_sz, subtitles);
+		subtitu_sz = read_sz;
 		resp = subtitu_line;
 	}
 	else if(ff == references){
 		read_sz = getline(&ref_line, &ref_sz, references);
+		ref_sz = read_sz;
 		resp = ref_line;
 	} 
 	else {
@@ -278,7 +281,7 @@ tex_gen::get_key(char* line, verse_key& vk, char the_sep){
 			fprintf(stderr, "ERROR. Cannot find separator '%c' in line:\n%s\n\n", the_sep, line);
 			exit(1);;
 		}
-		*pt_sep = '\0';
+		*pt_sep = GB_STR_END;
 		switch(aa){
 		case 0:
 			vk.book = atoi(pt_str);
@@ -303,10 +306,10 @@ tex_gen::get_ref(char*& value, verse_key& vk){
 		exit(1);;
 	}
 	value++;
-	value = get_key(value, vk, GB_KRF_SEP);
 	if(*value == GB_KEY_SEP){
 		return false;
 	}
+	value = get_key(value, vk, GB_KRF_SEP);
 	return true;
 }
 
@@ -327,8 +330,33 @@ tex_gen::print_file(FILE* ff){
 	char* val = NULL;
 	verse_key vk;
 	verse_key prv_vk;
+	verse_key ref;
+	char kk;
 	while((ln = get_line(ff)) != NULL){
 		printf("%s", ln);
+		val = get_key(ln, vk);
+		printf("KEY= %d %d %d \n\tVAL=%s", vk.book, vk.chapter, vk.verse, val);
+
+		/*
+		set_content_end(verse_line, verse_sz);
+		printf("\tVER=%s\n", val);
+		reset_content_end(verse_line, verse_sz);
+		*/
+
+		/*
+		char* sub = get_subtitle_kind(val, kk);
+		
+		set_content_end(subtitu_line, subtitu_sz);
+		printf("\t KIND=%c SUB=%s\n", kk, sub);
+		reset_content_end(subtitu_line, subtitu_sz);
+		*/
+
+		/*
+		while(get_ref(val, ref)){
+			printf("\tREF= %d %d %d %c\n", ref.book, ref.chapter, ref.verse, *val);
+		}
+		*/
+
 		/*
 		val = get_key(ln, vk);
 		printf("PRV_KEY= %d %d %d ", prv_vk.book, prv_vk.chapter, prv_vk.verse);
@@ -353,4 +381,44 @@ tex_gen::test_print_file(){
 	break;
 	};
 }
+
+char*
+tex_gen::get_subtitle_kind(char* value, char& kind){
+	if(*value != GB_REF_SEP){
+		fprintf(stderr, "ERROR_1. Cannot find separator '%c' in subtitle:\n%s\n\n", GB_REF_SEP, value);
+		exit(1);;
+	}
+	value++;
+	kind = *value;
+	value++;
+	if(*value != GB_REF_SEP){
+		fprintf(stderr, "ERROR_2. Cannot find separator '%c' in subtitle:\n%s\n\n", GB_REF_SEP, value);
+		exit(1);;
+	}
+	value++;
+	return value;
+}
+
+void
+tex_gen::set_content_end(char* line, int line_sz){
+	int idx = line_sz - GB_OFFSET_STR_END;
+	if(line[idx] != GB_KEY_SEP){
+		fprintf(stderr, "ERROR. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_KEY_SEP, line,
+				idx, line[idx]);
+		exit(1);;
+	}
+	line[idx] = GB_STR_END;
+}
+
+void
+tex_gen::reset_content_end(char* line, int line_sz){
+	int idx = line_sz - GB_OFFSET_STR_END;
+	if(line[idx] != GB_STR_END){
+		fprintf(stderr, "ERROR. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_STR_END, line,
+				idx, line[idx]);
+		exit(1);;
+	}
+	line[idx] = GB_KEY_SEP;
+}
+
 

@@ -1,2083 +1,2083 @@
-1+1+1+|N|La creación|+
-1+2+4+|N|El hombre en el huerto del Edén|+
-1+3+1+|N|Desobediencia del hombre|+
-1+4+1+|N|Caín y Abel|+
-1+5+1+|N|Los descendientes de Adán|+
-1+6+1+|N|La maldad de los hombres|+
-1+7+1+|N|El diluvio|+
-1+9+1+|N|Pacto de Dios con Noé|+
-1+9+18+|N|Embriaguez de Noé|+
-1+10+1+|N|Los descendientes de los hijos de Noé|+
-1+11+1+|N|La torre de Babel|+
-1+11+10+|N|Los descendientes de Sem|+
-1+11+27+|N|Los descendientes de Taré|+
-1+12+1+|N|Dios llama a Abram|+
-1+12+10+|N|Abram en Egipto|+
-1+13+1+|N|Abram y Lot se separan|+
-1+14+1+|N|Abram liberta a Lot|+
-1+14+17+|N|Melquisedec bendice a Abram|+
-1+15+1+|N|Dios promete a Abram un hijo|+
-1+16+1+|N|Agar e Ismael|+
-1+17+1+|N|La circuncisión, señal del pacto|+
-1+18+1+|N|Promesa del nacimiento de Isaac|+
-1+18+16+|N|Abraham intercede por Sodoma|+
-1+19+1+|N|Destrucción de Sodoma y Gomorra|+
-1+20+1+|N|Abraham y Abimelec|+
-1+21+1+|N|Nacimiento de Isaac|+
-1+21+8+|N|Agar e Ismael son echados de la casa de Abraham|+
-1+21+22+|N|Pacto entre Abraham y Abimelec|+
-1+22+1+|N|Dios ordena a Abraham que sacrifique a Isaac|+
-1+23+1+|N|Muerte y sepultura de Sara|+
-1+24+1+|N|Abraham busca esposa para Isaac|+
-1+25+1+|N|Los descendientes de Abraham y Cetura|+
-1+25+7+|N|Muerte y sepultura de Abraham|+
-1+25+12+|N|Los descendientes de Ismael|+
-1+25+19+|N|Nacimiento de Jacob y Esaú|+
-1+25+27+|N|Esaú vende su primogenitura|+
-1+26+1+|N|Isaac en Gerar|+
-1+27+1+|N|Jacob obtiene la bendición de Isaac|+
-1+27+41+|N|Jacob huye de Esaú|+
-1+28+10+|N|Dios se aparece a Jacob en Bet-el|+
-1+29+1+|N|Jacob sirve a Labán por Raquel y Lea|+
-1+29+31+|N|Los hijos de Jacob|+
-1+30+25+|N|Tretas de Jacob y de Labán|+
-1+31+17+|N|Jacob huye de Labán|+
-1+32+1+|N|Jacob se prepara para el encuentro con Esaú|+
-1+32+22+|N|Jacob lucha con el ángel en Peniel|+
-1+33+1+|N|Reconciliación entre Jacob y Esaú|+
-1+34+1+|N|La deshonra de Dina vengada|+
-1+35+1+|N|Dios bendice a Jacob en Bet-el|+
-1+35+16+|N|Muerte de Raquel|+
-1+35+22+|N|Los hijos de Jacob|+
-1+35+27+|N|Muerte de Isaac|+
-1+36+1+|N|Los descendientes de Esaú|+
-1+37+1+|N|José es vendido por sus hermanos|+
-1+38+1+|N|Judá y Tamar|+
-1+39+1+|N|José y la esposa de Potifar|+
-1+40+1+|N|José interpreta dos sueños|+
-1+41+1+|N|José interpreta el sueño de Faraón|+
-1+41+37+|N|José, gobernador de Egipto|+
-1+42+1+|N|Los hermanos de José vienen por alimentos|+
-1+43+1+|N|Los hermanos de José regresan con Benjamín|+
-1+44+1+|N|La copa de José|+
-1+44+18+|N|Judá intercede por Benjamín|+
-1+45+1+|N|José se da a conocer a sus hermanos|+
-1+46+1+|N|Jacob y su familia en Egipto|+
-1+48+1+|N|Jacob bendice a Efraín y a Manasés|+
-1+49+1+|N|Profecía de Jacob acerca de sus hijos|+
-1+49+28+|N|Muerte y sepelio de Jacob|+
-1+50+15+|N|Muerte de José|+
-2+1+1+|N|Aflicción de los israelitas en Egipto|+
-2+2+1+|N|Nacimiento de Moisés|+
-2+2+11+|N|Moisés huye de Egipto|+
-2+3+1+|N|Llamamiento de Moisés|+
-2+4+18+|N|Moisés vuelve a Egipto|+
-2+5+1+|N|Moisés y Aarón ante Faraón|+
-2+5+22+|N|Jehová comisiona a Moisés y a Aarón|+
-2+7+8+|N|La vara de Aarón|+
-2+7+14+|N|La plaga de sangre|+
-2+8+1+|N|La plaga de ranas|+
-2+8+16+|N|La plaga de piojos|+
-2+8+20+|N|La plaga de moscas|+
-2+9+1+|N|La plaga en el ganado|+
-2+9+8+|N|La plaga de úlceras|+
-2+9+13+|N|La plaga de granizo|+
-2+10+1+|N|La plaga de langostas|+
-2+10+21+|N|La plaga de tinieblas|+
-2+11+1+|N|Anunciada la muerte de los primogénitos|+
-2+12+1+|N|La Pascua|+
-2+12+29+|N|Muerte de los primogénitos|+
-2+12+37+|N|Los israelitas salen de Egipto|+
-2+13+1+|N|Consagración de los primogénitos|+
-2+13+17+|N|La columna de nube y de fuego|+
-2+14+1+|N|Los israelitas cruzan el Mar Rojo|+
-2+15+1+|N|Cántico de Moisés y de María|+
-2+15+22+|N|El agua amarga de Mara|+
-2+16+1+|N|Dios da el maná|+
-2+17+1+|N|Agua de la roca|+
-2+17+8+|N|Guerra con Amalec|+
-2+18+1+|N|Jetro visita a Moisés|+
-2+18+13+|N|Nombramiento de jueces|+
-2+19+1+|N|Israel en Sinaí|+
-2+20+1+|N|Los Diez Mandamientos|+
-2+20+18+|N|El terror del pueblo|+
-2+21+1+|N|Leyes sobre los esclavos|+
-2+21+12+|N|Leyes sobre actos de violencia|+
-2+21+26+|N|Leyes sobre responsabilidades de amos y dueños|+
-2+22+1+|N|Leyes sobre la restitución|+
-2+22+16+|N|Leyes humanitarias|+
-2+23+14+|N|Las tres fiestas anuales|+
-2+23+20+|N|El Angel de Jehová enviado para guiar a Israel|+
-2+24+1+|N|Moisés y los ancianos en el Monte Sinaí|+
-2+25+1+|N|La ofrenda para el tabernáculo|+
-2+25+10+|N|El arca del testimonio|+
-2+25+23+|N|La mesa para el pan de la proposición|+
-2+25+31+|N|El candelero de oro|+
-2+26+1+|N|El tabernáculo|+
-2+27+1+|N|El altar de bronce|+
-2+27+9+|N|El atrio del tabernáculo|+
-2+27+20+|N|Aceite para las lámparas|+
-2+28+1+|N|Las vestiduras de los sacerdotes|+
-2+29+1+|N|Consagración de Aarón y de sus hijos|+
-2+29+38+|N|Las ofrendas diarias|+
-2+30+1+|N|El altar del incienso|+
-2+30+11+|N|El dinero del rescate|+
-2+30+17+|N|La fuente de bronce|+
-2+30+22+|N|El aceite de la unción, y el incienso|+
-2+31+1+|N|Llamamiento de Bezaleel y de Aholiab|+
-2+31+12+|N|El día de reposo como señal|+
-2+31+18+|N|El becerro de oro|+
-2+33+1+|N|La presencia de Dios prometida|+
-2+34+1+|N|El pacto renovado|+
-2+34+11+|N|Advertencia contra la idolatría de Canaán|+
-2+34+18+|N|Fiestas anuales|+
-2+34+27+|N|Moisés y las tablas de la ley|+
-2+35+1+|N|Reglamento del día de reposo|+
-2+35+4+|N|La ofrenda para el tabernáculo|+
-2+35+10+|N|La obra del tabernáculo|+
-2+35+20+|N|El pueblo trae la ofrenda|+
-2+35+30+|N|Llamamiento de Bezaleel y de Aholiab|+
-2+36+2+|N|Moisés suspende la ofrenda del pueblo|+
-2+36+8+|N|Construcción del tabernáculo|+
-2+37+1+|N|Mobiliario del tabernáculo|+
-2+38+9+|N|El atrio del tabernáculo|+
-2+38+21+|N|Dirección de la obra|+
-2+38+24+|N|Metales usados en el santuario|+
-2+39+1+|N|Hechura de las vestiduras de los sacerdotes|+
-2+39+32+|N|La obra del tabernáculo terminada|+
-2+40+1+|N|Moisés erige el tabernáculo|+
-2+40+34+|N|La nube sobre el tabernáculo|+
-3+1+1+|N|Los holocaustos|+
-3+2+1+|N|Las ofrendas|+
-3+4+1+|N|Ofrendas por el pecado|+
-3+5+14+|N|Ofrendas expiatorias|+
-3+6+8+|N|Leyes de los sacrificios|+
-3+8+1+|N|Consagración de Aarón y de sus hijos|+
-3+9+1+|N|Los sacrificios de Aarón|+
-3+10+1+|N|El pecado de Nadab y Abiú|+
-3+11+1+|N|Animales limpios e inmundos|+
-3+12+1+|N|La purificación de la mujer después del parto|+
-3+13+1+|N|Leyes acerca de la lepra|+
-3+15+1+|N|Impurezas físicas|+
-3+16+1+|N|El día de la expiación|+
-3+17+1+|N|El santuario único|+
-3+17+10+|N|Prohibición de comer la sangre|+
-3+18+1+|N|Actos de inmoralidad prohibidos|+
-3+19+1+|N|Leyes de santidad y de justicia|+
-3+20+1+|N|Penas por actos de inmoralidad|+
-3+21+1+|N|Santidad de los sacerdotes|+
-3+22+1+|N|Santidad de las ofrendas|+
-3+23+1+|N|Las fiestas solemnes|+
-3+24+1+|N|Aceite para las lámparas|+
-3+24+5+|N|El pan de la proposición|+
-3+24+10+|N|Castigo del blasfemo|+
-3+25+1+|N|El año de reposo de la tierra y el año del jubileo|+
-3+26+1+|N|Bendiciones de la obediencia|+
-3+26+14+|N|Consecuencias de la desobediencia|+
-3+27+1+|N|Cosas consagradas a Dios|+
-4+1+1+|N|Censo de Israel en Sinaí|+
-4+1+47+|N|Nombramiento de los levitas|+
-4+2+1+|N|Campamentos y jefes de las tribus|+
-4+3+1+|N|Censo y deberes de los levitas|+
-4+3+40+|N|Rescate de los primogénitos|+
-4+4+1+|N|Tareas de los levitas|+
-4+5+1+|N|Todo inmundo es echado fuera del campamento|+
-4+5+5+|N|Ley sobre la restitución|+
-4+5+11+|N|Ley sobre los celos|+
-4+6+1+|N|El voto de los nazareos|+
-4+6+22+|N|La bendición sacerdotal|+
-4+7+1+|N|Ofrendas para la dedicación del altar|+
-4+8+1+|N|Aarón enciende las lámparas|+
-4+8+5+|N|Consagración de los levitas|+
-4+9+1+|N|Celebración de la pascua|+
-4+9+15+|N|La nube sobre el tabernáculo|+
-4+10+1+|N|Las trompetas de plata|+
-4+10+11+|N|Los israelitas salen de Sinaí|+
-4+11+1+|N|Jehová envía codornices|+
-4+12+1+|N|María y Aarón murmuran contra Moisés|+
-4+13+1+|N|Misión de los doce espías|+
-4+14+1+|N|Los israelitas se rebelan contra Jehová|+
-4+14+20+|N|Jehová castiga a Israel|+
-4+14+36+|N|Muerte de los diez espías malvados|+
-4+14+39+|N|La derrota en Horma|+
-4+15+1+|N|Leyes sobre las ofrendas|+
-4+15+32+|N|Lapidación de un violador del día de reposo|+
-4+15+37+|N|Franjas en los vestidos|+
-4+16+1+|N|La rebelión de Coré|+
-4+17+1+|N|La vara de Aarón florece|+
-4+18+1+|N|Sostenimiento de sacerdotes y levitas|+
-4+19+1+|N|La purificación de los inmundos|+
-4+20+1+|N|Agua de la roca|+
-4+20+14+|N|Edom rehúsa dar paso a Israel|+
-4+20+22+|N|Aarón muere en el Monte Hor|+
-4+21+1+|N|El rey de Arad ataca a Israel|+
-4+21+4+|N|La serpiente de bronce|+
-4+21+10+|N|Los israelitas rodean la tierra de Moab|+
-4+21+21+|N|Israel derrota a Sehón|+
-4+21+31+|N|Israel derrota a Og de Basán|+
-4+22+1+|N|Balac manda llamar a Balaam|+
-4+22+21+|N|El ángel y el asna de Balaam|+
-4+22+41+|N|Balaam bendice a Israel|+
-4+24+10+|N|Profecía de Balaam|+
-4+25+1+|N|Israel acude a Baal-peor|+
-4+26+1+|N|Censo del pueblo en Moab|+
-4+26+52+|N|Orden para la repartición de la tierra|+
-4+26+57+|N|Censo de la tribu de Leví|+
-4+26+63+|N|Caleb y Josué sobreviven|+
-4+27+1+|N|Petición de las hijas de Zelofehad|+
-4+27+12+|N|Josué es designado como sucesor de Moisés|+
-4+28+1+|N|Las ofrendas diarias|+
-4+28+9+|N|Ofrendas mensuales y del día de reposo|+
-4+28+16+|N|Ofrendas de las fiestas solemnes|+
-4+30+1+|N|Ley de los votos|+
-4+31+1+|N|Venganza de Israel contra Madián|+
-4+31+21+|N|Repartición del botín|+
-4+32+1+|N|Rubén y Gad se establecen al oriente del Jordán|+
-4+33+1+|N|Jornadas de Israel desde Egipto hasta el Jordán|+
-4+33+50+|N|Límites y repartición de Canaán|+
-4+35+1+|N|Herencia de los levitas|+
-4+35+9+|N|Ciudades de refugio|+
-4+35+29+|N|Ley sobre los testigos y sobre el rescate|+
-4+36+1+|N|Ley del casamiento de las herederas|+
-5+1+1+|N|Moisés recuerda a Israel las promesas de Jehová en Horeb|+
-5+1+9+|N|Nombramiento de jueces|+
-5+1+19+|N|Misión de los doce espías|+
-5+1+34+|N|Dios castiga a Israel|+
-5+1+41+|N|La derrota en Horma|+
-5+2+1+|N|Los años en el desierto|+
-5+2+26+|N|Israel derrota a Sehón|+
-5+3+1+|N|Israel derrota a Og rey de Basán|+
-5+3+12+|N|Rubén, Gad y la media tribu de Manasés se establecen al oriente|+
-5+3+23+|N|No se le permite a Moisés entrar a Canaán|+
-5+4+1+|N|Moisés exhorta a la obediencia|+
-5+4+9+|N|La experiencia de Israel en Horeb|+
-5+4+15+|N|Advertencia contra la idolatría|+
-5+4+41+|N|Las ciudades de refugio al oriente del Jordán|+
-5+4+44+|N|Moisés recapitula la promulgación de la ley|+
-5+5+1+|N|Los Diez Mandamientos|+
-5+5+22+|N|El terror del pueblo|+
-5+6+1+|N|El gran mandamiento|+
-5+6+10+|N|Exhortaciones a la obediencia|+
-5+7+1+|N|Advertencias contra la idolatría de Canaán|+
-5+7+6+|N|Un pueblo santo para Jehová|+
-5+7+12+|N|Bendiciones de la obediencia|+
-5+8+1+|N|La buena tierra que han de poseer|+
-5+8+11+|N|Amonestación de no olvidar a Dios|+
-5+9+1+|N|Dios destruirá a las naciones de Canaán|+
-5+9+6+|N|La rebelión de Israel en Horeb|+
-5+10+1+|N|El pacto renovado|+
-5+10+12+|N|Lo que Dios exige|+
-5+11+1+|N|La grandeza de Jehová|+
-5+11+8+|N|Bendiciones de la Tierra Prometida|+
-5+12+1+|N|El santuario único|+
-5+12+29+|N|Advertencias contra la idolatría|+
-5+14+3+|N|Animales limpios e inmundos|+
-5+14+22+|N|La ley del diezmo|+
-5+15+1+|N|El año de remisión|+
-5+15+7+|N|Préstamos a los pobres|+
-5+15+12+|N|Leyes sobre los esclavos|+
-5+15+19+|N|Consagración de los primogénitos machos|+
-5+16+1+|N|Fiestas anuales|+
-5+16+18+|N|Administración de la justicia|+
-5+17+14+|N|Instrucciones acerca de un rey|+
-5+18+1+|N|Las porciones de los levitas|+
-5+18+9+|N|Amonestación contra costumbres paganas|+
-5+18+15+|N|Dios promete un profeta como Moisés|+
-5+19+1+|N|Las ciudades de refugio|+
-5+19+15+|N|Leyes sobre el testimonio|+
-5+20+1+|N|Leyes sobre la guerra|+
-5+21+1+|N|Expiación de un asesinato cuyo autor se desconoce|+
-5+21+10+|N|Diversas leyes|+
-5+22+13+|N|Leyes sobre la castidad|+
-5+23+1+|N|Los excluidos de la congregación|+
-5+23+9+|N|Leyes sanitarias|+
-5+23+15+|N|Leyes humanitarias|+
-5+25+17+|N|Orden de exterminar a Amalec|+
-5+26+1+|N|Primicias y diezmos|+
-5+27+1+|N|Orden de escribir la ley en piedras sobre el Monte Ebal|+
-5+27+11+|N|Las maldiciones en el monte Ebal|+
-5+28+1+|N|Bendiciones de la obediencia|+
-5+28+15+|N|Consecuencias de la desobediencia|+
-5+29+1+|N|Pacto de Jehová con Israel en Moab|+
-5+30+1+|N|Condiciones para la restauración y la bendición|+
-5+31+1+|N|Josué es instalado como sucesor de Moisés|+
-5+31+24+|N|Orden de guardar la ley junto al arca|+
-5+31+30+|N|Cántico de Moisés|+
-5+32+48+|N|Se le permite a Moisés contemplar la tierra de Canaán|+
-5+33+1+|N|Moisés bendice a las doce tribus de Israel|+
-5+34+11+|N|Muerte y sepultura de Moisés|+
-6+1+1+|N|Preparativos para la conquista|+
-6+2+1+|N|Josué envía espías a Jericó|+
-6+3+1+|N|El paso del Jordán|+
-6+4+1+|N|Las doce piedras tomadas del Jordán|+
-6+5+1+|N|La circuncisión y la pascua en Gilgal|+
-6+5+13+|N|Josué y el varón con la espada desenvainada|+
-6+6+1+|N|La toma de Jericó|+
-6+7+1+|N|El pecado de Acán|+
-6+8+1+|N|Toma y destrucción de Hai|+
-6+8+30+|N|Lectura de la ley en el monte Ebal|+
-6+9+1+|N|Astucia de los gabaonitas|+
-6+10+1+|N|Derrota de los amorreos|+
-6+11+1+|N|Derrota de la alianza de Jabín|+
-6+11+16+|N|Josué se apodera de toda la tierra|+
-6+12+1+|N|Reyes derrotados por Moisés|+
-6+12+7+|N|Reyes derrotados por Josué|+
-6+13+1+|N|Tierra aún sin conquistar|+
-6+13+14+|N|El territorio que distribuyó Moisés|+
-6+14+1+|N|Canaán repartida por suerte|+
-6+14+6+|N|Caleb recibe Hebrón|+
-6+15+1+|N|El territorio de Judá|+
-6+15+13+|N|Caleb conquista Hebrón y Debir|+
-6+15+20+|N|Las ciudades de Judá|+
-6+16+1+|N|Territorio de Efraín y de Manasés|+
-6+18+1+|N|Territorios de las demás tribus|+
-6+20+1+|N|Josué señala ciudades de refugio|+
-6+21+1+|N|Ciudades de los levitas|+
-6+21+43+|N|Israel ocupa la tierra|+
-6+22+1+|N|El altar junto al Jordán|+
-6+23+1+|N|Exhortación de Josué al pueblo|+
-6+24+1+|N|Discurso de despedida de Josué|+
-6+24+29+|N|Muerte de Josué|+
-6+24+32+|N|Sepultura de los huesos de José en Siquem|+
-6+24+33+|N|Muerte de Eleazar|+
-7+1+1+|N|Judá y Simeón capturan a Adoni-bezec|+
-7+1+8+|N|Judá conquista Jerusalén y Hebrón|+
-7+1+11+|N|Otoniel conquista Debir y recibe a Acsa|+
-7+1+16+|N|Extensión de las conquistas de Judá y de Benjamín|+
-7+1+22+|N|José conquista Bet-el|+
-7+1+27+|N|Extensión de las conquistas de Manasés y de Efraín|+
-7+1+30+|N|Extensión de las conquistas de las demás tribus|+
-7+2+1+|N|El ángel de Jehová en Boquim|+
-7+2+6+|N|Muerte de Josué|+
-7+2+11+|N|Apostasía de Israel, y la obra de los jueces|+
-7+3+1+|N|Naciones que fueron dejadas para probar a Israel|+
-7+3+7+|N|Otoniel liberta a Israel de Cusan-risataim|+
-7+3+12+|N|Aod liberta a Israel de Moab|+
-7+3+31+|N|Samgar liberta a Israel de los filisteos|+
-7+4+1+|N|Débora y Barac derrotan a Sísara|+
-7+5+1+|N|Cántico de Débora y de Barac|+
-7+6+1+|N|Llamamiento de Gedeón|+
-7+7+1+|N|Gedeón derrota a los madianitas|+
-7+8+1+|N|Gedeón captura a los reyes de Madián|+
-7+9+1+|N|Reinado de Abimelec|+
-7+10+1+|N|Tola y Jair juzgan a Israel|+
-7+10+6+|N|Jefté liberta a Israel de los amonitas|+
-7+12+8+|N|Ibzán, Elón y Abdón, jueces de Israel|+
-7+13+1+|N|Nacimiento de Sansón|+
-7+14+1+|N|Sansón y la mujer filistea de Timnat|+
-7+15+9+|N|Sansón derrota a los filisteos en Lehi|+
-7+16+1+|N|Sansón en Gaza|+
-7+16+4+|N|Sansón y Dalila|+
-7+16+23+|N|Muerte de Sansón|+
-7+17+1+|N|Las imágenes y el sacerdote de Micaía|+
-7+18+1+|N|Micaía y los hombres de Dan|+
-7+19+1+|N|El levita y su concubina|+
-7+20+1+|N|La guerra contra Benjamín|+
-7+21+1+|N|Mujeres para los benjamitas|+
-8+3+1+|N|Rut y Booz en la era|+
-8+4+1+|N|Booz se casa con Rut|+
-9+1+1+|N|Nacimiento de Samuel|+
-9+2+1+|N|Cántico de Ana|+
-9+2+12+|N|El pecado de los hijos de Elí|+
-9+3+1+|N|Jehová llama a Samuel|+
-9+4+1+|N|Los filisteos capturan el arca|+
-9+5+1+|N|El arca en tierra de los filisteos|+
-9+6+1+|N|Los filisteos devuelven el arca|+
-9+7+3+|N|Samuel, juez de Israel|+
-9+8+1+|N|Israel pide rey|+
-9+9+1+|N|Saúl es elegido rey|+
-9+11+1+|N|Saúl derrota a los amonitas|+
-9+12+1+|N|Discurso de Samuel al pueblo|+
-9+13+1+|N|Guerra contra los filisteos|+
-9+15+1+|N|Saúl desobedece y es desechado|+
-9+16+1+|N|Samuel unge a David|+
-9+16+14+|N|David toca para Saúl|+
-9+17+1+|N|David mata a Goliat|+
-9+18+1+|N|Pacto de Jonatán y David|+
-9+18+6+|N|Saúl tiene celos de David|+
-9+19+1+|N|Saúl procura matar a David|+
-9+20+1+|N|Amistad de David y Jonatán|+
-9+21+1+|N|David huye de Saúl|+
-9+22+6+|N|Saúl mata a los sacerdotes de Nob|+
-9+23+1+|N|David en el desierto|+
-9+24+1+|N|David perdona la vida a Saúl en En-gadi|+
-9+25+1+|N|David y Abigail|+
-9+26+1+|N|David perdona la vida a Saúl en Zif|+
-9+27+1+|N|David entre los filisteos|+
-9+28+3+|N|Saúl y la adivina de Endor|+
-9+29+1+|N|Los filisteos desconfían de David|+
-9+30+1+|N|David derrota a los amalecitas|+
-9+31+1+|N|Muerte de Saúl y de sus hijos|+
-10+1+1+|N|David oye de la muerte de Saúl|+
-10+1+17+|N|David endecha a Saúl y a Jonatán|+
-10+2+1+|N|David es proclamado rey de Judá|+
-10+2+8+|N|Guerra entre David y la casa de Saúl|+
-10+3+2+|N|Hijos de David nacidos en Hebrón|+
-10+3+6+|N|Abner pacta con David en Hebrón|+
-10+3+22+|N|Joab mata a Abner|+
-10+4+1+|N|Is-boset es asesinado|+
-10+5+1+|N|David es proclamado rey de Israel|+
-10+5+6+|N|David toma la fortaleza de Sion|+
-10+5+11+|N|Hiram envía embajadores a David|+
-10+5+13+|N|Hijos de David nacidos en Jerusalén|+
-10+5+17+|N|David derrota a los filisteos|+
-10+6+1+|N|David intenta llevar el arca a Jerusalén|+
-10+6+12+|N|David trae el arca a Jerusalén|+
-10+7+1+|N|Pacto de Dios con David|+
-10+8+1+|N|David extiende sus dominios|+
-10+8+15+|N|Oficiales de David|+
-10+9+1+|N|Bondad de David hacia Mefi-boset|+
-10+10+1+|N|Derrotas de amonitas y sirios|+
-10+11+1+|N|David y Betsabé|+
-10+12+1+|N|Natán amonesta a David|+
-10+12+26+|N|David captura Rabá|+
-10+13+1+|N|Amnón y Tamar|+
-10+13+20+|N|Venganza y huida de Absalón|+
-10+14+1+|N|Joab procura el regreso de Absalón|+
-10+15+1+|N|Absalón se subleva contra David|+
-10+17+1+|N|Consejos de Ahitofel y de Husai|+
-10+18+1+|N|Muerte de Absalón|+
-10+19+1+|N|David vuelve a Jerusalén|+
-10+20+1+|N|Sublevación de Seba|+
-10+20+23+|N|Oficiales de David|+
-10+21+1+|N|Venganza de los gabaonitas|+
-10+21+15+|N|Abisai libra a David del gigante|+
-10+21+18+|N|Los hombres de David matan a los gigantes|+
-10+22+1+|N|Cántico de liberación de David|+
-10+23+1+|N|Ultimas palabras de David|+
-10+23+8+|N|Los valientes de David Los valientes de David|+
-10+24+1+|N|David censa al pueblo|+
-11+1+1+|N|Abisag sirve a David|+
-11+1+5+|N|Adonías usurpa el trono|+
-11+1+28+|N|David proclama rey a Salomón|+
-11+2+10+|N|Muerte de David|+
-11+2+13+|N|Salomón afirma su reino|+
-11+3+1+|N|Salomón se casa con la hija de Faraón|+
-11+3+3+|N|Salomón pide sabiduría|+
-11+3+16+|N|Sabiduría y prosperidad de Salomón|+
-11+5+1+|N|Pacto de Salomón con Hiram|+
-11+6+1+|N|Salomón edifica el templo|+
-11+7+1+|N|Otros edificios de Salomón|+
-11+7+13+|N|Salomón emplea a Hiram, de Tiro|+
-11+7+23+|N|Mobiliario del templo|+
-11+8+1+|N|Salomón traslada el arca al templo|+
-11+8+12+|N|Dedicación del templo|+
-11+9+1+|N|Pacto de Dios con Salomón|+
-11+9+10+|N|Otras actividades de Salomón|+
-11+10+1+|N|La reina de Sabá visita a Salomón|+
-11+10+14+|N|Riquezas y fama de Salomón|+
-11+10+26+|N|Salomón comercia en caballos y en carros|+
-11+11+1+|N|Apostasía y dificultades de Salomón|+
-11+11+41+|N|Muerte de Salomón|+
-11+12+1+|N|Rebelión de Israel|+
-11+12+25+|N|El pecado de Jeroboam|+
-11+13+1+|N|Un profeta de Judá amonesta a Jeroboam|+
-11+14+1+|N|Profecía de Ahías contra Jeroboam|+
-11+14+21+|N|Reinado de Roboam|+
-11+15+1+|N|Reinado de Abiam|+
-11+15+9+|N|Reinado de Asa|+
-11+15+16+|N|Alianza de Asa con Ben-adad|+
-11+15+23+|N|Muerte de Asa|+
-11+15+25+|N|Reinado de Nadab|+
-11+15+33+|N|Reinado de Baasa|+
-11+16+8+|N|Reinados de Ela y de Zimri|+
-11+16+21+|N|Reinado de Omri|+
-11+16+29+|N|Reinado de Acab|+
-11+17+1+|N|Elías predice la sequía|+
-11+17+8+|N|Elías y la viuda de Sarepta|+
-11+18+1+|N|Elías regresa a ver a Acab|+
-11+18+20+|N|Elías y los profetas de Baal|+
-11+18+41+|N|Elías ora por lluvia|+
-11+19+1+|N|Elías huye a Horeb|+
-11+19+19+|N|Llamamiento de Eliseo|+
-11+20+1+|N|Acab derrota a los sirios|+
-11+21+1+|N|Acab y la viña de Nabot|+
-11+22+1+|N|Micaías profetiza la derrota de Acab|+
-11+22+41+|N|Reinado de Josafat|+
-11+22+51+|N|Reinado de Ocozías de Israel|+
-12+1+1+|N|Muerte de Ocozías|+
-12+2+1+|N|Eliseo sucede a Elías|+
-12+3+1+|N|Reinado de Joram de Israel|+
-12+3+4+|N|Eliseo predice la victoria sobre Moab|+
-12+4+1+|N|El aceite de la viuda|+
-12+4+8+|N|Eliseo y la sunamita|+
-12+4+38+|N|Milagros en beneficio de los profetas|+
-12+5+1+|N|Eliseo y Naamán|+
-12+6+1+|N|Eliseo hace flotar el hacha|+
-12+6+8+|N|Eliseo y los sirios|+
-12+6+24+|N|Eliseo y el sitio de Samaria|+
-12+8+1+|N|Los bienes de la sunamita devueltos|+
-12+8+7+|N|Hazael reina en Siria|+
-12+8+16+|N|Reinado de Joram de Judá|+
-12+8+25+|N|Reinado de Ocozías de Judá|+
-12+9+1+|N|Jehú es ungido rey de Israel|+
-12+9+14+|N|Jehú mata a Joram|+
-12+9+27+|N|Jehú mata a Ocozías|+
-12+9+30+|N|Muerte de Jezabel|+
-12+10+1+|N|Jehú extermina la casa de Acab|+
-12+10+18+|N|Jehú extermina el culto de Baal|+
-12+11+1+|N|Atalía usurpa el trono|+
-12+12+1+|N|Reinado de Joás de Judá|+
-12+13+1+|N|Reinado de Joacaz|+
-12+13+10+|N|Reinado de Joás de Israel|+
-12+13+14+|N|Profecía final y muerte de Eliseo|+
-12+14+1+|N|Reinado de Amasías|+
-12+14+23+|N|Reinado de Jeroboam II|+
-12+15+1+|N|Reinado de Azarías|+
-12+15+8+|N|Reinado de Zacarías|+
-12+15+13+|N|Reinado de Salum|+
-12+15+17+|N|Reinado de Manahem|+
-12+15+23+|N|Reinado de Pekaía|+
-12+15+27+|N|Reinado de Peka|+
-12+15+32+|N|Reinado de Jotam|+
-12+16+1+|N|Reinado de Acaz|+
-12+17+1+|N|Caída de Samaria y cautiverio de Israel|+
-12+17+24+|N|Asiria puebla de nuevo a Samaria|+
-12+18+1+|N|Reinado de Ezequías|+
-12+18+9+|N|Caída de Samaria|+
-12+18+13+|N|Senaquerib invade a Judá|+
-12+19+1+|N|Judá es librado de Senaquerib|+
-12+20+1+|N|Enfermedad de Ezequías|+
-12+20+12+|N|Ezequías recibe a los enviados de Babilonia|+
-12+20+20+|N|Muerte de Ezequías|+
-12+21+1+|N|Reinado de Manasés|+
-12+21+19+|N|Reinado de Amón|+
-12+22+1+|N|Reinado de Josías|+
-12+22+3+|N|Hallazgo del libro de la ley|+
-12+23+4+|N|Reformas de Josías|+
-12+23+21+|N|Josías celebra la pascua|+
-12+23+24+|N|Persiste la ira de Jehová contra Judá|+
-12+23+28+|N|Muerte de Josías|+
-12+23+31+|N|Reinado y destronamiento de Joacaz|+
-12+23+36+|N|Reinado de Joacim|+
-12+24+8+|N|Joaquín y los nobles son llevados cautivos a Babilonia|+
-12+24+18+|N|Reinado de Sedequías|+
-12+25+1+|N|Caída de Jerusalén|+
-12+25+8+|N|Cautividad de Judá|+
-12+25+22+|N|El remanente huye a Egipto|+
-12+25+27+|N|Joaquín es libertado y recibe honores en Babilonia|+
-13+1+1+|N|Descendientes de Adán|+
-13+1+5+|N|Descendientes de los hijos de Noé|+
-13+1+24+|N|Descendientes de Sem|+
-13+1+28+|N|Descendientes de Ismael y de Cetura|+
-13+1+34+|N|Descendientes de Esaú|+
-13+2+1+|N|Los hijos de Israel|+
-13+2+3+|N|Descendientes de Judá|+
-13+3+1+|N|Los hijos de David|+
-13+3+10+|N|Descendientes de Salomón|+
-13+4+1+|N|Descendientes de Judá|+
-13+4+24+|N|Descendientes de Simeón|+
-13+5+1+|N|Descendientes de Rubén|+
-13+5+11+|N|Descendientes de Gad|+
-13+5+18+|N|Historia de las dos tribus y media|+
-13+6+1+|N|Descendientes de Leví|+
-13+6+31+|N|Cantores del templo nombrados por David|+
-13+6+49+|N|Descendientes de Aarón.|+
-13+6+54+|N|Las ciudades de los levitas|+
-13+7+1+|N|Descendientes de Isacar|+
-13+7+6+|N|Descendientes de Benjamín|+
-13+7+13+|N|Descendientes de Neftalí|+
-13+7+14+|N|Descendientes de Manasés|+
-13+7+20+|N|Descendientes de Efraín|+
-13+7+30+|N|Descendientes de Aser|+
-13+8+1+|N|Descendientes de Benjamín|+
-13+9+1+|N|Los que regresaron de Babilonia|+
-13+9+35+|N|Genealogía de Saúl|+
-13+10+1+|N|Muerte de Saúl y de sus hijos|+
-13+11+1+|N|David es proclamado rey de Israel|+
-13+11+4+|N|David toma la fortaleza de Sion|+
-13+11+10+|N|Los valientes de David|+
-13+12+1+|N|El ejército de David|+
-13+13+1+|N|David propone trasladar el arca a Jerusalén|+
-13+13+5+|N|David intenta traer el arca|+
-13+14+1+|N|Hiram envía embajadores a David|+
-13+14+3+|N|Hijos de David nacidos en Jerusalén|+
-13+14+8+|N|David derrota a los filisteos|+
-13+15+1+|N|David trae el arca a Jerusalén|+
-13+16+7+|N|Salmo de acción de gracias de David|+
-13+16+37+|N|Los levitas encargados del arca|+
-13+17+1+|N|Pacto de Dios con David|+
-13+18+1+|N|David extiende sus dominios|+
-13+18+14+|N|Oficiales de David|+
-13+19+1+|N|Derrotas de amonitas y sirios|+
-13+20+1+|N|David captura a Rabá|+
-13+20+4+|N|Los hombres de David matan a los gigantes|+
-13+21+1+|N|David censa al pueblo|+
-13+21+28+|N|El lugar para el templo|+
-13+22+2+|N|Preparativos para el templo|+
-13+23+1+|N|Distribución y deberes de los levitas|+
-13+25+1+|N|Distribución de músicos y cantores|+
-13+26+1+|N|Porteros y oficiales|+
-13+27+1+|N|Otros oficiales de David|+
-13+28+1+|N|Salomón sucede a David|+
-13+29+26+|N|Muerte de David|+
-14+1+1+|N|Salomón pide sabiduría|+
-14+1+14+|N|Salomón comercia en caballos y en carros|+
-14+2+1+|N|Pacto de Salomón con Hiram|+
-14+3+1+|N|Salomón edifica el templo|+
-14+3+15+|N|Las dos columnas|+
-14+4+1+|N|Mobiliario del templo|+
-14+5+2+|N|Salomón traslada el arca al templo|+
-14+6+1+|N|Dedicación del templo|+
-14+7+11+|N|Pacto de Dios con Salomón|+
-14+8+1+|N|Otras actividades de Salomón|+
-14+9+1+|N|La reina de Sabá visita a Salomón|+
-14+9+13+|N|Riquezas y fama de Salomón|+
-14+9+29+|N|Muerte de Salomón|+
-14+10+1+|N|Rebelión de Israel|+
-14+11+5+|N|Prosperidad de Roboam|+
-14+12+1+|N|Sisac invade Judá|+
-14+13+1+|N|Reinado de Abías|+
-14+14+1+|N|Reinado de Asa|+
-14+15+1+|N|Reformas religiosas de Asa|+
-14+16+1+|N|Alianza de Asa con Ben-adad|+
-14+16+11+|N|Muerte de Asa|+
-14+17+1+|N|Reinado de Josafat|+
-14+18+1+|N|Micaías profetiza la derrota de Acab|+
-14+19+1+|N|El profeta Jehú amonesta a Josafat|+
-14+19+4+|N|Josafat nombra jueces|+
-14+20+1+|N|Victoria sobre Moab y Amón|+
-14+20+31+|N|Resumen del reinado de Josafat|+
-14+21+1+|N|Reinado de Joram de Judá|+
-14+22+1+|N|Reinado de Ocozías de Judá|+
-14+22+7+|N|Jehú mata a Ocozías|+
-14+22+10+|N|Atalía usurpa el trono|+
-14+24+1+|N|Reinado de Joás de Judá|+
-14+25+1+|N|Reinado de Amasías|+
-14+26+1+|N|Reinado de Uzías|+
-14+27+1+|N|Reinado de Jotam|+
-14+28+1+|N|Reinado de Acaz|+
-14+29+1+|N|Reinado de Ezequías|+
-14+29+3+|N|Ezequías restablece el culto del templo|+
-14+30+1+|N|Ezequías celebra la pascua|+
-14+31+2+|N|Ezequías reorganiza el servicio de los sacerdotes y levitas|+
-14+32+1+|N|Senaquerib invade a Judá|+
-14+32+20+|N|Jehová libra a Ezequías|+
-14+32+24+|N|Enfermedad de Ezequías|+
-14+32+27+|N|Ezequías recibe a los enviados de Babilonia|+
-14+32+32+|N|Muerte de Ezequías|+
-14+33+1+|N|Reinado de Manasés|+
-14+33+21+|N|Reinado de Amón|+
-14+34+1+|N|Reinado de Josías|+
-14+34+3+|N|Reformas de Josías|+
-14+34+8+|N|Hallazgo del libro de la ley|+
-14+35+1+|N|Josías celebra la pascua|+
-14+35+20+|N|Muerte de Josías|+
-14+36+1+|N|Reinado y destronamiento de Joacaz|+
-14+36+5+|N|Reinado de Joacim|+
-14+36+9+|N|Joaquín es llevado cautivo a Babilonia|+
-14+36+11+|N|Reinado de Sedequías|+
-14+36+17+|N|Cautividad de Judá|+
-14+36+22+|N|El decreto de Ciro|+
-15+1+1+|N|El decreto de Ciro|+
-15+1+5+|N|El regreso a Jerusalén|+
-15+2+1+|N|Los que volvieron con Zorobabel|+
-15+3+1+|N|Restauración del altar y del culto|+
-15+3+8+|N|Colocación de los cimientos del templo|+
-15+4+1+|N|Los adversarios detienen la obra|+
-15+5+1+|N|Reedificación del templo|+
-15+7+1+|N|Esdras y sus compañeros llegan a Jerusalén|+
-15+9+1+|N|Oración de confesión de Esdras|+
-15+10+1+|N|Expulsión de las mujeres extranjeras|+
-16+1+1+|N|Oración de Nehemías sobre Jerusalén|+
-16+2+1+|N|Artajerjes envía a Nehemías a Jerusalén|+
-16+2+11+|N|Nehemías anima al pueblo a reedificar los muros|+
-16+3+1+|N|Reparto del trabajo de reedificación|+
-16+4+1+|N|Precauciones contra los enemigos|+
-16+5+1+|N|Abolición de la usura|+
-16+6+1+|N|Maquinaciones de los adversarios|+
-16+7+1+|N|Nehemías designa dirigentes|+
-16+7+5+|N|Los que volvieron con Zorobabel|+
-16+8+1+|N|Esdras lee la ley al pueblo|+
-16+9+1+|N|Esdras confiesa los pecados de Israel|+
-16+9+38+|N|Pacto del pueblo, de guardar la ley|+
-16+11+1+|N|Los habitantes de Jerusalén|+
-16+11+25+|N|Lugares habitados fuera de Jerusalén|+
-16+12+1+|N|Sacerdotes y levitas|+
-16+12+27+|N|Dedicación del muro|+
-16+12+44+|N|Porciones para sacerdotes y levitas|+
-16+13+1+|N|Reformas de Nehemías|+
-17+1+1+|N|La reina Vasti desafía a Asuero|+
-17+2+1+|N|Ester es proclamada reina|+
-17+2+19+|N|Mardoqueo denuncia una conspiración contra el rey|+
-17+3+1+|N|Amán trama la destrucción de los judíos|+
-17+4+1+|N|Ester promete interceder por su pueblo|+
-17+5+1+|N|Ester invita al rey y a Amán a un banquete|+
-17+6+1+|N|Amán se ve obligado a honrar a Mardoqueo|+
-17+7+1+|N|Amán es ahorcado|+
-17+8+1+|N|Decreto de Asuero a favor de los judíos|+
-17+9+1+|N|Los judíos destruyen a sus enemigos|+
-17+10+1+|N|Grandeza de Mardoqueo|+
-18+1+1+|N|Las calamidades de Job|+
-18+3+1+|N|Job maldice el día en que nació|+
-18+4+1+|N|Elifaz reprende a Job|+
-18+6+1+|N|Job reprocha la actitud de sus amigos|+
-18+7+1+|N|Job argumenta contra Dios|+
-18+8+1+|N|Bildad proclama la justicia de Dios|+
-18+9+1+|N|Incapacidad de Job para responder a Dios|+
-18+10+1+|N|Job lamenta su condición|+
-18+11+1+|N|Zofar acusa de maldad a Job|+
-18+12+1+|N|Job proclama el poder y la sabiduría de Dios|+
-18+13+1+|N|Job defiende su integridad|+
-18+14+1+|N|Job discurre sobre la brevedad de la vida|+
-18+15+1+|N|Elifaz reprende a Job|+
-18+16+1+|N|Job se queja contra Dios|+
-18+18+1+|N|Bildad describe la suerte de los malos|+
-18+19+1+|N|Job confía en que Dios lo justificará|+
-18+20+1+|N|Zofar describe las calamidades de los malos|+
-18+21+1+|N|Job afirma que los malos prosperan|+
-18+22+1+|N|Elifaz acusa a Job de gran maldad|+
-18+23+1+|N|Job desea abogar su causa delante de Dios|+
-18+24+1+|N|Job se queja de que Dios es indiferente ante la maldad|+
-18+25+1+|N|Bildad niega que el hombre pueda ser justificado delante de Dios|+
-18+26+1+|N|Job proclama la soberanía de Dios|+
-18+27+1+|N|Job describe el castigo de los malos|+
-18+28+1+|N|El hombre en busca de la sabiduría|+
-18+29+1+|N|Job recuerda su felicidad anterior|+
-18+30+1+|N|Job lamenta su desdicha actual|+
-18+31+1+|N|Job afirma su integridad|+
-18+32+1+|N|Eliú justifica su derecho de contestar a Job|+
-18+33+1+|N|Eliú censura a Job|+
-18+34+1+|N|Eliú justifica a Dios|+
-18+36+1+|N|Eliú exalta la grandeza de Dios|+
-18+38+1+|N|Jehová convence a Job de su ignorancia|+
-18+40+6+|N|Manifestaciones del poder de Dios|+
-18+42+1+|N|Confesión y justificación de Job|+
-18+42+10+|N|Restauración de la prosperidad de Job|+
-19+1+1+|N|El justo y los pecadores|+
-19+2+1+|N|El reino del ungido de Jehová|+
-19+3+1+|N|Oración matutina de confianza en Dios|+
-19+4+1+|N|Oración vespertina de confianza en Dios|+
-19+5+1+|N|Plegaria pidiendo protección|+
-19+6+1+|N|Oración pidiendo misericordia en tiempo de prueba|+
-19+7+1+|N|Plegaria pidiendo vindicación|+
-19+8+1+|N|La gloria de Dios y la honra del hombre|+
-19+9+1+|N|Acción de gracias por la justicia de Dios|+
-19+10+1+|N|Plegaria pidiendo la destrucción de los malvados|+
-19+11+1+|N|El refugio del justo|+
-19+12+1+|N|Oración pidiendo ayuda contra los malos|+
-19+13+1+|N|Plegaria pidiendo ayuda en la aflicción|+
-19+14+1+|N|Necedad y corrupción del hombre|+
-19+15+1+|N|Los que habitarán en el monte santo de Dios|+
-19+16+1+|N|Una herencia escogida|+
-19+17+1+|N|Plegaria pidiendo protección contra los opresores|+
-19+18+1+|N|Acción de gracias por la victoria|+
-19+19+1+|N|Las obras y la palabra de Dios|+
-19+20+1+|N|Oración pidiendo la victoria|+
-19+21+1+|N|Alabanza por haber sido librado del enemigo|+
-19+22+1+|N|Un grito de angustia y un canto de alabanza|+
-19+23+1+|N|Jehová es mi pastor|+
-19+24+1+|N|El rey de gloria|+
-19+25+1+|N|David implora dirección, perdón y protección|+
-19+26+1+|N|Declaración de integridad|+
-19+27+1+|N|Jehová es mi luz y mi salvación|+
-19+28+1+|N|Plegaria pidiendo ayuda, y alabanza por la respuesta|+
-19+30+1+|N|Acción de gracias por haber sido librado de la muerte|+
-19+31+1+|N|Acción de gracias por haber sido librado de la muerte|+
-19+32+1+|N|La dicha del perdón|+
-19+33+1+|N|Alabanzas al Creador y Preservador|+
-19+34+1+|N|La protección divina|+
-19+35+1+|N|Plegaria pidiendo ser librado de los enemigos|+
-19+36+1+|N|La misericordia de Dios|+
-19+37+1+|N|El camino de los malos|+
-19+38+1+|N|Oración de un penitente|+
-19+39+1+|N|El carácter transitorio de la vida|+
-19+40+1+|N|Alabanza por la liberación divina|+
-19+41+1+|N|Oración pidiendo salud|+
-19+42+1+|N|Mi alma tiene sed de Dios|+
-19+43+1+|N|Plegaria pidiendo vindicación y liberación|+
-19+44+1+|N|Liberaciones pasadas y pruebas presentes|+
-19+45+1+|N|Cántico de las bodas del rey|+
-19+46+1+|N|Dios es nuestro amparo y fortaleza|+
-19+47+1+|N|Dios, el Rey de toda la tierra|+
-19+48+1+|N|Hermosura y gloria de Sion|+
-19+49+1+|N|La insensatez de confiar en las riquezas|+
-19+50+1+|N|Dios juzgará al mundo|+
-19+51+1+|N|Arrepentimiento, y plegaria pidiendo purificación|+
-19+52+1+|N|Futilidad de la jactancia del malo|+
-19+53+1+|N|Insensatez y maldad de los hombres|+
-19+54+1+|N|Plegaria pidiendo protección contra los enemigos|+
-19+55+1+|N|Plegaria pidiendo la destrucción de enemigos traicioneros|+
-19+56+1+|N|Oración de confianza|+
-19+57+1+|N|Plegaria pidiendo ser librado de los perseguidores|+
-19+58+1+|N|Plegaria pidiendo el castigo de los malos|+
-19+59+1+|N|Oración pidiendo ser librado de los enemigos|+
-19+60+1+|N|Plegaria pidiendo ayuda contra el enemigo|+
-19+61+1+|N|Confianza en la protección de Dios|+
-19+63+1+|N|Dios, satisfacción del alma|+
-19+64+1+|N|Plegaria pidiendo protección contra enemigos ocultos|+
-19+65+1+|N|La generosidad de Dios en la naturaleza|+
-19+66+1+|N|Alabanza por los hechos poderosos de Dios|+
-19+67+1+|N|Exhortación a las naciones, para que alaben a Dios|+
-19+68+1+|N|El Dios del Sinaí y del santuario|+
-19+69+1+|N|Un grito de angustia|+
-19+70+1+|N|Súplica por la liberación|+
-19+71+1+|N|Oración de un anciano|+
-19+72+1+|N|El reino de un rey justo|+
-19+73+1+|N|El destino de los malos|+
-19+74+1+|N|Apelación a Dios en contra del enemigo|+
-19+75+1+|N|Dios abate al malo y exalta al justo|+
-19+76+1+|N|El Dios de la victoria y del juicio|+
-19+77+1+|N|Meditación sobre los hechos poderosos de Dios|+
-19+78+1+|N|Fidelidad de Dios hacia su pueblo infiel|+
-19+79+1+|N|Lamento por la destrucción de Jerusalén|+
-19+80+1+|N|Súplica por la restauración|+
-19+81+1+|N|Bondad de Dios y perversidad de Israel|+
-19+82+1+|N|Amonestación contra los juicios injustos|+
-19+83+1+|N|Plegaria pidiendo la destrucción de los enemigos de Israel|+
-19+84+1+|N|Anhelo por la casa de Dios|+
-19+85+1+|N|Súplica por la misericordia de Dios sobre Israel|+
-19+86+1+|N|Oración pidiendo la continuada misericordia de Dios|+
-19+87+1+|N|El privilegio de morar en Sion|+
-19+88+1+|N|Súplica por la liberación de la muerte|+
-19+89+1+|N|Pacto de Dios con David|+
-19+90+1+|N|La eternidad de Dios y la transitoriedad del hombre|+
-19+91+1+|N|Morando bajo la sombra del Omnipotente|+
-19+92+1+|N|Alabanza por la bondad de Dios|+
-19+93+1+|N|La majestad de Jehová|+
-19+94+1+|N|Oración clamando por venganza|+
-19+95+1+|N|Cántico de alabanza y de adoración|+
-19+96+1+|N|Cántico de alabanza|+
-19+97+1+|N|El dominio y el poder de Jehová|+
-19+98+1+|N|Alabanza por la justicia de Dios|+
-19+99+1+|N|Fidelidad de Jehová para con Israel|+
-19+100+1+|N|Exhortación a la gratitud|+
-19+101+1+|N|Promesa de vivir rectamente|+
-19+102+1+|N|Oración de un afligido|+
-19+103+1+|N|Alabanza por las bendiciones de Dios|+
-19+104+1+|N|Dios cuida de su creación|+
-19+105+1+|N|Maravillas de Jehová a favor de Israel|+
-19+106+1+|N|La rebeldía de Israel|+
-19+107+1+|N|Dios libra de la aflicción|+
-19+108+1+|N|Petición de ayuda contra el enemigo|+
-19+109+1+|N|Clamor de venganza|+
-19+110+1+|N|Jehová da dominio al rey|+
-19+111+1+|N|Dios cuida de su pueblo|+
-19+112+1+|N|Prosperidad del que teme a Jehová|+
-19+113+1+|N|Dios levanta al pobre|+
-19+114+1+|N|Las maravillas del Exodo|+
-19+115+1+|N|Dios y los ídolos|+
-19+116+1+|N|Acción de gracias por haber sido librado de la muerte|+
-19+117+1+|N|Alabanza por la misericordia de Jehová|+
-19+118+1+|N|Acción de gracias por la salvación recibida de Jehová|+
-19+119+1+|N|Excelencias de la ley de Dios|+
-19+119+9+|N|Bet|+
-19+119+17+|N|Guímel|+
-19+119+25+|N|Dálet|+
-19+119+33+|N|He|+
-19+119+41+|N|Vau|+
-19+119+49+|N|Zain|+
-19+119+57+|N|Chet|+
-19+119+65+|N|Tet|+
-19+119+73+|N|Yod|+
-19+119+81+|N|Caf|+
-19+119+89+|N|Lámed|+
-19+119+97+|N|Mem|+
-19+119+105+|N|Nun|+
-19+119+113+|N|Sámec|+
-19+119+121+|N|Ayin|+
-19+119+129+|N|Pe|+
-19+119+137+|N|Tsade|+
-19+119+145+|N|Cof|+
-19+119+153+|N|Resh|+
-19+119+161+|N|Sin|+
-19+119+169+|N|Tau|+
-19+120+1+|N|Plegaria ante el peligro de la lengua engañosa|+
-19+121+1+|N|Jehová es tu guardador|+
-19+122+1+|N|Oración por la paz de Jerusalén|+
-19+123+1+|N|Plegaria pidiendo misericordia|+
-19+124+1+|N|Alabanza por haber sido librado de los enemigos|+
-19+125+1+|N|Dios protege a su pueblo|+
-19+126+1+|N|Oración por la restauración|+
-19+127+1+|N|La prosperidad viene de Jehová|+
-19+128+1+|N|La bienaventuranza del que teme a Jehová|+
-19+129+1+|N|Plegaria pidiendo la destrucción de los enemigos de Sion|+
-19+130+1+|N|Esperanza en que Jehová dará redención|+
-19+131+1+|N|Confiando en Dios como un niño|+
-19+132+1+|N|Plegaria por bendición sobre el santuario|+
-19+133+1+|N|La bienaventuranza del amor fraternal|+
-19+134+1+|N|Exhortación a los guardas del templo|+
-19+135+1+|N|La grandeza del Señor y la vanidad de los ídolos|+
-19+136+1+|N|Alabanza por la misericordia eterna de Jehová|+
-19+137+1+|N|Lamento de los cautivos en Babilonia|+
-19+138+1+|N|Acción de gracias por el favor de Jehová|+
-19+139+1+|N|Omnipresencia y omnisciencia de Dios|+
-19+140+1+|N|Súplica de protección contra los perseguidores|+
-19+141+1+|N|Oración a fin de ser guardado del mal|+
-19+142+1+|N|Petición de ayuda en medio de la prueba|+
-19+143+1+|N|Súplica de liberación y dirección|+
-19+144+1+|N|Oración pidiendo socorro y prosperidad|+
-19+145+1+|N|Alabanza por la bondad y el poder de Dios|+
-19+146+1+|N|Alabanza por la justicia de Dios|+
-19+147+1+|N|Alabanza por el favor de Dios hacia Jerusalén|+
-19+148+1+|N|Exhortación a la creación, para que alabe a Jehová|+
-19+149+1+|N|Exhortación a Israel, para que alabe a Jehová|+
-19+150+1+|N|Exhortación a alabar a Dios con instrumentos de música Aleluya.|+
-20+1+1+|N|Motivo de los proverbios|+
-20+1+8+|N|Amonestaciones de la Sabiduría|+
-20+2+1+|N|Excelencias de la sabiduría|+
-20+3+1+|N|Exhortación a la obediencia|+
-20+4+1+|N|Beneficios de la sabiduría|+
-20+5+1+|N|Amonestación contra la impureza|+
-20+6+1+|N|Amonestación contra la pereza y la falsedad|+
-20+6+20+|N|Amonestación contra el adulterio|+
-20+7+1+|N|Las artimañas de la ramera|+
-20+8+1+|N|Excelencia y eternidad de la Sabiduría|+
-20+9+1+|N|La Sabiduría y la mujer insensata|+
-20+10+1+|N|Contraste entre el justo y el malvado|+
-20+16+1+|N|Proverbios sobre la vida y la conducta|+
-20+22+17+|N|Preceptos y amonestaciones|+
-20+25+1+|N|Comparaciones y lecciones morales|+
-20+28+1+|N|Proverbios antitéticos|+
-20+30+1+|N|Las palabras de Agur|+
-20+31+1+|N|Exhortación a un rey|+
-20+31+10+|N|Elogio de la mujer virtuosa|+
-21+1+1+|N|Todo es vanidad|+
-21+1+12+|N|La experiencia del Predicador|+
-21+3+1+|N|Todo tiene su tiempo|+
-21+3+16+|N|Injusticias de la vida|+
-21+5+1+|N|La insensatez de hacer votos a la ligera|+
-21+5+8+|N|La vanidad de la vida|+
-21+7+1+|N|Contraste entre la sabiduría y la insensatez|+
-21+8+10+|N|Desigualdades de la vida|+
-21+10+1+|N|Excelencia de la sabiduría|+
-21+11+9+|N|Consejos para la juventud|+
-21+12+9+|N|Resumen del deber del hombre|+
-22+1+1+|N|La esposa y las hijas de Jerusalén|+
-22+1+9+|N|La esposa y el esposo|+
-22+3+1+|N|El ensueño de la esposa|+
-22+3+6+|N|El cortejo de bodas|+
-22+4+1+|N|El esposo alaba a la esposa|+
-22+5+2+|N|El tormento de la separación|+
-22+5+9+|N|La esposa alaba al esposo|+
-22+6+1+|N|Mutuo encanto del esposo y de la esposa|+
-22+8+5+|N|El poder del amor|+
-23+1+1+|N|Una nación pecadora|+
-23+1+10+|N|Llamamiento al arrepentimiento verdadero|+
-23+1+21+|N|Juicio y redención de Jerusalén|+
-23+2+1+|N|Reinado universal de Jehová|+
-23+2+5+|N|Juicio de Jehová contra los soberbios|+
-23+3+1+|N|Juicio de Jehová contra Judá y Jerusalén|+
-23+3+16+|N|Juicio contra las hijas de Sion|+
-23+4+2+|N|Futuro glorioso de Jerusalén|+
-23+5+1+|N|Parábola de la viña|+
-23+5+8+|N|Ayes sobre los malvados|+
-23+6+1+|N|Visión y llamamiento de Isaías|+
-23+7+1+|N|Mensaje de Isaías a Acaz|+
-23+8+1+|N|Sea Jehová vuestro temor|+
-23+9+1+|N|Nacimiento y reinado del Mesías|+
-23+9+8+|N|La ira de Jehová contra Israel|+
-23+10+5+|N|Asiria, instrumento de Dios|+
-23+11+1+|N|Reinado justo del Mesías|+
-23+12+1+|N|Cántico de acción de gracias|+
-23+13+1+|N|Profecía sobre Babilonia|+
-23+14+1+|N|Escarnio contra el rey de Babilonia|+
-23+14+24+|N|Asiria será destruida|+
-23+14+28+|N|Profecía sobre Filistea|+
-23+15+1+|N|Profecía sobre Moab|+
-23+17+1+|N|Profecía sobre Damasco|+
-23+17+4+|N|Juicio sobre Israel|+
-23+18+1+|N|Profecía sobre Etiopía|+
-23+19+1+|N|Profecía sobre Egipto|+
-23+20+1+|N|Predicción de la conquista de Egipto y de Etiopía por Asiria|+
-23+21+1+|N|Profecía sobre el desierto del mar|+
-23+21+11+|N|Profecía sobre Duma|+
-23+21+13+|N|Profecía sobre Arabia|+
-23+22+1+|N|Profecía sobre el valle de la visión|+
-23+22+15+|N|Sebna será sustituido por Eliaquim|+
-23+23+1+|N|Profecía sobre Tiro|+
-23+24+1+|N|El juicio de Jehová sobre la tierra|+
-23+25+1+|N|Cántico de alabanza por el favor de Jehová|+
-23+26+1+|N|Cántico de confianza en la protección de Jehová|+
-23+27+1+|N|Liberación y regreso de Israel|+
-23+28+1+|N|Condenación de Efraín|+
-23+28+14+|N|Amonestación a Jerusalén|+
-23+29+1+|N|Ariel y sus enemigos|+
-23+29+9+|N|Ceguera e hipocresía de Israel|+
-23+29+17+|N|Redención de Israel|+
-23+30+1+|N|La futilidad de confiar en Egipto|+
-23+30+18+|N|Promesa de la gracia de Dios a Israel|+
-23+30+27+|N|El juicio de Jehová sobre Asiria|+
-23+31+1+|N|Los egipcios son hombres y no dioses|+
-23+32+1+|N|El Rey justo|+
-23+32+9+|N|Advertencia a las mujeres de Jerusalén|+
-23+33+1+|N|Jehová traerá salvación|+
-23+34+1+|N|La ira de Jehová contra las naciones|+
-23+35+1+|N|Futuro glorioso de Sion|+
-23+36+1+|N|La invasión de Senaquerib|+
-23+37+1+|N|Judá es librado de Senaquerib|+
-23+38+1+|N|Enfermedad de Ezequías|+
-23+39+1+|N|Ezequías recibe a los enviados de Babilonia|+
-23+40+1+|N|Jehová consuela a Sion|+
-23+40+12+|N|El incomparable Dios de Israel|+
-23+41+1+|N|Seguridad de Dios para Israel|+
-23+41+21+|N|Dios reta a los falsos dioses|+
-23+42+1+|N|El Siervo de Jehová|+
-23+42+10+|N|Alabanza por la liberación poderosa de Jehová|+
-23+42+18+|N|Israel no aprende de la disciplina|+
-23+43+1+|N|Jehová es el único Redentor|+
-23+44+1+|N|Jehová es el único Dios|+
-23+44+9+|N|La insensatez de la idolatría|+
-23+44+21+|N|Jehová es el Redentor de Israel|+
-23+45+1+|N|Encargo de Dios para Ciro|+
-23+45+8+|N|Jehová el Creador|+
-23+45+20+|N|Jehová y los ídolos de Babilonia|+
-23+47+1+|N|Juicio sobre Babilonia|+
-23+48+1+|N|Dios reprende la infidelidad de Israel|+
-23+49+1+|N|Israel, siervo de Jehová|+
-23+49+8+|N|Dios promete restaurar a Sion|+
-23+50+1+|N|Jehová ayuda a quienes confían en él|+
-23+51+1+|N|Palabras de consuelo para Sion|+
-23+52+1+|N|Dios librará del cautiverio a Sion|+
-23+52+13+|N|Sufrimientos del Siervo de Jehová|+
-23+54+1+|N|El amor eterno de Jehová hacia Israel|+
-23+55+1+|N|Misericordia gratuita para todos|+
-23+56+1+|N|Recompensa de los que guardan el pacto de Dios|+
-23+57+1+|N|Condenación de la idolatría de Israel|+
-23+58+1+|N|El verdadero ayuno|+
-23+58+13+|N|La observancia del día de reposo|+
-23+59+1+|N|Confesión del pecado de Israel|+
-23+60+1+|N|La futura gloria de Sion|+
-23+61+1+|N|Buenas nuevas de salvación para Sion|+
-23+63+1+|N|El día de la venganza de Jehová|+
-23+63+7+|N|Bondad de Jehová hacia Israel|+
-23+63+15+|N|Plegaria pidiendo misericordia y ayuda|+
-23+65+1+|N|Castigo de los rebeldes|+
-23+65+17+|N|Cielos nuevos y tierra nueva|+
-23+66+1+|N|Los juicios de Jehová y la futura prosperidad de Sion|+
-24+1+1+|N|Llamamiento y misión de Jeremías|+
-24+2+1+|N|Jehová y la apostasía de Israel|+
-24+3+6+|N|Jehová exhorta a Israel y a Judá al arrepentimiento|+
-24+4+5+|N|Judá es amenazada de invasión|+
-24+5+1+|N|Impiedad de Jerusalén y de Judá|+
-24+6+1+|N|El juicio contra Jerusalén y Judá|+
-24+7+1+|N|Mejorad vuestros caminos y vuestras obras|+
-24+7+21+|N|Castigo de la rebelión de Judá|+
-24+8+1+|N|Violación del pacto de libertar a los siervos hebreos|+
-24+8+18+|N|Lamento sobre Judá y Jerusalén|+
-24+9+12+|N|Amenaza de ruina y exilio|+
-24+9+23+|N|El conocimiento de Dios es la gloria del hombre|+
-24+10+1+|N|Los falsos dioses y el Dios verdadero|+
-24+10+17+|N|Asolamiento de Judá|+
-24+11+1+|N|El pacto violado|+
-24+11+18+|N|Complot contra Jeremías|+
-24+12+1+|N|Queja de Jeremías y respuesta de Dios|+
-24+13+1+|N|La señal del cinto podrido|+
-24+13+12+|N|La señal de las tinajas llenas|+
-24+13+15+|N|Judá será llevada en cautiverio|+
-24+14+1+|N|Mensaje con motivo de la sequía|+
-24+15+1+|N|La implacable ira de Dios contra Judá|+
-24+15+15+|N|Jehová reanima a Jeremías|+
-24+16+1+|N|Juicio de Jehová contra Judá|+
-24+17+1+|N|El pecado escrito en el corazón de Judá|+
-24+17+19+|N|Observancia del día de reposo|+
-24+18+1+|N|La señal del alfarero y el barro|+
-24+18+18+|N|Conspiración del pueblo y oración de Jeremías|+
-24+19+1+|N|La señal de la vasija rota|+
-24+20+1+|N|Profecía contra Pasur|+
-24+20+7+|N|Lamento de Jeremías|+
-24+21+1+|N|Jerusalén será destruida|+
-24+22+1+|N|Profecías contra los reyes de Judá|+
-24+23+1+|N|Regreso del remanente|+
-24+23+9+|N|Denunciación de los falsos profetas|+
-24+24+1+|N|La señal de los higos buenos y malos|+
-24+25+1+|N|Setenta años de desolación|+
-24+25+15+|N|La copa de ira para las naciones|+
-24+26+1+|N|Jeremías es amenazado de muerte|+
-24+27+1+|N|La señal de los yugos|+
-24+28+1+|N|Falsa profecía de Hananías|+
-24+29+1+|N|Carta de Jeremías a los cautivos|+
-24+30+1+|N|Dios promete que los cautivos volverán|+
-24+31+27+|N|El nuevo pacto|+
-24+32+1+|N|Jeremías compra la heredad de Hanameel|+
-24+33+1+|N|Restauración de la prosperidad de Jerusalén|+
-24+34+1+|N|Jeremías amonesta a Sedequías|+
-24+35+1+|N|Obediencia de los recabitas|+
-24+36+1+|N|El rey quema el rollo|+
-24+37+1+|N|Encarcelamiento de Jeremías|+
-24+38+1+|N|Jeremías en la cisterna|+
-24+38+14+|N|Sedequías consulta secretamente a Jeremías|+
-24+39+1+|N|Caída de Jerusalén|+
-24+39+11+|N|Nabucodonosor cuida de Jeremías|+
-24+39+15+|N|Dios promete librar a Ebed-melec|+
-24+40+1+|N|Jeremías y el remanente con Gedalías|+
-24+40+13+|N|Conspiración de Ismael contra Gedalías|+
-24+42+1+|N|Mensaje a Johanán|+
-24+43+1+|N|La emigración a Egipto|+
-24+44+1+|N|Jeremías profetiza a los judíos en Egipto|+
-24+45+1+|N|Mensaje a Baruc|+
-24+46+1+|N|Profecías acerca de Egipto|+
-24+47+1+|N|Profecía sobre los filisteos|+
-24+48+1+|N|Profecía sobre Moab|+
-24+49+1+|N|Profecía sobre los amonitas|+
-24+49+7+|N|Profecía sobre Edom|+
-24+49+23+|N|Profecía sobre Damasco|+
-24+49+28+|N|Profecía sobre Cedar y Hazor|+
-24+49+34+|N|Profecía sobre Elam|+
-24+50+1+|N|Profecía sobre Babilonia|+
-24+51+1+|N|Juicios de Jehová contra Babilonia|+
-24+52+1+|N|Reinado de Sedequías|+
-24+52+4+|N|Caída de Jerusalén|+
-24+52+12+|N|Cautividad de Judá|+
-24+52+31+|N|Joaquín es libertado y recibe honores en Babilonia|+
-25+1+1+|N|Tristezas de Sion la cautiva|+
-25+2+1+|N|Las tristezas de Sion vienen de Jehová|+
-25+3+1+|N|Esperanza de liberación por la misericordia de Dios|+
-25+4+1+|N|El castigo de Sion consumado|+
-25+5+1+|N|Oración del pueblo afligido|+
-26+1+1+|N|La visión de la gloria divina|+
-26+2+1+|N|Llamamiento de Ezequiel|+
-26+3+16+|N|El atalaya de Israel|+
-26+3+22+|N|El profeta mudo|+
-26+4+1+|N|Predicción del sitio de Jerusalén|+
-26+6+1+|N|Profecía contra los montes de Israel|+
-26+7+1+|N|El fin viene|+
-26+8+1+|N|Visión de las abominaciones en Jerusalén|+
-26+9+1+|N|Visión de la muerte de los culpables|+
-26+10+1+|N|La gloria de Dios abandona el templo|+
-26+11+1+|N|Reprensión de los príncipes malvados|+
-26+11+14+|N|Promesa de restauración y renovación|+
-26+12+1+|N|Salida de Ezequiel en señal de la cautividad|+
-26+13+1+|N|Condenación de los falsos profetas|+
-26+14+1+|N|Juicio contra los idólatras que consultan al profeta|+
-26+14+12+|N|Justicia del castigo de Jerusalén|+
-26+15+1+|N|Jerusalén es como una vid inútil|+
-26+16+1+|N|Infidelidad de Jerusalén|+
-26+17+1+|N|Parábola de las águilas y la vid|+
-26+18+1+|N|El alma que pecare morirá|+
-26+18+21+|N|El camino de Dios es justo|+
-26+19+1+|N|Lamentación sobre los príncipes de Israel|+
-26+20+1+|N|Modo de proceder de Dios con Israel|+
-26+20+45+|N|Profecía contra el Neguev|+
-26+21+1+|N|La espada afilada de Jehová|+
-26+21+28+|N|Juicio contra los amonitas|+
-26+22+1+|N|Los pecados de Jerusalén|+
-26+23+1+|N|Las dos hermanas|+
-26+24+1+|N|Parábola de la olla hirviente|+
-26+24+15+|N|Muerte de la esposa de Ezequiel|+
-26+25+1+|N|Profecía contra Amón|+
-26+25+8+|N|Profecía contra Moab|+
-26+25+12+|N|Profecía contra Edom|+
-26+25+15+|N|Profecía contra los filisteos|+
-26+26+1+|N|Profecía contra Tiro|+
-26+28+20+|N|Profecía contra Sidón|+
-26+29+1+|N|Profecías contra Egipto|+
-26+33+1+|N|El deber del atalaya|+
-26+33+10+|N|El camino de Dios es justo|+
-26+33+21+|N|Nuevas de la caída de Jerusalén|+
-26+34+1+|N|Profecía contra los pastores de Israel|+
-26+35+1+|N|Profecía contra el Monte Seir|+
-26+36+1+|N|Restauración futura de Israel|+
-26+37+1+|N|El valle de los huesos secos|+
-26+37+15+|N|La reunión de Judá e Israel|+
-26+38+1+|N|Profecía contra Gog|+
-26+40+1+|N|La visión del templo|+
-26+43+1+|N|La gloria de Jehová llena el templo|+
-26+43+6+|N|Leyes del templo|+
-26+47+1+|N|Las aguas salutíferas|+
-26+47+13+|N|Límites y repartición de la tierra|+
-27+1+1+|N|Daniel y sus compañeros en Babilonia|+
-27+2+1+|N|Daniel interpreta el sueño de Nabucodonosor|+
-27+3+1+|N|Rescatados del horno de fuego|+
-27+4+1+|N|La locura de Nabucodonosor|+
-27+5+1+|N|La escritura en la pared|+
-27+6+1+|N|Daniel en el foso de los leones|+
-27+7+1+|N|Visión de las cuatro bestias|+
-27+8+1+|N|Visión del carnero y del macho cabrío|+
-27+9+1+|N|Oración de Daniel por su pueblo|+
-27+9+20+|N|Profecía de las setenta semanas|+
-27+10+1+|N|Visión de Daniel junto al río|+
-27+11+2+|N|Los reyes del norte y del sur|+
-27+12+1+|N|El tiempo del fin|+
-28+1+1+|N|La esposa infiel de Oseas, y sus hijos|+
-28+2+1+|N|El amor de Jehová hacia su pueblo infiel|+
-28+3+1+|N|Oseas y la adúltera|+
-28+4+1+|N|Controversia de Jehová con Israel|+
-28+5+1+|N|Castigo de la apostasía de Israel|+
-28+5+15+|N|Insinceridad del arrepentimiento de Israel|+
-28+7+1+|N|Iniquidad y rebelión de Israel|+
-28+8+1+|N|Reprensión de la idolatría de Israel|+
-28+9+1+|N|Castigo de la persistente infidelidad de Israel|+
-28+11+1+|N|Dios se compadece de su pueblo obstinado|+
-28+12+1+|N|Efraín reprendido por su falsedad y opresión|+
-28+13+1+|N|Destrucción total de Efraín predicha|+
-28+14+1+|N|Súplica a Israel para que vuelva a Jehová|+
-29+1+1+|N|Devastación de la tierra por la langosta|+
-29+2+12+|N|La misericordia de Jehová|+
-29+2+28+|N|Derramamiento del Espíritu de Dios|+
-29+3+1+|N|Juicio de Jehová sobre las naciones|+
-29+3+16+|N|Liberación de Judá|+
-30+1+1+|N|Juicios contra las naciones vecinas|+
-30+2+6+|N|Juicio contra Israel|+
-30+3+1+|N|El rugido del león|+
-30+3+9+|N|Destrucción de Samaria|+
-30+4+4+|N|Aunque castigado, Israel no aprende|+
-30+5+1+|N|Llamamiento al arrepentimiento|+
-30+6+1+|N|Destrucción de Israel|+
-30+7+1+|N|Tres visiones de destrucción|+
-30+7+10+|N|Amós y Amasías|+
-30+8+1+|N|El canastillo de fruta de verano|+
-30+8+4+|N|El juicio sobre Israel se acerca|+
-30+9+1+|N|Los juicios de Jehová son ineludibles|+
-30+9+11+|N|Restauración futura de Israel|+
-31+1+1+|N|La humillación de Edom|+
-31+1+15+|N|La exaltación de Israel|+
-32+1+1+|N|Jonás huye de Jehová|+
-32+2+1+|N|Oración de Jonás|+
-32+3+1+|N|Nínive se arrepiente|+
-32+4+1+|N|El enojo de Jonás|+
-33+1+1+|N|Lamento sobre Samaria y Jerusalén|+
-33+2+1+|N|!!Ay de los que oprimen a los pobres!|+
-33+3+1+|N|Acusación contra los dirigentes de Israel|+
-33+4+1+|N|Reinado universal de Jehová|+
-33+4+6+|N|Israel será redimido del cautiverio|+
-33+5+1+|N|El reinado del libertador desde Belén|+
-33+6+1+|N|Controversia de Jehová contra Israel|+
-33+6+6+|N|Lo que pide Jehová|+
-33+7+1+|N|Corrupción moral de Israel|+
-33+7+8+|N|Jehová trae luz y libertad|+
-33+7+14+|N|Compasión de Jehová por Israel|+
-34+1+1+|N|La ira vengadora de Dios|+
-34+1+15+|N|Anuncio de la caída de Nínive|+
-34+2+13+|N|Destrucción total de Nínive|+
-35+1+1+|N|Habacuc se queja de injusticia|+
-35+1+5+|N|Los caldeos castigarán a Judá|+
-35+1+12+|N|Protesta de Habacuc|+
-35+2+1+|N|Jehová responde a Habacuc|+
-35+2+6+|N|Ayes contra los injustos|+
-35+3+1+|N|Oración de Habacuc|+
-36+1+1+|N|El día de la ira de Jehová|+
-36+2+1+|N|Juicios contra las naciones vecinas|+
-36+3+1+|N|El pecado de Jerusalén, y su redención|+
-37+1+1+|N|Exhortación a edificar el templo|+
-37+2+1+|N|La gloria del nuevo templo|+
-37+2+10+|N|La infidelidad del pueblo es reprendida|+
-37+2+20+|N|Promesa de Jehová a Zorobabel|+
-38+1+1+|N|Llamamiento a volver a Jehová|+
-38+1+7+|N|La visión de los caballos|+
-38+1+18+|N|Visión de los cuernos y los carpinteros|+
-38+2+1+|N|Llamamiento a los cautivos|+
-38+3+1+|N|Visión del sumo sacerdote Josué|+
-38+4+1+|N|El candelabro de oro y los olivos|+
-38+5+1+|N|El rollo volante|+
-38+5+5+|N|La mujer en el efa|+
-38+6+1+|N|Los cuatro carros|+
-38+6+9+|N|Coronación simbólica de Josué|+
-38+7+1+|N|El ayuno que Dios reprueba|+
-38+7+8+|N|La desobediencia, causa del cautiverio|+
-38+8+1+|N|Promesa de la restauración de Jerusalén|+
-38+9+1+|N|Castigo de las naciones vecinas|+
-38+9+9+|N|El futuro rey de Sion|+
-38+10+1+|N|Jehová redimirá a su pueblo|+
-38+11+4+|N|Los pastores inútiles|+
-38+12+1+|N|Liberación futura de Jerusalén|+
-38+13+7+|N|El pastor de Jehová es herido|+
-38+14+1+|N|Jerusalén y las naciones|+
-39+1+1+|N|Amor de Jehová por Jacob|+
-39+1+6+|N|Jehová reprende a los sacerdotes|+
-39+2+1+|N|Reprensión de la infidelidad de Israel|+
-39+2+17+|N|El día del juicio se acerca|+
-39+3+6+|N|El pago de los diezmos|+
-39+3+13+|N|Diferencia entre el justo y el malo|+
-39+4+1+|N|El advenimiento del día de Jehová|+
-40+1+1+|N|Genealogía de Jesucristo|+
-40+1+18+|N|Nacimiento de Jesucristo|+
-40+2+1+|N|La visita de los magos|+
-40+2+13+|N|Matanza de los niños|+
-40+3+1+|N|Predicación de Juan el Bautista|+
-40+3+13+|N|El bautismo de Jesús|+
-40+4+1+|N|Tentación de Jesús|+
-40+4+12+|N|Jesús principia su ministerio|+
-40+5+1+|N|El Sermón del monte: Las bienaventuranzas|+
-40+5+13+|N|La sal de la tierra|+
-40+5+14+|N|La luz del mundo|+
-40+5+17+|N|Jesús y la ley|+
-40+5+21+|N|Jesús y la ira|+
-40+5+27+|N|Jesús y el adulterio|+
-40+5+31+|N|Jesús y el divorcio|+
-40+5+33+|N|Jesús y los juramentos|+
-40+5+38+|N|El amor hacia los enemigos|+
-40+6+1+|N|Jesús y la limosna|+
-40+6+5+|N|Jesús y la oración|+
-40+6+16+|N|Jesús y el ayuno|+
-40+6+19+|N|Tesoros en el cielo|+
-40+6+22+|N|La lámpara del cuerpo|+
-40+6+24+|N|Dios y las riquezas|+
-40+6+25+|N|El afán y la ansiedad|+
-40+7+1+|N|El juzgar a los demás|+
-40+7+7+|N|La oración, y la regla de oro|+
-40+7+13+|N|La puerta estrecha|+
-40+7+15+|N|Por sus frutos los conoceréis|+
-40+7+21+|N|Nunca os conocí|+
-40+7+24+|N|Los dos cimientos|+
-40+8+1+|N|Jesús sana a un leproso|+
-40+8+5+|N|Jesús sana al siervo de un centurión|+
-40+8+14+|N|Jesús sana a la suegra de Pedro|+
-40+8+18+|N|Los que querían seguir a Jesús|+
-40+8+23+|N|Jesús calma la tempestad|+
-40+8+28+|N|Los endemoniados gadarenos|+
-40+9+1+|N|Jesús sana a un paralítico|+
-40+9+9+|N|Llamamiento de Mateo|+
-40+9+14+|N|La pregunta sobre el ayuno|+
-40+9+18+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús|+
-40+9+27+|N|Dos ciegos reciben la vista|+
-40+9+32+|N|Un mudo habla|+
-40+9+35+|N|La mies es mucha|+
-40+10+1+|N|Elección de los doce apóstoles|+
-40+10+5+|N|Misión de los doce|+
-40+10+16+|N|Persecuciones venideras|+
-40+10+26+|N|A quién se debe temer|+
-40+10+34+|N|Jesús, causa de división|+
-40+10+40+|N|Recompensas|+
-40+11+1+|N|Los mensajeros de Juan el Bautista|+
-40+11+20+|N|Ayes sobre las ciudades impenitentes|+
-40+11+25+|N|Venid a mí y descansad|+
-40+12+1+|N|Los discípulos recogen espigas en el día de reposo|+
-40+12+9+|N|El hombre de la mano seca|+
-40+12+15+|N|El siervo escogido|+
-40+12+22+|N|La blasfemia contra el Espíritu Santo|+
-40+12+38+|N|La generación perversa demanda señal|+
-40+12+43+|N|El espíritu inmundo que vuelve|+
-40+12+46+|N|La madre y los hermanos de Jesús|+
-40+13+1+|N|Parábola del sembrador|+
-40+13+10+|N|Propósito de las parábolas|+
-40+13+18+|N|Jesús explica la parábola del sembrador|+
-40+13+24+|N|Parábola del trigo y la cizaña|+
-40+13+31+|N|Parábola de la semilla de mostaza|+
-40+13+33+|N|Parábola de la levadura|+
-40+13+34+|N|El uso que Jesús hace de las parábolas|+
-40+13+44+|N|El tesoro escondido|+
-40+13+45+|N|La perla de gran precio|+
-40+13+47+|N|La red|+
-40+13+51+|N|Tesoros nuevos y viejos|+
-40+13+53+|N|Jesús en Nazaret|+
-40+14+1+|N|Muerte de Juan el Bautista|+
-40+14+13+|N|Alimentación de los cinco mil|+
-40+14+22+|N|Jesús anda sobre el mar|+
-40+14+34+|N|Jesús sana a los enfermos en Genesaret|+
-40+14+36+|N|Jesús explica la parábola de la cizaña|+
-40+15+1+|N|Lo que contamina al hombre|+
-40+15+21+|N|La fe de la mujer cananea|+
-40+15+29+|N|Jesús sana a muchos|+
-40+15+32+|N|Alimentación de los cuatro mil|+
-40+16+1+|N|La demanda de una señal|+
-40+16+5+|N|La levadura de los fariseos|+
-40+16+13+|N|La confesión de Pedro|+
-40+16+21+|N|Jesús anuncia su muerte|+
-40+17+1+|N|La transfiguración|+
-40+17+14+|N|Jesús sana a un muchacho lunático|+
-40+17+22+|N|Jesús anuncia otra vez su muerte|+
-40+17+24+|N|Pago del impuesto del templo|+
-40+18+1+|N|¿Quién es el mayor?|+
-40+18+6+|N|Ocasiones de caer|+
-40+18+10+|N|Parábola de la oveja perdida|+
-40+18+15+|N|Cómo se debe perdonar al hermano|+
-40+18+23+|N|Los dos deudores|+
-40+19+1+|N|Jesús enseña sobre el divorcio|+
-40+19+13+|N|Jesús bendice a los niños|+
-40+19+16+|N|El joven rico|+
-40+20+1+|N|Los obreros de la viña|+
-40+20+17+|N|Nuevamente Jesús anuncia su muerte|+
-40+20+20+|N|Petición de Santiago y de Juan|+
-40+20+29+|N|Dos ciegos reciben la vista|+
-40+21+1+|N|La entrada triunfal en Jerusalén|+
-40+21+12+|N|Purificación del templo|+
-40+21+18+|N|Maldición de la higuera estéril|+
-40+21+23+|N|La autoridad de Jesús|+
-40+21+28+|N|Parábola de los dos hijos|+
-40+21+33+|N|Los labradores malvados|+
-40+22+1+|N|Parábola de la fiesta de bodas|+
-40+22+15+|N|La cuestión del tributo|+
-40+22+23+|N|La pregunta sobre la resurrección|+
-40+22+34+|N|El gran mandamiento|+
-40+22+41+|N|¿De quién es hijo el Cristo?|+
-40+23+1+|N|Jesús acusa a escribas y fariseos|+
-40+23+37+|N|Lamento de Jesús sobre Jerusalén|+
-40+24+1+|N|Jesús predice la destrucción del templo|+
-40+24+3+|N|Señales antes del fin|+
-40+24+29+|N|La venida del Hijo del Hombre|+
-40+25+1+|N|Parábola de las diez vírgenes|+
-40+25+14+|N|Parábola de los talentos|+
-40+25+31+|N|El juicio de las naciones|+
-40+26+1+|N|El complot para prender a Jesús|+
-40+26+6+|N|Jesús es ungido en Betania|+
-40+26+14+|N|Judas ofrece entregar a Jesús|+
-40+26+17+|N|Institución de la Cena del Señor|+
-40+26+30+|N|Jesús anuncia la negación de Pedro|+
-40+26+36+|N|Jesús ora en Getsemaní|+
-40+26+47+|N|Arresto de Jesús|+
-40+26+57+|N|Jesús ante el concilio|+
-40+26+69+|N|Pedro niega a Jesús|+
-40+27+1+|N|Jesús ante Pilato|+
-40+27+3+|N|Muerte de Judas|+
-40+27+11+|N|Pilato interroga a Jesús|+
-40+27+15+|N|Jesús sentenciado a muerte|+
-40+27+32+|N|Crucifixión y muerte de Jesús|+
-40+27+57+|N|Jesús es sepultado|+
-40+27+62+|N|La guardia ante la tumba|+
-40+28+1+|N|La resurrección|+
-40+28+11+|N|El informe de la guardia|+
-40+28+16+|N|La gran comisión|+
-41+1+1+|N|Predicación de Juan el Bautista|+
-41+1+9+|N|El bautismo de Jesús|+
-41+1+12+|N|Tentación de Jesús|+
-41+1+14+|N|Jesús principia su ministerio|+
-41+1+16+|N|Jesús llama a cuatro pescadores|+
-41+1+21+|N|Un hombre que tenía un espíritu inmundo|+
-41+1+29+|N|Jesús sana a la suegra de Pedro|+
-41+1+32+|N|Muchos sanados al ponerse el sol|+
-41+1+35+|N|Jesús recorre Galilea predicando|+
-41+1+40+|N|Jesús sana a un leproso|+
-41+2+1+|N|Jesús sana a un paralítico|+
-41+2+13+|N|Llamamiento de Leví|+
-41+2+18+|N|La pregunta sobre el ayuno|+
-41+2+23+|N|Los discípulos recogen espigas en el día de reposo|+
-41+3+1+|N|El hombre de la mano seca|+
-41+3+7+|N|La multitud a la orilla del mar|+
-41+3+13+|N|Elección de los doce apóstoles|+
-41+3+20+|N|La blasfemia contra el Espíritu Santo|+
-41+3+31+|N|La madre y los hermanos de Jesús|+
-41+4+1+|N|Parábola del sembrador|+
-41+4+21+|N|Nada oculto que no haya de ser manifestado|+
-41+4+26+|N|Parábola del crecimiento de la semilla|+
-41+4+30+|N|Parábola de la semilla de mostaza|+
-41+4+33+|N|El uso que Jesús hace de las parábolas|+
-41+4+35+|N|Jesús calma la tempestad|+
-41+5+1+|N|El endemoniado gadareno|+
-41+5+21+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús|+
-41+6+1+|N|Jesús en Nazaret|+
-41+6+7+|N|Misión de los doce discípulos|+
-41+6+14+|N|Muerte de Juan el Bautista|+
-41+6+30+|N|Alimentación de los cinco mil|+
-41+6+45+|N|Jesús anda sobre el mar|+
-41+6+53+|N|Jesús sana a los enfermos en Genesaret|+
-41+7+1+|N|Lo que contamina al hombre|+
-41+7+24+|N|La fe de la mujer sirofenicia|+
-41+7+31+|N|Jesús sana a un sordomudo|+
-41+8+1+|N|Alimentación de los cuatro mil|+
-41+8+11+|N|La demanda de una señal|+
-41+8+14+|N|La levadura de los fariseos|+
-41+8+22+|N|Un ciego sanado en Betsaida|+
-41+8+27+|N|La confesión de Pedro|+
-41+8+31+|N|Jesús anuncia su muerte|+
-41+9+2+|N|La transfiguración|+
-41+9+14+|N|Jesús sana a un muchacho endemoniado|+
-41+9+30+|N|Jesús anuncia otra vez su muerte|+
-41+9+33+|N|¿Quién es el mayor?|+
-41+9+38+|N|El que no es contra nosotros, por nosotros es|+
-41+9+42+|N|Ocasiones de caer|+
-41+10+1+|N|Jesús enseña sobre el divorcio|+
-41+10+13+|N|Jesús bendice a los niños|+
-41+10+17+|N|El joven rico|+
-41+10+32+|N|Nuevamente Jesús anuncia su muerte|+
-41+10+35+|N|Petición de Santiago y de Juan|+
-41+10+46+|N|El ciego Bartimeo recibe la vista|+
-41+11+1+|N|La entrada triunfal en Jerusalén|+
-41+11+12+|N|Maldición de la higuera estéril|+
-41+11+15+|N|Purificación del templo|+
-41+11+20+|N|La higuera maldecida se seca|+
-41+11+27+|N|La autoridad de Jesús|+
-41+12+1+|N|Los labradores malvados|+
-41+12+13+|N|La cuestión del tributo|+
-41+12+18+|N|La pregunta sobre la resurrección|+
-41+12+28+|N|El gran mandamiento|+
-41+12+35+|N|¿De quién es hijo el Cristo?|+
-41+12+38+|N|Jesús acusa a los escribas|+
-41+12+41+|N|La ofrenda de la viuda|+
-41+13+1+|N|Jesús predice la destrucción del templo|+
-41+13+3+|N|Señales antes del fin|+
-41+13+24+|N|La venida del Hijo del Hombre|+
-41+14+1+|N|El complot para prender a Jesús|+
-41+14+3+|N|Jesús es ungido en Betania|+
-41+14+10+|N|Judas ofrece entregar a Jesús|+
-41+14+12+|N|Institución de la Cena del Señor|+
-41+14+26+|N|Jesús anuncia la negación de Pedro|+
-41+14+32+|N|Jesús ora en Getsemaní|+
-41+14+43+|N|Arresto de Jesús|+
-41+14+51+|N|El joven que huyó|+
-41+14+53+|N|Jesús ante el concilio|+
-41+14+66+|N|Pedro niega a Jesús|+
-41+15+1+|N|Jesús ante Pilato|+
-41+15+6+|N|Jesús sentenciado a muerte|+
-41+15+21+|N|Crucifixión y muerte de Jesús|+
-41+15+42+|N|Jesús es sepultado|+
-41+16+1+|N|La resurrección|+
-41+16+9+|N|Jesús se aparece a María Magdalena|+
-41+16+12+|N|Jesús se aparece a dos de sus discípulos|+
-41+16+14+|N|Jesús comisiona a los apóstoles|+
-41+16+19+|N|La ascensión|+
-42+1+1+|N|Dedicatoria a Teófilo|+
-42+1+5+|N|Anuncio del nacimiento de Juan|+
-42+1+26+|N|Anuncio del nacimiento de Jesús|+
-42+1+39+|N|María visita a Elisabet|+
-42+1+57+|N|Nacimiento de Juan el Bautista|+
-42+1+67+|N|Profecía de Zacarías|+
-42+2+1+|N|Nacimiento de Jesús|+
-42+2+8+|N|Los ángeles y los pastores|+
-42+2+21+|N|Presentación de Jesús en el templo|+
-42+2+39+|N|El regreso a Nazaret|+
-42+2+41+|N|El niño Jesús en el templo|+
-42+3+1+|N|Predicación de Juan el Bautista|+
-42+3+21+|N|El bautismo de Jesús|+
-42+3+23+|N|Genealogía de Jesús|+
-42+4+1+|N|Tentación de Jesús|+
-42+4+14+|N|Jesús principia su ministerio|+
-42+4+16+|N|Jesús en Nazaret|+
-42+4+31+|N|Un hombre que tenía un espíritu inmundo|+
-42+4+38+|N|Jesús sana a la suegra de Pedro|+
-42+4+40+|N|Muchos sanados al ponerse el sol|+
-42+4+42+|N|Jesús recorre Galilea predicando|+
-42+5+1+|N|La pesca milagrosa|+
-42+5+12+|N|Jesús sana a un leproso|+
-42+5+17+|N|Jesús sana a un paralítico|+
-42+5+27+|N|Llamamiento de Leví|+
-42+5+33+|N|La pregunta sobre el ayuno|+
-42+6+1+|N|Los discípulos recogen espigas en el día de reposo|+
-42+6+6+|N|El hombre de la mano seca|+
-42+6+12+|N|Elección de los doce apóstoles|+
-42+6+17+|N|Jesús atiende a una multitud|+
-42+6+20+|N|Bienaventuranzas y ayes|+
-42+6+27+|N|El amor hacia los enemigos, y la regla de oro|+
-42+6+37+|N|El juzgar a los demás|+
-42+6+43+|N|Por sus frutos los conoceréis|+
-42+6+46+|N|Los dos cimientos|+
-42+7+1+|N|Jesús sana al siervo de un centurión|+
-42+7+11+|N|Jesús resucita al hijo de la viuda de Naín|+
-42+7+18+|N|Los mensajeros de Juan el Bautista|+
-42+7+36+|N|Jesús en el hogar de Simón el fariseo|+
-42+8+1+|N|Mujeres que sirven a Jesús|+
-42+8+4+|N|Parábola del sembrador|+
-42+8+16+|N|Nada oculto que no haya de ser manifestado|+
-42+8+19+|N|La madre y los hermanos de Jesús|+
-42+8+22+|N|Jesús calma la tempestad|+
-42+8+26+|N|El endemoniado gadareno|+
-42+8+40+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús|+
-42+9+1+|N|Misión de los doce discípulos|+
-42+9+7+|N|Muerte de Juan el Bautista|+
-42+9+10+|N|Alimentación de los cinco mil|+
-42+9+18+|N|La confesión de Pedro|+
-42+9+21+|N|Jesús anuncia su muerte|+
-42+9+28+|N|La transfiguración|+
-42+9+37+|N|Jesús sana a un muchacho endemoniado|+
-42+9+44+|N|Jesús anuncia otra vez su muerte|+
-42+9+46+|N|¿Quién es el mayor?|+
-42+9+49+|N|El que no es contra nosotros, por nosotros es|+
-42+9+51+|N|Jesús reprende a Jacobo y a Juan|+
-42+9+57+|N|Los que querían seguir a Jesús|+
-42+10+1+|N|Misión de los setenta|+
-42+10+13+|N|Ayes sobre las ciudades impenitentes|+
-42+10+17+|N|Regreso de los setenta|+
-42+10+21+|N|Jesús se regocija|+
-42+10+25+|N|El buen samaritano|+
-42+10+38+|N|Jesús visita a Marta y a María|+
-42+11+1+|N|Jesús y la oración|+
-42+11+14+|N|Una casa dividida contra sí misma|+
-42+11+24+|N|El espíritu inmundo que vuelve|+
-42+11+27+|N|Los que en verdad son bienaventurados|+
-42+11+29+|N|La generación perversa demanda señal|+
-42+11+33+|N|La lámpara del cuerpo|+
-42+11+37+|N|Jesús acusa a fariseos y a intérpretes de la ley|+
-42+12+1+|N|La levadura de los fariseos|+
-42+12+4+|N|A quién se debe temer|+
-42+12+8+|N|El que me confesare delante de los hombres|+
-42+12+13+|N|El rico insensato1|+
-42+12+22+|N|El afán y la ansiedad|+
-42+12+32+|N|Tesoro en el cielo|+
-42+12+35+|N|El siervo vigilante|+
-42+12+41+|N|El siervo infiel|+
-42+12+49+|N|Jesús, causa de división|+
-42+12+54+|N|¿Cómo no reconocéis este tiempo?|+
-42+12+57+|N|Arréglate con tu adversario|+
-42+13+1+|N|Arrepentíos o pereceréis|+
-42+13+6+|N|Parábola de la higuera estéril|+
-42+13+10+|N|Jesús sana a una mujer en el día de reposo|+
-42+13+18+|N|Parábola de la semilla de mostaza|+
-42+13+20+|N|Parábola de la levadura|+
-42+13+22+|N|La puerta estrecha|+
-42+13+31+|N|Lamento de Jesús sobre Jerusalén|+
-42+14+1+|N|Jesús sana a un hidrópico|+
-42+14+7+|N|Los convidados a las bodas|+
-42+14+15+|N|Parábola de la gran cena|+
-42+14+25+|N|Lo que cuesta seguir a Cristo|+
-42+14+34+|N|Cuando la sal pierde su sabor|+
-42+15+1+|N|Parábola de la oveja perdida|+
-42+15+8+|N|Parábola de la moneda perdida|+
-42+15+11+|N|Parábola del hijo pródigo|+
-42+16+1+|N|Parábola del mayordomo infiel|+
-42+16+16+|N|La ley y el reino de Dios|+
-42+16+18+|N|Jesús enseña sobre el divorcio|+
-42+16+19+|N|El rico y Lázaro|+
-42+17+1+|N|Ocasiones de caer|+
-42+17+5+|N|Auméntanos la fe|+
-42+17+7+|N|El deber del siervo|+
-42+17+11+|N|Diez leprosos son limpiados|+
-42+17+20+|N|La venida del Reino|+
-42+18+1+|N|Parábola de la viuda y el juez injusto|+
-42+18+9+|N|Parábola del fariseo y el publicano|+
-42+18+15+|N|Jesús bendice a los niños|+
-42+18+18+|N|El joven rico|+
-42+18+31+|N|Nuevamente Jesús anuncia su muerte|+
-42+18+35+|N|Un ciego de Jericó recibe la vista|+
-42+19+1+|N|Jesús y Zaqueo|+
-42+19+11+|N|Parábola de las diez minas|+
-42+19+28+|N|La entrada triunfal en Jerusalén|+
-42+19+45+|N|Purificación del templo|+
-42+20+1+|N|La autoridad de Jesús|+
-42+20+9+|N|Los labradores malvados|+
-42+20+19+|N|La cuestión del tributo|+
-42+20+27+|N|La pregunta sobre la resurrección|+
-42+20+41+|N|¿De quién es hijo el Cristo?|+
-42+20+45+|N|Jesús acusa a los escribas|+
-42+21+1+|N|La ofrenda de la viuda|+
-42+21+5+|N|Jesús predice la destrucción del templo|+
-42+21+7+|N|Señales antes del fin|+
-42+21+25+|N|La venida del Hijo del Hombre|+
-42+22+1+|N|El complot para matar a Jesús|+
-42+22+7+|N|Institución de la Cena del Señor|+
-42+22+24+|N|La grandeza en el servicio|+
-42+22+31+|N|Jesús anuncia la negación de Pedro|+
-42+22+35+|N|Bolsa, alforja y espada|+
-42+22+39+|N|Jesús ora en Getsemaní|+
-42+22+47+|N|Arresto de Jesús|+
-42+22+54+|N|Pedro niega a Jesús|+
-42+22+63+|N|Jesús escarnecido y azotado|+
-42+22+66+|N|Jesús ante el concilio|+
-42+23+1+|N|Jesús ante Pilato|+
-42+23+6+|N|Jesús ante Herodes|+
-42+23+13+|N|Jesús sentenciado a muerte|+
-42+23+26+|N|Crucifixión y muerte de Jesús|+
-42+23+50+|N|Jesús es sepultado|+
-42+24+1+|N|La resurrección|+
-42+24+13+|N|En el camino a Emaús|+
-42+24+36+|N|Jesús se aparece a los discípulos|+
-42+24+50+|N|La ascensión|+
-43+1+1+|N|El Verbo hecho carne|+
-43+1+19+|N|Testimonio de Juan el Bautista|+
-43+1+29+|N|El Cordero de Dios|+
-43+1+35+|N|Los primeros discípulos|+
-43+1+43+|N|Jesús llama a Felipe y a Natanael|+
-43+2+1+|N|Las bodas de Caná|+
-43+2+13+|N|Jesús purifica el templo|+
-43+2+23+|N|Jesús conoce a todos los hombres|+
-43+3+1+|N|Jesús y Nicodemo|+
-43+3+16+|N|De tal manera amó Dios al mundo|+
-43+3+22+|N|El amigo del esposo|+
-43+3+31+|N|El que viene de arriba|+
-43+4+1+|N|Jesús y la mujer samaritana|+
-43+4+43+|N|Jesús sana al hijo de un noble|+
-43+5+1+|N|El paralítico de Betesda|+
-43+5+19+|N|La autoridad del Hijo|+
-43+5+30+|N|Testigos de Cristo|+
-43+6+1+|N|Alimentación de los cinco mil|+
-43+6+16+|N|Jesús anda sobre el mar|+
-43+6+22+|N|La gente busca a Jesús|+
-43+6+25+|N|Jesús, el pan de vida|+
-43+6+60+|N|Palabras de vida eterna|+
-43+7+1+|N|Incredulidad de los hermanos de Jesús|+
-43+7+10+|N|Jesús en la fiesta de los tabernáculos|+
-43+7+25+|N|¿Es éste el Cristo?|+
-43+7+32+|N|Los fariseos envían alguaciles para prender a Jesús|+
-43+7+37+|N|Ríos de agua viva|+
-43+7+40+|N|División entre la gente|+
-43+7+45+|N|!!Nunca ha hablado hombre así!|+
-43+7+53+|N|La mujer adúltera|+
-43+8+12+|N|Jesús, la luz del mundo|+
-43+8+21+|N|A donde yo voy, vosotros no podéis venir|+
-43+8+31+|N|La verdad os hará libres|+
-43+8+39+|N|Sois de vuestro padre el diablo|+
-43+8+48+|N|La preexistencia de Cristo|+
-43+9+1+|N|Jesús sana a un ciego de nacimiento|+
-43+9+13+|N|Los fariseos interrogan al ciego sanado|+
-43+9+35+|N|Ceguera espiritual|+
-43+10+1+|N|Parábola del redil|+
-43+10+7+|N|Jesús, el buen pastor|+
-43+10+22+|N|Los judíos rechazan a Jesús|+
-43+11+1+|N|Muerte de Lázaro|+
-43+11+17+|N|Jesús, la resurrección y la vida|+
-43+11+28+|N|Jesús llora ante la tumba de Lázaro|+
-43+11+38+|N|Resurrección de Lázaro|+
-43+11+45+|N|El complot para matar a Jesús|+
-43+12+1+|N|Jesús es ungido en Betania|+
-43+12+9+|N|El complot contra Lázaro|+
-43+12+12+|N|La entrada triunfal en Jerusalén|+
-43+12+20+|N|Unos griegos buscan a Jesús|+
-43+12+27+|N|Jesús anuncia su muerte|+
-43+12+37+|N|Incredulidad de los judíos|+
-43+12+44+|N|Las palabras de Jesús juzgarán a los hombres|+
-43+13+1+|N|Jesús lava los pies de sus discípulos|+
-43+13+21+|N|Jesús anuncia la traición de Judas|+
-43+13+31+|N|El nuevo mandamiento|+
-43+13+36+|N|Jesús anuncia la negación de Pedro|+
-43+14+1+|N|Jesús, el camino al Padre|+
-43+14+15+|N|La promesa del Espíritu Santo|+
-43+15+1+|N|Jesús, la vid verdadera|+
-43+15+18+|N|El mundo os aborrecerá|+
-43+16+5+|N|La obra del Espíritu Santo|+
-43+16+16+|N|La tristeza se convertirá en gozo|+
-43+16+25+|N|Yo he vencido al mundo|+
-43+17+1+|N|Jesús ora por sus discípulos|+
-43+18+1+|N|Arresto de Jesús|+
-43+18+12+|N|Jesús ante el sumo sacerdote|+
-43+18+15+|N|Pedro en el patio de Anás|+
-43+18+19+|N|Anás interroga a Jesús|+
-43+18+25+|N|Pedro niega a Jesús|+
-43+18+28+|N|Jesús ante Pilato|+
-43+19+17+|N|Crucifixión y muerte de Jesús|+
-43+19+31+|N|El costado de Jesús traspasado|+
-43+19+38+|N|Jesús es sepultado|+
-43+20+1+|N|La resurrección|+
-43+20+11+|N|Jesús se aparece a María Magdalena|+
-43+20+19+|N|Jesús se aparece a los discípulos|+
-43+20+24+|N|Incredulidad de Tomás|+
-43+20+30+|N|El propósito del libro|+
-43+21+1+|N|Jesús se aparece a siete de sus discípulos|+
-43+21+15+|N|Apacienta mis ovejas|+
-43+21+20+|N|El discípulo amado|+
-44+1+1+|N|La promesa del Espíritu Santo|+
-44+1+6+|N|La ascensión|+
-44+1+12+|N|Elección del sucesor de Judas|+
-44+2+1+|N|La venida del Espíritu Santo|+
-44+2+14+|N|Primer discurso de Pedro|+
-44+2+43+|N|La vida de los primeros cristianos|+
-44+3+1+|N|Curación de un cojo|+
-44+3+11+|N|Discurso de Pedro en el pórtico de Salomón|+
-44+4+1+|N|Pedro y Juan ante el concilio|+
-44+4+23+|N|Los creyentes piden confianza y valor|+
-44+4+32+|N|Todas las cosas en común|+
-44+5+1+|N|Ananías y Safira|+
-44+5+12+|N|Muchas señales y maravillas|+
-44+5+17+|N|Pedro y Juan son perseguidos|+
-44+6+1+|N|Elección de siete diáconos|+
-44+6+8+|N|Arresto de Esteban|+
-44+7+1+|N|Defensa y muerte de Esteban|+
-44+8+1+|N|Saulo persigue a la iglesia|+
-44+8+4+|N|Predicación del evangelio en Samaria|+
-44+8+26+|N|Felipe y el etíope|+
-44+9+1+|N|Conversión de Saulo|+
-44+9+20+|N|Saulo predica en Damasco|+
-44+9+23+|N|Saulo escapa de los judíos|+
-44+9+26+|N|Saulo en Jerusalén|+
-44+9+32+|N|Curación de Eneas|+
-44+9+36+|N|Dorcas es resucitada|+
-44+10+1+|N|Pedro y Cornelio|+
-44+11+1+|N|Informe de Pedro a la iglesia de Jerusalén|+
-44+11+19+|N|La iglesia en Antioquía|+
-44+12+1+|N|Jacobo, muerto; Pedro, encarcelado|+
-44+12+6+|N|Pedro es librado de la cárcel|+
-44+12+20+|N|Muerte de Herodes|+
-44+13+1+|N|Bernabé y Saulo comienzan su primer viaje misionero|+
-44+13+4+|N|Los apóstoles predican en Chipre|+
-44+13+13+|N|Pablo y Bernabé en Antioquía de Pisidia|+
-44+14+1+|N|Pablo y Bernabé en Iconio|+
-44+14+8+|N|Pablo es apedreado en Listra|+
-44+14+24+|N|El regreso a Antioquía de Siria|+
-44+15+1+|N|El concilio en Jerusalén|+
-44+15+36+|N|Pablo se separa de Bernabé, y comienza su segundo viaje|+
-44+16+1+|N|Timoteo acompaña a Pablo y a Silas|+
-44+16+6+|N|La visión del varón macedonio|+
-44+16+11+|N|Encarcelados en Filipos|+
-44+17+1+|N|El alboroto en Tesalónica|+
-44+17+10+|N|Pablo y Silas en Berea|+
-44+17+16+|N|Pablo en Atenas|+
-44+18+1+|N|Pablo en Corinto|+
-44+18+22+|N|Pablo regresa a Antioquía y comienza su tercer viaje misionero|+
-44+18+24+|N|Apolos predica en Efeso|+
-44+19+1+|N|Pablo en Efeso|+
-44+19+23+|N|El alboroto en Efeso|+
-44+20+1+|N|Viaje de Pablo a Macedonia y Grecia|+
-44+20+7+|N|Visita de despedida de Pablo en Troas|+
-44+20+13+|N|Viaje de Troas a Mileto|+
-44+20+17+|N|Discurso de despedida de Pablo en Mileto|+
-44+21+1+|N|Viaje de Pablo a Jerusalén|+
-44+21+17+|N|Arresto de Pablo en el templo|+
-44+21+37+|N|Defensa de Pablo ante el pueblo|+
-44+22+6+|N|Pablo relata su conversión|+
-44+22+17+|N|Pablo es enviado a los gentiles|+
-44+22+22+|N|Pablo en manos del tribuno|+
-44+22+30+|N|Pablo ante el concilio|+
-44+23+12+|N|Complot contra Pablo|+
-44+23+23+|N|Pablo es enviado a Félix el gobernador|+
-44+24+1+|N|Defensa de Pablo ante Félix|+
-44+25+1+|N|Pablo apela a César|+
-44+25+13+|N|Pablo ante Agripa y Berenice|+
-44+26+1+|N|Defensa de Pablo ante Agripa|+
-44+26+4+|N|Vida anterior de Pablo|+
-44+26+9+|N|Pablo el perseguidor|+
-44+26+12+|N|Pablo relata su conversión|+
-44+26+19+|N|Pablo obedece a la visión|+
-44+26+24+|N|Pablo insta a Agripa a que crea|+
-44+27+1+|N|Pablo es enviado a Roma|+
-44+27+13+|N|La tempestad en el mar|+
-44+27+39+|N|El naufragio|+
-44+28+1+|N|Pablo en la isla de Malta|+
-44+28+11+|N|Pablo llega a Roma|+
-44+28+17+|N|Pablo predica en Roma|+
-45+1+1+|N|Salutación|+
-45+1+8+|N|Deseo de Pablo de visitar Roma|+
-45+1+16+|N|El poder del evangelio|+
-45+1+18+|N|La culpabilidad del hombre|+
-45+2+1+|N|El justo juicio de Dios|+
-45+2+17+|N|Los judíos y la ley|+
-45+3+9+|N|No hay justo|+
-45+3+21+|N|La justicia es por medio de la fe|+
-45+4+1+|N|El ejemplo de Abraham|+
-45+4+13+|N|La promesa realizada mediante la fe|+
-45+5+1+|N|Resultados de la justificación|+
-45+5+12+|N|Adán y Cristo|+
-45+6+1+|N|Muertos al pecado|+
-45+6+15+|N|Siervos de la justicia|+
-45+7+1+|N|Analogía tomada del matrimonio|+
-45+7+7+|N|El pecado que mora en mí|+
-45+8+1+|N|Viviendo en el Espíritu|+
-45+8+28+|N|Más que vencedores|+
-45+9+1+|N|La elección de Israel|+
-45+9+30+|N|La justicia que es por fe|+
-45+11+1+|N|El remanente de Israel|+
-45+11+11+|N|La salvación de los gentiles|+
-45+11+25+|N|La restauración de Israel|+
-45+12+1+|N|Deberes cristianos|+
-45+14+1+|N|Los débiles en la fe|+
-45+15+7+|N|El evangelio a los gentiles|+
-45+15+22+|N|Pablo se propone ir a Roma|+
-45+16+1+|N|Saludos personales|+
-45+16+25+|N|Doxología final|+
-46+1+1+|N|Salutación|+
-46+1+4+|N|Acción de gracias por dones espirituales|+
-46+1+10+|N|¿Está dividido Cristo?|+
-46+1+18+|N|Cristo, poder y sabiduría de Dios|+
-46+2+1+|N|Proclamando a Cristo crucificado|+
-46+2+6+|N|La revelación por el Espíritu de Dios|+
-46+3+1+|N|Colaboradores de Dios|+
-46+4+1+|N|El ministerio de los apóstoles|+
-46+5+1+|N|Un caso de inmoralidad juzgado|+
-46+6+1+|N|Litigios delante de los incrédulos|+
-46+6+12+|N|Glorificad a Dios en vuestro cuerpo|+
-46+7+1+|N|Problemas del matrimonio|+
-46+8+1+|N|Lo sacrificado a los ídolos|+
-46+9+1+|N|Los derechos de un apóstol|+
-46+10+1+|N|Amonestaciones contra la idolatría|+
-46+10+23+|N|Haced todo para la gloria de Dios|+
-46+11+2+|N|Atavío de las mujeres|+
-46+11+17+|N|Abusos en la Cena del Señor|+
-46+11+23+|N|Institución de la Cena del Señor|+
-46+11+27+|N|Tomando la Cena indignamente|+
-46+12+1+|N|Dones espirituales|+
-46+13+1+|N|La preeminencia del amor|+
-46+14+1+|N|El hablar en lenguas|+
-46+15+1+|N|La resurrección de los muertos|+
-46+16+1+|N|La ofrenda para los santos|+
-46+16+5+|N|Planes de Pablo|+
-46+16+13+|N|Salutaciones finales|+
-47+1+1+|N|Salutación|+
-47+1+3+|N|Aflicciones de Pablo|+
-47+1+12+|N|Por qué Pablo pospuso su visita a Corinto|+
-47+2+5+|N|Pablo perdona al ofensor|+
-47+2+12+|N|Ansiedad de Pablo en Troas|+
-47+2+14+|N|Triunfantes en Cristo|+
-47+3+1+|N|Ministros del nuevo pacto|+
-47+4+7+|N|Viviendo por la fe|+
-47+5+11+|N|El ministerio de la reconciliación|+
-47+6+14+|N|Somos templo del Dios viviente|+
-47+7+2+|N|Regocijo de Pablo al arrepentirse los corintios|+
-47+8+1+|N|La ofrenda para los santos|+
-47+10+1+|N|Pablo defiende su ministerio|+
-47+11+16+|N|Sufrimientos de Pablo como apóstol|+
-47+12+1+|N|El aguijón en la carne|+
-47+12+14+|N|Pablo anuncia su tercera visita|+
-47+13+11+|N|Saludos y doxología final|+
-48+1+1+|N|Salutación|+
-48+1+6+|N|No hay otro evangelio|+
-48+1+11+|N|El ministerio de Pablo|+
-48+2+11+|N|Pablo reprende a Pedro en Antioquía|+
-48+3+1+|N|El Espíritu se recibe por la fe|+
-48+3+6+|N|El pacto de Dios con Abraham|+
-48+3+19+|N|El propósito de la ley|+
-48+4+8+|N|Exhortación contra el volver a la esclavitud|+
-48+4+21+|N|Alegoría de Sara y Agar|+
-48+5+1+|N|Estad firmes en la libertad|+
-48+5+16+|N|Las obras de la carne y el fruto del Espíritu|+
-48+6+11+|N|Pablo se gloría en la cruz de Cristo|+
-48+6+18+|N|Bendición final|+
-49+1+1+|N|Salutación|+
-49+1+3+|N|Bendiciones espirituales en Cristo|+
-49+1+15+|N|El espíritu de sabiduría y de revelación|+
-49+2+1+|N|Salvos por gracia|+
-49+2+11+|N|Reconciliación por medio de la cruz|+
-49+3+1+|N|Ministerio de Pablo a los gentiles|+
-49+3+14+|N|El amor que excede a todo conocimiento|+
-49+4+1+|N|La unidad del Espíritu|+
-49+4+17+|N|La nueva vida en Cristo|+
-49+5+1+|N|Andad como hijos de luz|+
-49+5+21+|N|Someteos los unos a los otros|+
-50+1+1+|N|Salutación|+
-50+1+3+|N|Oración de Pablo por los creyentes|+
-50+1+12+|N|Para mí el vivir es Cristo|+
-50+2+1+|N|Humillación y exaltación de Cristo|+
-50+2+12+|N|Luminares en el mundo|+
-50+2+19+|N|Timoteo y Epafrodito|+
-50+3+1+|N|Prosigo al blanco|+
-50+4+1+|N|Regocijaos en el Señor siempre|+
-50+4+8+|N|En esto pensad|+
-50+4+10+|N|Dádivas de los filipenses|+
-50+4+21+|N|Salutaciones finales|+
-51+1+1+|N|Salutación|+
-51+1+3+|N|Pablo pide que Dios les conceda sabiduría espiritual|+
-51+1+15+|N|Reconciliación por medio de la muerte de Cristo|+
-51+1+24+|N|Ministerio de Pablo a los gentiles|+
-51+2+8+|N|Plenitud de vida en Cristo|+
-51+3+5+|N|La vida antigua y la nueva|+
-51+3+18+|N|Deberes sociales de la nueva vida|+
-51+4+7+|N|Salutaciones finales|+
-52+1+1+|N|Salutación|+
-52+1+2+|N|Ejemplo de los tesalonicenses|+
-52+2+1+|N|Ministerio de Pablo en Tesalónica|+
-52+2+17+|N|Ausencia de Pablo de la iglesia|+
-52+4+1+|N|La vida que agrada a Dios|+
-52+4+13+|N|La venida del Señor|+
-52+5+12+|N|Pablo exhorta a los hermanos|+
-52+5+25+|N|Salutaciones y bendición final|+
-53+1+1+|N|Salutación|+
-53+1+3+|N|Dios juzgará a los pecadores en la venida de Cristo|+
-53+2+1+|N|Manifestación del hombre de pecado|+
-53+2+13+|N|Escogidos para salvación|+
-53+3+1+|N|Que la palabra de Dios sea glorificada|+
-53+3+6+|N|El deber de trabajar|+
-53+3+16+|N|Bendición final|+
-54+1+1+|N|Salutación|+
-54+1+3+|N|Advertencia contra falsas doctrinas|+
-54+1+12+|N|El ministerio de Pablo|+
-54+2+1+|N|Instrucciones sobre la oración|+
-54+3+1+|N|Requisitos de los obispos|+
-54+3+8+|N|Requisitos de los diáconos|+
-54+3+14+|N|El misterio de la piedad|+
-54+4+1+|N|Predicción de la apostasía|+
-54+4+6+|N|Un buen ministro de Jesucristo|+
-54+5+1+|N|Deberes hacia los demás|+
-54+6+3+|N|Piedad y contentamiento|+
-54+6+11+|N|La buena batalla de la fe|+
-54+6+20+|N|Encargo final de Pablo a Timoteo|+
-55+1+1+|N|Salutación|+
-55+1+3+|N|Testificando de Cristo|+
-55+2+1+|N|Un buen soldado de Jesucristo|+
-55+2+14+|N|Un obrero aprobado|+
-55+3+1+|N|Carácter de los hombres en los postreros días|+
-55+4+1+|N|Predica la palabra|+
-55+4+9+|N|Instrucciones personales|+
-55+4+19+|N|Saludos y bendición final|+
-56+1+1+|N|Salutación|+
-56+1+4+|N|El amor y la fe de Filemón|+
-56+1+5+|N|Requisitos de ancianos y obispos|+
-56+2+1+|N|Enseñanza de la sana doctrina|+
-56+3+1+|N|Justificados por gracia|+
-56+3+12+|N|Instrucciones personales|+
-56+3+15+|N|Salutaciones y bendición final|+
-57+1+1+|N|Salutación|+
-57+1+8+|N|Pablo intercede por Onésimo|+
-57+1+23+|N|Salutaciones y bendición final|+
-58+1+1+|N|Dios ha hablado por su Hijo|+
-58+1+5+|N|El Hijo, superior a los ángeles|+
-58+2+1+|N|Una salvación tan grande|+
-58+2+5+|N|El autor de la salvación|+
-58+3+1+|N|Jesús es superior a Moisés|+
-58+3+7+|N|El reposo del pueblo de Dios|+
-58+4+14+|N|Jesús el gran sumo sacerdote|+
-58+5+11+|N|Advertencia contra la apostasía|+
-58+7+1+|N|El sacerdocio de Melquisedec|+
-58+8+1+|N|El mediador de un nuevo pacto|+
-58+9+23+|N|El sacrificio de Cristo quita el pecado|+
-58+10+26+|N|Advertencia al que peca deliberadamente|+
-58+11+1+|N|La fe|+
-58+12+1+|N|Puestos los ojos en Jesús|+
-58+12+12+|N|Los que rechazan la gracia de Dios|+
-58+13+1+|N|Deberes cristianos|+
-58+13+20+|N|Bendición y salutaciones finales|+
-59+1+1+|N|Salutación|+
-59+1+2+|N|La sabiduría que viene de Dios|+
-59+1+12+|N|Soportando las pruebas|+
-59+1+19+|N|Hacedores de la palabra|+
-59+2+1+|N|Amonestación contra la parcialidad|+
-59+2+14+|N|La fe sin obras es muerta|+
-59+3+1+|N|La lengua|+
-59+3+13+|N|La sabiduría de lo alto|+
-59+4+1+|N|La amistad con el mundo|+
-59+4+11+|N|Juzgando al hermano|+
-59+4+13+|N|No os gloriéis del día de mañana|+
-59+5+1+|N|Contra los ricos opresores|+
-59+5+7+|N|Sed pacientes y orad|+
-60+1+1+|N|Salutación|+
-60+1+3+|N|Una esperanza viva|+
-60+1+13+|N|Llamamiento a una vida santa|+
-60+2+4+|N|La piedra viva|+
-60+2+9+|N|El pueblo de Dios|+
-60+2+11+|N|Vivid como siervos de Dios|+
-60+3+1+|N|Deberes conyugales|+
-60+3+8+|N|Una buena conciencia|+
-60+4+1+|N|Buenos administradores de la gracia de Dios|+
-60+4+12+|N|Padeciendo como cristianos|+
-60+5+1+|N|Apacentad la grey de Dios|+
-60+5+12+|N|Salutaciones finales|+
-61+1+1+|N|Salutación|+
-61+1+3+|N|Partícipes de la naturaleza divina|+
-61+1+16+|N|Testigos presenciales de la gloria de Cristo|+
-61+2+1+|N|Falsos profetas y falsos maestros|+
-61+3+1+|N|El día del Señor vendrá|+
-62+1+1+|N|La palabra de vida|+
-62+1+5+|N|Dios es luz|+
-62+2+1+|N|Cristo, nuestro abogado|+
-62+2+7+|N|El nuevo mandamiento|+
-62+2+18+|N|El anticristo|+
-62+3+1+|N|Hijos de Dios|+
-62+4+1+|N|El Espíritu de Dios y el espíritu del anticristo|+
-62+4+7+|N|Dios es amor|+
-62+5+1+|N|La fe que vence al mundo|+
-62+5+6+|N|El testimonio del Espíritu|+
-62+5+13+|N|El conocimiento de la vida eterna|+
-63+1+1+|N|Salutación|+
-63+1+4+|N|Permaneced en la doctrina de Cristo|+
-63+1+12+|N|Espero ir a vosotros|+
-64+1+1+|N|Salutación|+
-64+1+5+|N|Elogio de la hospitalidad de Gayo|+
-64+1+9+|N|La oposición de Diótrefes|+
-64+1+11+|N|Buen testimonio acerca de Demetrio|+
-64+1+13+|N|Salutaciones finales|+
-65+1+1+|N|Salutación|+
-65+1+3+|N|Falsas doctrinas y falsos maestros|+
-65+1+17+|N|Amonestaciones y exhortaciones|+
-65+1+24+|N|Doxología|+
-66+1+1+|N|La revelación de Jesucristo|+
-66+1+4+|N|Salutaciones a las siete iglesias|+
-66+1+9+|N|Una visión del Hijo del Hombre|+
-66+2+1+|N|Mensajes a las siete iglesias: El mensaje a Efeso|+
-66+2+8+|N|El mensaje a Esmirna|+
-66+2+12+|N|El mensaje a Pérgamo|+
-66+2+18+|N|El mensaje a Tiatira|+
-66+3+1+|N|El mensaje a Sardis|+
-66+3+7+|N|El mensaje a Filadelfia|+
-66+3+14+|N|El mensaje a Laodicea|+
-66+4+1+|N|La adoración celestial|+
-66+5+1+|N|El rollo y el Cordero|+
-66+6+1+|N|Los sellos|+
-66+7+1+|N|Los 144 mil sellados|+
-66+7+9+|N|La multitud vestida de ropas blancas|+
-66+8+1+|N|El séptimo sello|+
-66+8+6+|N|Las trompetas|+
-66+10+1+|N|El ángel con el librito|+
-66+11+1+|N|Los dos testigos|+
-66+11+15+|N|La séptima trompeta|+
-66+12+1+|N|La mujer y el dragón|+
-66+13+1+|N|Las dos bestias|+
-66+14+1+|N|El cántico de los 144 mil|+
-66+14+6+|N|El mensaje de los tres ángeles|+
-66+14+14+|N|La tierra es segada|+
-66+15+1+|N|Los ángeles con las siete postreras plagas|+
-66+16+1+|N|Las copas de ira|+
-66+17+1+|N|Condenación de la gran ramera|+
-66+18+1+|N|La caída de Babilonia|+
-66+19+1+|N|Alabanzas en el cielo|+
-66+19+9+|N|La cena de las bodas del Cordero|+
-66+19+11+|N|El jinete del caballo blanco|+
-66+20+1+|N|Los mil años|+
-66+20+11+|N|El juicio ante el gran trono blanco|+
-66+21+1+|N|Cielo nuevo y tierra nueva|+
-66+21+9+|N|La nueva Jerusalén|+
-66+22+6+|N|La venida de Cristo está cerca|+
+1+1+1+|N|La creación+
+1+2+4+|N|El hombre en el huerto del Edén+
+1+3+1+|N|Desobediencia del hombre+
+1+4+1+|N|Caín y Abel+
+1+5+1+|N|Los descendientes de Adán+
+1+6+1+|N|La maldad de los hombres+
+1+7+1+|N|El diluvio+
+1+9+1+|N|Pacto de Dios con Noé+
+1+9+18+|N|Embriaguez de Noé+
+1+10+1+|N|Los descendientes de los hijos de Noé+
+1+11+1+|N|La torre de Babel+
+1+11+10+|N|Los descendientes de Sem+
+1+11+27+|N|Los descendientes de Taré+
+1+12+1+|N|Dios llama a Abram+
+1+12+10+|N|Abram en Egipto+
+1+13+1+|N|Abram y Lot se separan+
+1+14+1+|N|Abram liberta a Lot+
+1+14+17+|N|Melquisedec bendice a Abram+
+1+15+1+|N|Dios promete a Abram un hijo+
+1+16+1+|N|Agar e Ismael+
+1+17+1+|N|La circuncisión, señal del pacto+
+1+18+1+|N|Promesa del nacimiento de Isaac+
+1+18+16+|N|Abraham intercede por Sodoma+
+1+19+1+|N|Destrucción de Sodoma y Gomorra+
+1+20+1+|N|Abraham y Abimelec+
+1+21+1+|N|Nacimiento de Isaac+
+1+21+8+|N|Agar e Ismael son echados de la casa de Abraham+
+1+21+22+|N|Pacto entre Abraham y Abimelec+
+1+22+1+|N|Dios ordena a Abraham que sacrifique a Isaac+
+1+23+1+|N|Muerte y sepultura de Sara+
+1+24+1+|N|Abraham busca esposa para Isaac+
+1+25+1+|N|Los descendientes de Abraham y Cetura+
+1+25+7+|N|Muerte y sepultura de Abraham+
+1+25+12+|N|Los descendientes de Ismael+
+1+25+19+|N|Nacimiento de Jacob y Esaú+
+1+25+27+|N|Esaú vende su primogenitura+
+1+26+1+|N|Isaac en Gerar+
+1+27+1+|N|Jacob obtiene la bendición de Isaac+
+1+27+41+|N|Jacob huye de Esaú+
+1+28+10+|N|Dios se aparece a Jacob en Bet-el+
+1+29+1+|N|Jacob sirve a Labán por Raquel y Lea+
+1+29+31+|N|Los hijos de Jacob+
+1+30+25+|N|Tretas de Jacob y de Labán+
+1+31+17+|N|Jacob huye de Labán+
+1+32+1+|N|Jacob se prepara para el encuentro con Esaú+
+1+32+22+|N|Jacob lucha con el ángel en Peniel+
+1+33+1+|N|Reconciliación entre Jacob y Esaú+
+1+34+1+|N|La deshonra de Dina vengada+
+1+35+1+|N|Dios bendice a Jacob en Bet-el+
+1+35+16+|N|Muerte de Raquel+
+1+35+22+|N|Los hijos de Jacob+
+1+35+27+|N|Muerte de Isaac+
+1+36+1+|N|Los descendientes de Esaú+
+1+37+1+|N|José es vendido por sus hermanos+
+1+38+1+|N|Judá y Tamar+
+1+39+1+|N|José y la esposa de Potifar+
+1+40+1+|N|José interpreta dos sueños+
+1+41+1+|N|José interpreta el sueño de Faraón+
+1+41+37+|N|José, gobernador de Egipto+
+1+42+1+|N|Los hermanos de José vienen por alimentos+
+1+43+1+|N|Los hermanos de José regresan con Benjamín+
+1+44+1+|N|La copa de José+
+1+44+18+|N|Judá intercede por Benjamín+
+1+45+1+|N|José se da a conocer a sus hermanos+
+1+46+1+|N|Jacob y su familia en Egipto+
+1+48+1+|N|Jacob bendice a Efraín y a Manasés+
+1+49+1+|N|Profecía de Jacob acerca de sus hijos+
+1+49+28+|N|Muerte y sepelio de Jacob+
+1+50+15+|N|Muerte de José+
+2+1+1+|N|Aflicción de los israelitas en Egipto+
+2+2+1+|N|Nacimiento de Moisés+
+2+2+11+|N|Moisés huye de Egipto+
+2+3+1+|N|Llamamiento de Moisés+
+2+4+18+|N|Moisés vuelve a Egipto+
+2+5+1+|N|Moisés y Aarón ante Faraón+
+2+5+22+|N|Jehová comisiona a Moisés y a Aarón+
+2+7+8+|N|La vara de Aarón+
+2+7+14+|N|La plaga de sangre+
+2+8+1+|N|La plaga de ranas+
+2+8+16+|N|La plaga de piojos+
+2+8+20+|N|La plaga de moscas+
+2+9+1+|N|La plaga en el ganado+
+2+9+8+|N|La plaga de úlceras+
+2+9+13+|N|La plaga de granizo+
+2+10+1+|N|La plaga de langostas+
+2+10+21+|N|La plaga de tinieblas+
+2+11+1+|N|Anunciada la muerte de los primogénitos+
+2+12+1+|N|La Pascua+
+2+12+29+|N|Muerte de los primogénitos+
+2+12+37+|N|Los israelitas salen de Egipto+
+2+13+1+|N|Consagración de los primogénitos+
+2+13+17+|N|La columna de nube y de fuego+
+2+14+1+|N|Los israelitas cruzan el Mar Rojo+
+2+15+1+|N|Cántico de Moisés y de María+
+2+15+22+|N|El agua amarga de Mara+
+2+16+1+|N|Dios da el maná+
+2+17+1+|N|Agua de la roca+
+2+17+8+|N|Guerra con Amalec+
+2+18+1+|N|Jetro visita a Moisés+
+2+18+13+|N|Nombramiento de jueces+
+2+19+1+|N|Israel en Sinaí+
+2+20+1+|N|Los Diez Mandamientos+
+2+20+18+|N|El terror del pueblo+
+2+21+1+|N|Leyes sobre los esclavos+
+2+21+12+|N|Leyes sobre actos de violencia+
+2+21+26+|N|Leyes sobre responsabilidades de amos y dueños+
+2+22+1+|N|Leyes sobre la restitución+
+2+22+16+|N|Leyes humanitarias+
+2+23+14+|N|Las tres fiestas anuales+
+2+23+20+|N|El Angel de Jehová enviado para guiar a Israel+
+2+24+1+|N|Moisés y los ancianos en el Monte Sinaí+
+2+25+1+|N|La ofrenda para el tabernáculo+
+2+25+10+|N|El arca del testimonio+
+2+25+23+|N|La mesa para el pan de la proposición+
+2+25+31+|N|El candelero de oro+
+2+26+1+|N|El tabernáculo+
+2+27+1+|N|El altar de bronce+
+2+27+9+|N|El atrio del tabernáculo+
+2+27+20+|N|Aceite para las lámparas+
+2+28+1+|N|Las vestiduras de los sacerdotes+
+2+29+1+|N|Consagración de Aarón y de sus hijos+
+2+29+38+|N|Las ofrendas diarias+
+2+30+1+|N|El altar del incienso+
+2+30+11+|N|El dinero del rescate+
+2+30+17+|N|La fuente de bronce+
+2+30+22+|N|El aceite de la unción, y el incienso+
+2+31+1+|N|Llamamiento de Bezaleel y de Aholiab+
+2+31+12+|N|El día de reposo como señal+
+2+31+18+|N|El becerro de oro+
+2+33+1+|N|La presencia de Dios prometida+
+2+34+1+|N|El pacto renovado+
+2+34+11+|N|Advertencia contra la idolatría de Canaán+
+2+34+18+|N|Fiestas anuales+
+2+34+27+|N|Moisés y las tablas de la ley+
+2+35+1+|N|Reglamento del día de reposo+
+2+35+4+|N|La ofrenda para el tabernáculo+
+2+35+10+|N|La obra del tabernáculo+
+2+35+20+|N|El pueblo trae la ofrenda+
+2+35+30+|N|Llamamiento de Bezaleel y de Aholiab+
+2+36+2+|N|Moisés suspende la ofrenda del pueblo+
+2+36+8+|N|Construcción del tabernáculo+
+2+37+1+|N|Mobiliario del tabernáculo+
+2+38+9+|N|El atrio del tabernáculo+
+2+38+21+|N|Dirección de la obra+
+2+38+24+|N|Metales usados en el santuario+
+2+39+1+|N|Hechura de las vestiduras de los sacerdotes+
+2+39+32+|N|La obra del tabernáculo terminada+
+2+40+1+|N|Moisés erige el tabernáculo+
+2+40+34+|N|La nube sobre el tabernáculo+
+3+1+1+|N|Los holocaustos+
+3+2+1+|N|Las ofrendas+
+3+4+1+|N|Ofrendas por el pecado+
+3+5+14+|N|Ofrendas expiatorias+
+3+6+8+|N|Leyes de los sacrificios+
+3+8+1+|N|Consagración de Aarón y de sus hijos+
+3+9+1+|N|Los sacrificios de Aarón+
+3+10+1+|N|El pecado de Nadab y Abiú+
+3+11+1+|N|Animales limpios e inmundos+
+3+12+1+|N|La purificación de la mujer después del parto+
+3+13+1+|N|Leyes acerca de la lepra+
+3+15+1+|N|Impurezas físicas+
+3+16+1+|N|El día de la expiación+
+3+17+1+|N|El santuario único+
+3+17+10+|N|Prohibición de comer la sangre+
+3+18+1+|N|Actos de inmoralidad prohibidos+
+3+19+1+|N|Leyes de santidad y de justicia+
+3+20+1+|N|Penas por actos de inmoralidad+
+3+21+1+|N|Santidad de los sacerdotes+
+3+22+1+|N|Santidad de las ofrendas+
+3+23+1+|N|Las fiestas solemnes+
+3+24+1+|N|Aceite para las lámparas+
+3+24+5+|N|El pan de la proposición+
+3+24+10+|N|Castigo del blasfemo+
+3+25+1+|N|El año de reposo de la tierra y el año del jubileo+
+3+26+1+|N|Bendiciones de la obediencia+
+3+26+14+|N|Consecuencias de la desobediencia+
+3+27+1+|N|Cosas consagradas a Dios+
+4+1+1+|N|Censo de Israel en Sinaí+
+4+1+47+|N|Nombramiento de los levitas+
+4+2+1+|N|Campamentos y jefes de las tribus+
+4+3+1+|N|Censo y deberes de los levitas+
+4+3+40+|N|Rescate de los primogénitos+
+4+4+1+|N|Tareas de los levitas+
+4+5+1+|N|Todo inmundo es echado fuera del campamento+
+4+5+5+|N|Ley sobre la restitución+
+4+5+11+|N|Ley sobre los celos+
+4+6+1+|N|El voto de los nazareos+
+4+6+22+|N|La bendición sacerdotal+
+4+7+1+|N|Ofrendas para la dedicación del altar+
+4+8+1+|N|Aarón enciende las lámparas+
+4+8+5+|N|Consagración de los levitas+
+4+9+1+|N|Celebración de la pascua+
+4+9+15+|N|La nube sobre el tabernáculo+
+4+10+1+|N|Las trompetas de plata+
+4+10+11+|N|Los israelitas salen de Sinaí+
+4+11+1+|N|Jehová envía codornices+
+4+12+1+|N|María y Aarón murmuran contra Moisés+
+4+13+1+|N|Misión de los doce espías+
+4+14+1+|N|Los israelitas se rebelan contra Jehová+
+4+14+20+|N|Jehová castiga a Israel+
+4+14+36+|N|Muerte de los diez espías malvados+
+4+14+39+|N|La derrota en Horma+
+4+15+1+|N|Leyes sobre las ofrendas+
+4+15+32+|N|Lapidación de un violador del día de reposo+
+4+15+37+|N|Franjas en los vestidos+
+4+16+1+|N|La rebelión de Coré+
+4+17+1+|N|La vara de Aarón florece+
+4+18+1+|N|Sostenimiento de sacerdotes y levitas+
+4+19+1+|N|La purificación de los inmundos+
+4+20+1+|N|Agua de la roca+
+4+20+14+|N|Edom rehúsa dar paso a Israel+
+4+20+22+|N|Aarón muere en el Monte Hor+
+4+21+1+|N|El rey de Arad ataca a Israel+
+4+21+4+|N|La serpiente de bronce+
+4+21+10+|N|Los israelitas rodean la tierra de Moab+
+4+21+21+|N|Israel derrota a Sehón+
+4+21+31+|N|Israel derrota a Og de Basán+
+4+22+1+|N|Balac manda llamar a Balaam+
+4+22+21+|N|El ángel y el asna de Balaam+
+4+22+41+|N|Balaam bendice a Israel+
+4+24+10+|N|Profecía de Balaam+
+4+25+1+|N|Israel acude a Baal-peor+
+4+26+1+|N|Censo del pueblo en Moab+
+4+26+52+|N|Orden para la repartición de la tierra+
+4+26+57+|N|Censo de la tribu de Leví+
+4+26+63+|N|Caleb y Josué sobreviven+
+4+27+1+|N|Petición de las hijas de Zelofehad+
+4+27+12+|N|Josué es designado como sucesor de Moisés+
+4+28+1+|N|Las ofrendas diarias+
+4+28+9+|N|Ofrendas mensuales y del día de reposo+
+4+28+16+|N|Ofrendas de las fiestas solemnes+
+4+30+1+|N|Ley de los votos+
+4+31+1+|N|Venganza de Israel contra Madián+
+4+31+21+|N|Repartición del botín+
+4+32+1+|N|Rubén y Gad se establecen al oriente del Jordán+
+4+33+1+|N|Jornadas de Israel desde Egipto hasta el Jordán+
+4+33+50+|N|Límites y repartición de Canaán+
+4+35+1+|N|Herencia de los levitas+
+4+35+9+|N|Ciudades de refugio+
+4+35+29+|N|Ley sobre los testigos y sobre el rescate+
+4+36+1+|N|Ley del casamiento de las herederas+
+5+1+1+|N|Moisés recuerda a Israel las promesas de Jehová en Horeb+
+5+1+9+|N|Nombramiento de jueces+
+5+1+19+|N|Misión de los doce espías+
+5+1+34+|N|Dios castiga a Israel+
+5+1+41+|N|La derrota en Horma+
+5+2+1+|N|Los años en el desierto+
+5+2+26+|N|Israel derrota a Sehón+
+5+3+1+|N|Israel derrota a Og rey de Basán+
+5+3+12+|N|Rubén, Gad y la media tribu de Manasés se establecen al oriente+
+5+3+23+|N|No se le permite a Moisés entrar a Canaán+
+5+4+1+|N|Moisés exhorta a la obediencia+
+5+4+9+|N|La experiencia de Israel en Horeb+
+5+4+15+|N|Advertencia contra la idolatría+
+5+4+41+|N|Las ciudades de refugio al oriente del Jordán+
+5+4+44+|N|Moisés recapitula la promulgación de la ley+
+5+5+1+|N|Los Diez Mandamientos+
+5+5+22+|N|El terror del pueblo+
+5+6+1+|N|El gran mandamiento+
+5+6+10+|N|Exhortaciones a la obediencia+
+5+7+1+|N|Advertencias contra la idolatría de Canaán+
+5+7+6+|N|Un pueblo santo para Jehová+
+5+7+12+|N|Bendiciones de la obediencia+
+5+8+1+|N|La buena tierra que han de poseer+
+5+8+11+|N|Amonestación de no olvidar a Dios+
+5+9+1+|N|Dios destruirá a las naciones de Canaán+
+5+9+6+|N|La rebelión de Israel en Horeb+
+5+10+1+|N|El pacto renovado+
+5+10+12+|N|Lo que Dios exige+
+5+11+1+|N|La grandeza de Jehová+
+5+11+8+|N|Bendiciones de la Tierra Prometida+
+5+12+1+|N|El santuario único+
+5+12+29+|N|Advertencias contra la idolatría+
+5+14+3+|N|Animales limpios e inmundos+
+5+14+22+|N|La ley del diezmo+
+5+15+1+|N|El año de remisión+
+5+15+7+|N|Préstamos a los pobres+
+5+15+12+|N|Leyes sobre los esclavos+
+5+15+19+|N|Consagración de los primogénitos machos+
+5+16+1+|N|Fiestas anuales+
+5+16+18+|N|Administración de la justicia+
+5+17+14+|N|Instrucciones acerca de un rey+
+5+18+1+|N|Las porciones de los levitas+
+5+18+9+|N|Amonestación contra costumbres paganas+
+5+18+15+|N|Dios promete un profeta como Moisés+
+5+19+1+|N|Las ciudades de refugio+
+5+19+15+|N|Leyes sobre el testimonio+
+5+20+1+|N|Leyes sobre la guerra+
+5+21+1+|N|Expiación de un asesinato cuyo autor se desconoce+
+5+21+10+|N|Diversas leyes+
+5+22+13+|N|Leyes sobre la castidad+
+5+23+1+|N|Los excluidos de la congregación+
+5+23+9+|N|Leyes sanitarias+
+5+23+15+|N|Leyes humanitarias+
+5+25+17+|N|Orden de exterminar a Amalec+
+5+26+1+|N|Primicias y diezmos+
+5+27+1+|N|Orden de escribir la ley en piedras sobre el Monte Ebal+
+5+27+11+|N|Las maldiciones en el monte Ebal+
+5+28+1+|N|Bendiciones de la obediencia+
+5+28+15+|N|Consecuencias de la desobediencia+
+5+29+1+|N|Pacto de Jehová con Israel en Moab+
+5+30+1+|N|Condiciones para la restauración y la bendición+
+5+31+1+|N|Josué es instalado como sucesor de Moisés+
+5+31+24+|N|Orden de guardar la ley junto al arca+
+5+31+30+|N|Cántico de Moisés+
+5+32+48+|N|Se le permite a Moisés contemplar la tierra de Canaán+
+5+33+1+|N|Moisés bendice a las doce tribus de Israel+
+5+34+11+|N|Muerte y sepultura de Moisés+
+6+1+1+|N|Preparativos para la conquista+
+6+2+1+|N|Josué envía espías a Jericó+
+6+3+1+|N|El paso del Jordán+
+6+4+1+|N|Las doce piedras tomadas del Jordán+
+6+5+1+|N|La circuncisión y la pascua en Gilgal+
+6+5+13+|N|Josué y el varón con la espada desenvainada+
+6+6+1+|N|La toma de Jericó+
+6+7+1+|N|El pecado de Acán+
+6+8+1+|N|Toma y destrucción de Hai+
+6+8+30+|N|Lectura de la ley en el monte Ebal+
+6+9+1+|N|Astucia de los gabaonitas+
+6+10+1+|N|Derrota de los amorreos+
+6+11+1+|N|Derrota de la alianza de Jabín+
+6+11+16+|N|Josué se apodera de toda la tierra+
+6+12+1+|N|Reyes derrotados por Moisés+
+6+12+7+|N|Reyes derrotados por Josué+
+6+13+1+|N|Tierra aún sin conquistar+
+6+13+14+|N|El territorio que distribuyó Moisés+
+6+14+1+|N|Canaán repartida por suerte+
+6+14+6+|N|Caleb recibe Hebrón+
+6+15+1+|N|El territorio de Judá+
+6+15+13+|N|Caleb conquista Hebrón y Debir+
+6+15+20+|N|Las ciudades de Judá+
+6+16+1+|N|Territorio de Efraín y de Manasés+
+6+18+1+|N|Territorios de las demás tribus+
+6+20+1+|N|Josué señala ciudades de refugio+
+6+21+1+|N|Ciudades de los levitas+
+6+21+43+|N|Israel ocupa la tierra+
+6+22+1+|N|El altar junto al Jordán+
+6+23+1+|N|Exhortación de Josué al pueblo+
+6+24+1+|N|Discurso de despedida de Josué+
+6+24+29+|N|Muerte de Josué+
+6+24+32+|N|Sepultura de los huesos de José en Siquem+
+6+24+33+|N|Muerte de Eleazar+
+7+1+1+|N|Judá y Simeón capturan a Adoni-bezec+
+7+1+8+|N|Judá conquista Jerusalén y Hebrón+
+7+1+11+|N|Otoniel conquista Debir y recibe a Acsa+
+7+1+16+|N|Extensión de las conquistas de Judá y de Benjamín+
+7+1+22+|N|José conquista Bet-el+
+7+1+27+|N|Extensión de las conquistas de Manasés y de Efraín+
+7+1+30+|N|Extensión de las conquistas de las demás tribus+
+7+2+1+|N|El ángel de Jehová en Boquim+
+7+2+6+|N|Muerte de Josué+
+7+2+11+|N|Apostasía de Israel, y la obra de los jueces+
+7+3+1+|N|Naciones que fueron dejadas para probar a Israel+
+7+3+7+|N|Otoniel liberta a Israel de Cusan-risataim+
+7+3+12+|N|Aod liberta a Israel de Moab+
+7+3+31+|N|Samgar liberta a Israel de los filisteos+
+7+4+1+|N|Débora y Barac derrotan a Sísara+
+7+5+1+|N|Cántico de Débora y de Barac+
+7+6+1+|N|Llamamiento de Gedeón+
+7+7+1+|N|Gedeón derrota a los madianitas+
+7+8+1+|N|Gedeón captura a los reyes de Madián+
+7+9+1+|N|Reinado de Abimelec+
+7+10+1+|N|Tola y Jair juzgan a Israel+
+7+10+6+|N|Jefté liberta a Israel de los amonitas+
+7+12+8+|N|Ibzán, Elón y Abdón, jueces de Israel+
+7+13+1+|N|Nacimiento de Sansón+
+7+14+1+|N|Sansón y la mujer filistea de Timnat+
+7+15+9+|N|Sansón derrota a los filisteos en Lehi+
+7+16+1+|N|Sansón en Gaza+
+7+16+4+|N|Sansón y Dalila+
+7+16+23+|N|Muerte de Sansón+
+7+17+1+|N|Las imágenes y el sacerdote de Micaía+
+7+18+1+|N|Micaía y los hombres de Dan+
+7+19+1+|N|El levita y su concubina+
+7+20+1+|N|La guerra contra Benjamín+
+7+21+1+|N|Mujeres para los benjamitas+
+8+3+1+|N|Rut y Booz en la era+
+8+4+1+|N|Booz se casa con Rut+
+9+1+1+|N|Nacimiento de Samuel+
+9+2+1+|N|Cántico de Ana+
+9+2+12+|N|El pecado de los hijos de Elí+
+9+3+1+|N|Jehová llama a Samuel+
+9+4+1+|N|Los filisteos capturan el arca+
+9+5+1+|N|El arca en tierra de los filisteos+
+9+6+1+|N|Los filisteos devuelven el arca+
+9+7+3+|N|Samuel, juez de Israel+
+9+8+1+|N|Israel pide rey+
+9+9+1+|N|Saúl es elegido rey+
+9+11+1+|N|Saúl derrota a los amonitas+
+9+12+1+|N|Discurso de Samuel al pueblo+
+9+13+1+|N|Guerra contra los filisteos+
+9+15+1+|N|Saúl desobedece y es desechado+
+9+16+1+|N|Samuel unge a David+
+9+16+14+|N|David toca para Saúl+
+9+17+1+|N|David mata a Goliat+
+9+18+1+|N|Pacto de Jonatán y David+
+9+18+6+|N|Saúl tiene celos de David+
+9+19+1+|N|Saúl procura matar a David+
+9+20+1+|N|Amistad de David y Jonatán+
+9+21+1+|N|David huye de Saúl+
+9+22+6+|N|Saúl mata a los sacerdotes de Nob+
+9+23+1+|N|David en el desierto+
+9+24+1+|N|David perdona la vida a Saúl en En-gadi+
+9+25+1+|N|David y Abigail+
+9+26+1+|N|David perdona la vida a Saúl en Zif+
+9+27+1+|N|David entre los filisteos+
+9+28+3+|N|Saúl y la adivina de Endor+
+9+29+1+|N|Los filisteos desconfían de David+
+9+30+1+|N|David derrota a los amalecitas+
+9+31+1+|N|Muerte de Saúl y de sus hijos+
+10+1+1+|N|David oye de la muerte de Saúl+
+10+1+17+|N|David endecha a Saúl y a Jonatán+
+10+2+1+|N|David es proclamado rey de Judá+
+10+2+8+|N|Guerra entre David y la casa de Saúl+
+10+3+2+|N|Hijos de David nacidos en Hebrón+
+10+3+6+|N|Abner pacta con David en Hebrón+
+10+3+22+|N|Joab mata a Abner+
+10+4+1+|N|Is-boset es asesinado+
+10+5+1+|N|David es proclamado rey de Israel+
+10+5+6+|N|David toma la fortaleza de Sion+
+10+5+11+|N|Hiram envía embajadores a David+
+10+5+13+|N|Hijos de David nacidos en Jerusalén+
+10+5+17+|N|David derrota a los filisteos+
+10+6+1+|N|David intenta llevar el arca a Jerusalén+
+10+6+12+|N|David trae el arca a Jerusalén+
+10+7+1+|N|Pacto de Dios con David+
+10+8+1+|N|David extiende sus dominios+
+10+8+15+|N|Oficiales de David+
+10+9+1+|N|Bondad de David hacia Mefi-boset+
+10+10+1+|N|Derrotas de amonitas y sirios+
+10+11+1+|N|David y Betsabé+
+10+12+1+|N|Natán amonesta a David+
+10+12+26+|N|David captura Rabá+
+10+13+1+|N|Amnón y Tamar+
+10+13+20+|N|Venganza y huida de Absalón+
+10+14+1+|N|Joab procura el regreso de Absalón+
+10+15+1+|N|Absalón se subleva contra David+
+10+17+1+|N|Consejos de Ahitofel y de Husai+
+10+18+1+|N|Muerte de Absalón+
+10+19+1+|N|David vuelve a Jerusalén+
+10+20+1+|N|Sublevación de Seba+
+10+20+23+|N|Oficiales de David+
+10+21+1+|N|Venganza de los gabaonitas+
+10+21+15+|N|Abisai libra a David del gigante+
+10+21+18+|N|Los hombres de David matan a los gigantes+
+10+22+1+|N|Cántico de liberación de David+
+10+23+1+|N|Ultimas palabras de David+
+10+23+8+|N|Los valientes de David Los valientes de David+
+10+24+1+|N|David censa al pueblo+
+11+1+1+|N|Abisag sirve a David+
+11+1+5+|N|Adonías usurpa el trono+
+11+1+28+|N|David proclama rey a Salomón+
+11+2+10+|N|Muerte de David+
+11+2+13+|N|Salomón afirma su reino+
+11+3+1+|N|Salomón se casa con la hija de Faraón+
+11+3+3+|N|Salomón pide sabiduría+
+11+3+16+|N|Sabiduría y prosperidad de Salomón+
+11+5+1+|N|Pacto de Salomón con Hiram+
+11+6+1+|N|Salomón edifica el templo+
+11+7+1+|N|Otros edificios de Salomón+
+11+7+13+|N|Salomón emplea a Hiram, de Tiro+
+11+7+23+|N|Mobiliario del templo+
+11+8+1+|N|Salomón traslada el arca al templo+
+11+8+12+|N|Dedicación del templo+
+11+9+1+|N|Pacto de Dios con Salomón+
+11+9+10+|N|Otras actividades de Salomón+
+11+10+1+|N|La reina de Sabá visita a Salomón+
+11+10+14+|N|Riquezas y fama de Salomón+
+11+10+26+|N|Salomón comercia en caballos y en carros+
+11+11+1+|N|Apostasía y dificultades de Salomón+
+11+11+41+|N|Muerte de Salomón+
+11+12+1+|N|Rebelión de Israel+
+11+12+25+|N|El pecado de Jeroboam+
+11+13+1+|N|Un profeta de Judá amonesta a Jeroboam+
+11+14+1+|N|Profecía de Ahías contra Jeroboam+
+11+14+21+|N|Reinado de Roboam+
+11+15+1+|N|Reinado de Abiam+
+11+15+9+|N|Reinado de Asa+
+11+15+16+|N|Alianza de Asa con Ben-adad+
+11+15+23+|N|Muerte de Asa+
+11+15+25+|N|Reinado de Nadab+
+11+15+33+|N|Reinado de Baasa+
+11+16+8+|N|Reinados de Ela y de Zimri+
+11+16+21+|N|Reinado de Omri+
+11+16+29+|N|Reinado de Acab+
+11+17+1+|N|Elías predice la sequía+
+11+17+8+|N|Elías y la viuda de Sarepta+
+11+18+1+|N|Elías regresa a ver a Acab+
+11+18+20+|N|Elías y los profetas de Baal+
+11+18+41+|N|Elías ora por lluvia+
+11+19+1+|N|Elías huye a Horeb+
+11+19+19+|N|Llamamiento de Eliseo+
+11+20+1+|N|Acab derrota a los sirios+
+11+21+1+|N|Acab y la viña de Nabot+
+11+22+1+|N|Micaías profetiza la derrota de Acab+
+11+22+41+|N|Reinado de Josafat+
+11+22+51+|N|Reinado de Ocozías de Israel+
+12+1+1+|N|Muerte de Ocozías+
+12+2+1+|N|Eliseo sucede a Elías+
+12+3+1+|N|Reinado de Joram de Israel+
+12+3+4+|N|Eliseo predice la victoria sobre Moab+
+12+4+1+|N|El aceite de la viuda+
+12+4+8+|N|Eliseo y la sunamita+
+12+4+38+|N|Milagros en beneficio de los profetas+
+12+5+1+|N|Eliseo y Naamán+
+12+6+1+|N|Eliseo hace flotar el hacha+
+12+6+8+|N|Eliseo y los sirios+
+12+6+24+|N|Eliseo y el sitio de Samaria+
+12+8+1+|N|Los bienes de la sunamita devueltos+
+12+8+7+|N|Hazael reina en Siria+
+12+8+16+|N|Reinado de Joram de Judá+
+12+8+25+|N|Reinado de Ocozías de Judá+
+12+9+1+|N|Jehú es ungido rey de Israel+
+12+9+14+|N|Jehú mata a Joram+
+12+9+27+|N|Jehú mata a Ocozías+
+12+9+30+|N|Muerte de Jezabel+
+12+10+1+|N|Jehú extermina la casa de Acab+
+12+10+18+|N|Jehú extermina el culto de Baal+
+12+11+1+|N|Atalía usurpa el trono+
+12+12+1+|N|Reinado de Joás de Judá+
+12+13+1+|N|Reinado de Joacaz+
+12+13+10+|N|Reinado de Joás de Israel+
+12+13+14+|N|Profecía final y muerte de Eliseo+
+12+14+1+|N|Reinado de Amasías+
+12+14+23+|N|Reinado de Jeroboam II+
+12+15+1+|N|Reinado de Azarías+
+12+15+8+|N|Reinado de Zacarías+
+12+15+13+|N|Reinado de Salum+
+12+15+17+|N|Reinado de Manahem+
+12+15+23+|N|Reinado de Pekaía+
+12+15+27+|N|Reinado de Peka+
+12+15+32+|N|Reinado de Jotam+
+12+16+1+|N|Reinado de Acaz+
+12+17+1+|N|Caída de Samaria y cautiverio de Israel+
+12+17+24+|N|Asiria puebla de nuevo a Samaria+
+12+18+1+|N|Reinado de Ezequías+
+12+18+9+|N|Caída de Samaria+
+12+18+13+|N|Senaquerib invade a Judá+
+12+19+1+|N|Judá es librado de Senaquerib+
+12+20+1+|N|Enfermedad de Ezequías+
+12+20+12+|N|Ezequías recibe a los enviados de Babilonia+
+12+20+20+|N|Muerte de Ezequías+
+12+21+1+|N|Reinado de Manasés+
+12+21+19+|N|Reinado de Amón+
+12+22+1+|N|Reinado de Josías+
+12+22+3+|N|Hallazgo del libro de la ley+
+12+23+4+|N|Reformas de Josías+
+12+23+21+|N|Josías celebra la pascua+
+12+23+24+|N|Persiste la ira de Jehová contra Judá+
+12+23+28+|N|Muerte de Josías+
+12+23+31+|N|Reinado y destronamiento de Joacaz+
+12+23+36+|N|Reinado de Joacim+
+12+24+8+|N|Joaquín y los nobles son llevados cautivos a Babilonia+
+12+24+18+|N|Reinado de Sedequías+
+12+25+1+|N|Caída de Jerusalén+
+12+25+8+|N|Cautividad de Judá+
+12+25+22+|N|El remanente huye a Egipto+
+12+25+27+|N|Joaquín es libertado y recibe honores en Babilonia+
+13+1+1+|N|Descendientes de Adán+
+13+1+5+|N|Descendientes de los hijos de Noé+
+13+1+24+|N|Descendientes de Sem+
+13+1+28+|N|Descendientes de Ismael y de Cetura+
+13+1+34+|N|Descendientes de Esaú+
+13+2+1+|N|Los hijos de Israel+
+13+2+3+|N|Descendientes de Judá+
+13+3+1+|N|Los hijos de David+
+13+3+10+|N|Descendientes de Salomón+
+13+4+1+|N|Descendientes de Judá+
+13+4+24+|N|Descendientes de Simeón+
+13+5+1+|N|Descendientes de Rubén+
+13+5+11+|N|Descendientes de Gad+
+13+5+18+|N|Historia de las dos tribus y media+
+13+6+1+|N|Descendientes de Leví+
+13+6+31+|N|Cantores del templo nombrados por David+
+13+6+49+|N|Descendientes de Aarón.+
+13+6+54+|N|Las ciudades de los levitas+
+13+7+1+|N|Descendientes de Isacar+
+13+7+6+|N|Descendientes de Benjamín+
+13+7+13+|N|Descendientes de Neftalí+
+13+7+14+|N|Descendientes de Manasés+
+13+7+20+|N|Descendientes de Efraín+
+13+7+30+|N|Descendientes de Aser+
+13+8+1+|N|Descendientes de Benjamín+
+13+9+1+|N|Los que regresaron de Babilonia+
+13+9+35+|N|Genealogía de Saúl+
+13+10+1+|N|Muerte de Saúl y de sus hijos+
+13+11+1+|N|David es proclamado rey de Israel+
+13+11+4+|N|David toma la fortaleza de Sion+
+13+11+10+|N|Los valientes de David+
+13+12+1+|N|El ejército de David+
+13+13+1+|N|David propone trasladar el arca a Jerusalén+
+13+13+5+|N|David intenta traer el arca+
+13+14+1+|N|Hiram envía embajadores a David+
+13+14+3+|N|Hijos de David nacidos en Jerusalén+
+13+14+8+|N|David derrota a los filisteos+
+13+15+1+|N|David trae el arca a Jerusalén+
+13+16+7+|N|Salmo de acción de gracias de David+
+13+16+37+|N|Los levitas encargados del arca+
+13+17+1+|N|Pacto de Dios con David+
+13+18+1+|N|David extiende sus dominios+
+13+18+14+|N|Oficiales de David+
+13+19+1+|N|Derrotas de amonitas y sirios+
+13+20+1+|N|David captura a Rabá+
+13+20+4+|N|Los hombres de David matan a los gigantes+
+13+21+1+|N|David censa al pueblo+
+13+21+28+|N|El lugar para el templo+
+13+22+2+|N|Preparativos para el templo+
+13+23+1+|N|Distribución y deberes de los levitas+
+13+25+1+|N|Distribución de músicos y cantores+
+13+26+1+|N|Porteros y oficiales+
+13+27+1+|N|Otros oficiales de David+
+13+28+1+|N|Salomón sucede a David+
+13+29+26+|N|Muerte de David+
+14+1+1+|N|Salomón pide sabiduría+
+14+1+14+|N|Salomón comercia en caballos y en carros+
+14+2+1+|N|Pacto de Salomón con Hiram+
+14+3+1+|N|Salomón edifica el templo+
+14+3+15+|N|Las dos columnas+
+14+4+1+|N|Mobiliario del templo+
+14+5+2+|N|Salomón traslada el arca al templo+
+14+6+1+|N|Dedicación del templo+
+14+7+11+|N|Pacto de Dios con Salomón+
+14+8+1+|N|Otras actividades de Salomón+
+14+9+1+|N|La reina de Sabá visita a Salomón+
+14+9+13+|N|Riquezas y fama de Salomón+
+14+9+29+|N|Muerte de Salomón+
+14+10+1+|N|Rebelión de Israel+
+14+11+5+|N|Prosperidad de Roboam+
+14+12+1+|N|Sisac invade Judá+
+14+13+1+|N|Reinado de Abías+
+14+14+1+|N|Reinado de Asa+
+14+15+1+|N|Reformas religiosas de Asa+
+14+16+1+|N|Alianza de Asa con Ben-adad+
+14+16+11+|N|Muerte de Asa+
+14+17+1+|N|Reinado de Josafat+
+14+18+1+|N|Micaías profetiza la derrota de Acab+
+14+19+1+|N|El profeta Jehú amonesta a Josafat+
+14+19+4+|N|Josafat nombra jueces+
+14+20+1+|N|Victoria sobre Moab y Amón+
+14+20+31+|N|Resumen del reinado de Josafat+
+14+21+1+|N|Reinado de Joram de Judá+
+14+22+1+|N|Reinado de Ocozías de Judá+
+14+22+7+|N|Jehú mata a Ocozías+
+14+22+10+|N|Atalía usurpa el trono+
+14+24+1+|N|Reinado de Joás de Judá+
+14+25+1+|N|Reinado de Amasías+
+14+26+1+|N|Reinado de Uzías+
+14+27+1+|N|Reinado de Jotam+
+14+28+1+|N|Reinado de Acaz+
+14+29+1+|N|Reinado de Ezequías+
+14+29+3+|N|Ezequías restablece el culto del templo+
+14+30+1+|N|Ezequías celebra la pascua+
+14+31+2+|N|Ezequías reorganiza el servicio de los sacerdotes y levitas+
+14+32+1+|N|Senaquerib invade a Judá+
+14+32+20+|N|Jehová libra a Ezequías+
+14+32+24+|N|Enfermedad de Ezequías+
+14+32+27+|N|Ezequías recibe a los enviados de Babilonia+
+14+32+32+|N|Muerte de Ezequías+
+14+33+1+|N|Reinado de Manasés+
+14+33+21+|N|Reinado de Amón+
+14+34+1+|N|Reinado de Josías+
+14+34+3+|N|Reformas de Josías+
+14+34+8+|N|Hallazgo del libro de la ley+
+14+35+1+|N|Josías celebra la pascua+
+14+35+20+|N|Muerte de Josías+
+14+36+1+|N|Reinado y destronamiento de Joacaz+
+14+36+5+|N|Reinado de Joacim+
+14+36+9+|N|Joaquín es llevado cautivo a Babilonia+
+14+36+11+|N|Reinado de Sedequías+
+14+36+17+|N|Cautividad de Judá+
+14+36+22+|N|El decreto de Ciro+
+15+1+1+|N|El decreto de Ciro+
+15+1+5+|N|El regreso a Jerusalén+
+15+2+1+|N|Los que volvieron con Zorobabel+
+15+3+1+|N|Restauración del altar y del culto+
+15+3+8+|N|Colocación de los cimientos del templo+
+15+4+1+|N|Los adversarios detienen la obra+
+15+5+1+|N|Reedificación del templo+
+15+7+1+|N|Esdras y sus compañeros llegan a Jerusalén+
+15+9+1+|N|Oración de confesión de Esdras+
+15+10+1+|N|Expulsión de las mujeres extranjeras+
+16+1+1+|N|Oración de Nehemías sobre Jerusalén+
+16+2+1+|N|Artajerjes envía a Nehemías a Jerusalén+
+16+2+11+|N|Nehemías anima al pueblo a reedificar los muros+
+16+3+1+|N|Reparto del trabajo de reedificación+
+16+4+1+|N|Precauciones contra los enemigos+
+16+5+1+|N|Abolición de la usura+
+16+6+1+|N|Maquinaciones de los adversarios+
+16+7+1+|N|Nehemías designa dirigentes+
+16+7+5+|N|Los que volvieron con Zorobabel+
+16+8+1+|N|Esdras lee la ley al pueblo+
+16+9+1+|N|Esdras confiesa los pecados de Israel+
+16+9+38+|N|Pacto del pueblo, de guardar la ley+
+16+11+1+|N|Los habitantes de Jerusalén+
+16+11+25+|N|Lugares habitados fuera de Jerusalén+
+16+12+1+|N|Sacerdotes y levitas+
+16+12+27+|N|Dedicación del muro+
+16+12+44+|N|Porciones para sacerdotes y levitas+
+16+13+1+|N|Reformas de Nehemías+
+17+1+1+|N|La reina Vasti desafía a Asuero+
+17+2+1+|N|Ester es proclamada reina+
+17+2+19+|N|Mardoqueo denuncia una conspiración contra el rey+
+17+3+1+|N|Amán trama la destrucción de los judíos+
+17+4+1+|N|Ester promete interceder por su pueblo+
+17+5+1+|N|Ester invita al rey y a Amán a un banquete+
+17+6+1+|N|Amán se ve obligado a honrar a Mardoqueo+
+17+7+1+|N|Amán es ahorcado+
+17+8+1+|N|Decreto de Asuero a favor de los judíos+
+17+9+1+|N|Los judíos destruyen a sus enemigos+
+17+10+1+|N|Grandeza de Mardoqueo+
+18+1+1+|N|Las calamidades de Job+
+18+3+1+|N|Job maldice el día en que nació+
+18+4+1+|N|Elifaz reprende a Job+
+18+6+1+|N|Job reprocha la actitud de sus amigos+
+18+7+1+|N|Job argumenta contra Dios+
+18+8+1+|N|Bildad proclama la justicia de Dios+
+18+9+1+|N|Incapacidad de Job para responder a Dios+
+18+10+1+|N|Job lamenta su condición+
+18+11+1+|N|Zofar acusa de maldad a Job+
+18+12+1+|N|Job proclama el poder y la sabiduría de Dios+
+18+13+1+|N|Job defiende su integridad+
+18+14+1+|N|Job discurre sobre la brevedad de la vida+
+18+15+1+|N|Elifaz reprende a Job+
+18+16+1+|N|Job se queja contra Dios+
+18+18+1+|N|Bildad describe la suerte de los malos+
+18+19+1+|N|Job confía en que Dios lo justificará+
+18+20+1+|N|Zofar describe las calamidades de los malos+
+18+21+1+|N|Job afirma que los malos prosperan+
+18+22+1+|N|Elifaz acusa a Job de gran maldad+
+18+23+1+|N|Job desea abogar su causa delante de Dios+
+18+24+1+|N|Job se queja de que Dios es indiferente ante la maldad+
+18+25+1+|N|Bildad niega que el hombre pueda ser justificado delante de Dios+
+18+26+1+|N|Job proclama la soberanía de Dios+
+18+27+1+|N|Job describe el castigo de los malos+
+18+28+1+|N|El hombre en busca de la sabiduría+
+18+29+1+|N|Job recuerda su felicidad anterior+
+18+30+1+|N|Job lamenta su desdicha actual+
+18+31+1+|N|Job afirma su integridad+
+18+32+1+|N|Eliú justifica su derecho de contestar a Job+
+18+33+1+|N|Eliú censura a Job+
+18+34+1+|N|Eliú justifica a Dios+
+18+36+1+|N|Eliú exalta la grandeza de Dios+
+18+38+1+|N|Jehová convence a Job de su ignorancia+
+18+40+6+|N|Manifestaciones del poder de Dios+
+18+42+1+|N|Confesión y justificación de Job+
+18+42+10+|N|Restauración de la prosperidad de Job+
+19+1+1+|N|El justo y los pecadores+
+19+2+1+|N|El reino del ungido de Jehová+
+19+3+1+|N|Oración matutina de confianza en Dios+
+19+4+1+|N|Oración vespertina de confianza en Dios+
+19+5+1+|N|Plegaria pidiendo protección+
+19+6+1+|N|Oración pidiendo misericordia en tiempo de prueba+
+19+7+1+|N|Plegaria pidiendo vindicación+
+19+8+1+|N|La gloria de Dios y la honra del hombre+
+19+9+1+|N|Acción de gracias por la justicia de Dios+
+19+10+1+|N|Plegaria pidiendo la destrucción de los malvados+
+19+11+1+|N|El refugio del justo+
+19+12+1+|N|Oración pidiendo ayuda contra los malos+
+19+13+1+|N|Plegaria pidiendo ayuda en la aflicción+
+19+14+1+|N|Necedad y corrupción del hombre+
+19+15+1+|N|Los que habitarán en el monte santo de Dios+
+19+16+1+|N|Una herencia escogida+
+19+17+1+|N|Plegaria pidiendo protección contra los opresores+
+19+18+1+|N|Acción de gracias por la victoria+
+19+19+1+|N|Las obras y la palabra de Dios+
+19+20+1+|N|Oración pidiendo la victoria+
+19+21+1+|N|Alabanza por haber sido librado del enemigo+
+19+22+1+|N|Un grito de angustia y un canto de alabanza+
+19+23+1+|N|Jehová es mi pastor+
+19+24+1+|N|El rey de gloria+
+19+25+1+|N|David implora dirección, perdón y protección+
+19+26+1+|N|Declaración de integridad+
+19+27+1+|N|Jehová es mi luz y mi salvación+
+19+28+1+|N|Plegaria pidiendo ayuda, y alabanza por la respuesta+
+19+30+1+|N|Acción de gracias por haber sido librado de la muerte+
+19+31+1+|N|Acción de gracias por haber sido librado de la muerte+
+19+32+1+|N|La dicha del perdón+
+19+33+1+|N|Alabanzas al Creador y Preservador+
+19+34+1+|N|La protección divina+
+19+35+1+|N|Plegaria pidiendo ser librado de los enemigos+
+19+36+1+|N|La misericordia de Dios+
+19+37+1+|N|El camino de los malos+
+19+38+1+|N|Oración de un penitente+
+19+39+1+|N|El carácter transitorio de la vida+
+19+40+1+|N|Alabanza por la liberación divina+
+19+41+1+|N|Oración pidiendo salud+
+19+42+1+|N|Mi alma tiene sed de Dios+
+19+43+1+|N|Plegaria pidiendo vindicación y liberación+
+19+44+1+|N|Liberaciones pasadas y pruebas presentes+
+19+45+1+|N|Cántico de las bodas del rey+
+19+46+1+|N|Dios es nuestro amparo y fortaleza+
+19+47+1+|N|Dios, el Rey de toda la tierra+
+19+48+1+|N|Hermosura y gloria de Sion+
+19+49+1+|N|La insensatez de confiar en las riquezas+
+19+50+1+|N|Dios juzgará al mundo+
+19+51+1+|N|Arrepentimiento, y plegaria pidiendo purificación+
+19+52+1+|N|Futilidad de la jactancia del malo+
+19+53+1+|N|Insensatez y maldad de los hombres+
+19+54+1+|N|Plegaria pidiendo protección contra los enemigos+
+19+55+1+|N|Plegaria pidiendo la destrucción de enemigos traicioneros+
+19+56+1+|N|Oración de confianza+
+19+57+1+|N|Plegaria pidiendo ser librado de los perseguidores+
+19+58+1+|N|Plegaria pidiendo el castigo de los malos+
+19+59+1+|N|Oración pidiendo ser librado de los enemigos+
+19+60+1+|N|Plegaria pidiendo ayuda contra el enemigo+
+19+61+1+|N|Confianza en la protección de Dios+
+19+63+1+|N|Dios, satisfacción del alma+
+19+64+1+|N|Plegaria pidiendo protección contra enemigos ocultos+
+19+65+1+|N|La generosidad de Dios en la naturaleza+
+19+66+1+|N|Alabanza por los hechos poderosos de Dios+
+19+67+1+|N|Exhortación a las naciones, para que alaben a Dios+
+19+68+1+|N|El Dios del Sinaí y del santuario+
+19+69+1+|N|Un grito de angustia+
+19+70+1+|N|Súplica por la liberación+
+19+71+1+|N|Oración de un anciano+
+19+72+1+|N|El reino de un rey justo+
+19+73+1+|N|El destino de los malos+
+19+74+1+|N|Apelación a Dios en contra del enemigo+
+19+75+1+|N|Dios abate al malo y exalta al justo+
+19+76+1+|N|El Dios de la victoria y del juicio+
+19+77+1+|N|Meditación sobre los hechos poderosos de Dios+
+19+78+1+|N|Fidelidad de Dios hacia su pueblo infiel+
+19+79+1+|N|Lamento por la destrucción de Jerusalén+
+19+80+1+|N|Súplica por la restauración+
+19+81+1+|N|Bondad de Dios y perversidad de Israel+
+19+82+1+|N|Amonestación contra los juicios injustos+
+19+83+1+|N|Plegaria pidiendo la destrucción de los enemigos de Israel+
+19+84+1+|N|Anhelo por la casa de Dios+
+19+85+1+|N|Súplica por la misericordia de Dios sobre Israel+
+19+86+1+|N|Oración pidiendo la continuada misericordia de Dios+
+19+87+1+|N|El privilegio de morar en Sion+
+19+88+1+|N|Súplica por la liberación de la muerte+
+19+89+1+|N|Pacto de Dios con David+
+19+90+1+|N|La eternidad de Dios y la transitoriedad del hombre+
+19+91+1+|N|Morando bajo la sombra del Omnipotente+
+19+92+1+|N|Alabanza por la bondad de Dios+
+19+93+1+|N|La majestad de Jehová+
+19+94+1+|N|Oración clamando por venganza+
+19+95+1+|N|Cántico de alabanza y de adoración+
+19+96+1+|N|Cántico de alabanza+
+19+97+1+|N|El dominio y el poder de Jehová+
+19+98+1+|N|Alabanza por la justicia de Dios+
+19+99+1+|N|Fidelidad de Jehová para con Israel+
+19+100+1+|N|Exhortación a la gratitud+
+19+101+1+|N|Promesa de vivir rectamente+
+19+102+1+|N|Oración de un afligido+
+19+103+1+|N|Alabanza por las bendiciones de Dios+
+19+104+1+|N|Dios cuida de su creación+
+19+105+1+|N|Maravillas de Jehová a favor de Israel+
+19+106+1+|N|La rebeldía de Israel+
+19+107+1+|N|Dios libra de la aflicción+
+19+108+1+|N|Petición de ayuda contra el enemigo+
+19+109+1+|N|Clamor de venganza+
+19+110+1+|N|Jehová da dominio al rey+
+19+111+1+|N|Dios cuida de su pueblo+
+19+112+1+|N|Prosperidad del que teme a Jehová+
+19+113+1+|N|Dios levanta al pobre+
+19+114+1+|N|Las maravillas del Exodo+
+19+115+1+|N|Dios y los ídolos+
+19+116+1+|N|Acción de gracias por haber sido librado de la muerte+
+19+117+1+|N|Alabanza por la misericordia de Jehová+
+19+118+1+|N|Acción de gracias por la salvación recibida de Jehová+
+19+119+1+|N|Excelencias de la ley de Dios+
+19+119+9+|N|Bet+
+19+119+17+|N|Guímel+
+19+119+25+|N|Dálet+
+19+119+33+|N|He+
+19+119+41+|N|Vau+
+19+119+49+|N|Zain+
+19+119+57+|N|Chet+
+19+119+65+|N|Tet+
+19+119+73+|N|Yod+
+19+119+81+|N|Caf+
+19+119+89+|N|Lámed+
+19+119+97+|N|Mem+
+19+119+105+|N|Nun+
+19+119+113+|N|Sámec+
+19+119+121+|N|Ayin+
+19+119+129+|N|Pe+
+19+119+137+|N|Tsade+
+19+119+145+|N|Cof+
+19+119+153+|N|Resh+
+19+119+161+|N|Sin+
+19+119+169+|N|Tau+
+19+120+1+|N|Plegaria ante el peligro de la lengua engañosa+
+19+121+1+|N|Jehová es tu guardador+
+19+122+1+|N|Oración por la paz de Jerusalén+
+19+123+1+|N|Plegaria pidiendo misericordia+
+19+124+1+|N|Alabanza por haber sido librado de los enemigos+
+19+125+1+|N|Dios protege a su pueblo+
+19+126+1+|N|Oración por la restauración+
+19+127+1+|N|La prosperidad viene de Jehová+
+19+128+1+|N|La bienaventuranza del que teme a Jehová+
+19+129+1+|N|Plegaria pidiendo la destrucción de los enemigos de Sion+
+19+130+1+|N|Esperanza en que Jehová dará redención+
+19+131+1+|N|Confiando en Dios como un niño+
+19+132+1+|N|Plegaria por bendición sobre el santuario+
+19+133+1+|N|La bienaventuranza del amor fraternal+
+19+134+1+|N|Exhortación a los guardas del templo+
+19+135+1+|N|La grandeza del Señor y la vanidad de los ídolos+
+19+136+1+|N|Alabanza por la misericordia eterna de Jehová+
+19+137+1+|N|Lamento de los cautivos en Babilonia+
+19+138+1+|N|Acción de gracias por el favor de Jehová+
+19+139+1+|N|Omnipresencia y omnisciencia de Dios+
+19+140+1+|N|Súplica de protección contra los perseguidores+
+19+141+1+|N|Oración a fin de ser guardado del mal+
+19+142+1+|N|Petición de ayuda en medio de la prueba+
+19+143+1+|N|Súplica de liberación y dirección+
+19+144+1+|N|Oración pidiendo socorro y prosperidad+
+19+145+1+|N|Alabanza por la bondad y el poder de Dios+
+19+146+1+|N|Alabanza por la justicia de Dios+
+19+147+1+|N|Alabanza por el favor de Dios hacia Jerusalén+
+19+148+1+|N|Exhortación a la creación, para que alabe a Jehová+
+19+149+1+|N|Exhortación a Israel, para que alabe a Jehová+
+19+150+1+|N|Exhortación a alabar a Dios con instrumentos de música Aleluya.+
+20+1+1+|N|Motivo de los proverbios+
+20+1+8+|N|Amonestaciones de la Sabiduría+
+20+2+1+|N|Excelencias de la sabiduría+
+20+3+1+|N|Exhortación a la obediencia+
+20+4+1+|N|Beneficios de la sabiduría+
+20+5+1+|N|Amonestación contra la impureza+
+20+6+1+|N|Amonestación contra la pereza y la falsedad+
+20+6+20+|N|Amonestación contra el adulterio+
+20+7+1+|N|Las artimañas de la ramera+
+20+8+1+|N|Excelencia y eternidad de la Sabiduría+
+20+9+1+|N|La Sabiduría y la mujer insensata+
+20+10+1+|N|Contraste entre el justo y el malvado+
+20+16+1+|N|Proverbios sobre la vida y la conducta+
+20+22+17+|N|Preceptos y amonestaciones+
+20+25+1+|N|Comparaciones y lecciones morales+
+20+28+1+|N|Proverbios antitéticos+
+20+30+1+|N|Las palabras de Agur+
+20+31+1+|N|Exhortación a un rey+
+20+31+10+|N|Elogio de la mujer virtuosa+
+21+1+1+|N|Todo es vanidad+
+21+1+12+|N|La experiencia del Predicador+
+21+3+1+|N|Todo tiene su tiempo+
+21+3+16+|N|Injusticias de la vida+
+21+5+1+|N|La insensatez de hacer votos a la ligera+
+21+5+8+|N|La vanidad de la vida+
+21+7+1+|N|Contraste entre la sabiduría y la insensatez+
+21+8+10+|N|Desigualdades de la vida+
+21+10+1+|N|Excelencia de la sabiduría+
+21+11+9+|N|Consejos para la juventud+
+21+12+9+|N|Resumen del deber del hombre+
+22+1+1+|N|La esposa y las hijas de Jerusalén+
+22+1+9+|N|La esposa y el esposo+
+22+3+1+|N|El ensueño de la esposa+
+22+3+6+|N|El cortejo de bodas+
+22+4+1+|N|El esposo alaba a la esposa+
+22+5+2+|N|El tormento de la separación+
+22+5+9+|N|La esposa alaba al esposo+
+22+6+1+|N|Mutuo encanto del esposo y de la esposa+
+22+8+5+|N|El poder del amor+
+23+1+1+|N|Una nación pecadora+
+23+1+10+|N|Llamamiento al arrepentimiento verdadero+
+23+1+21+|N|Juicio y redención de Jerusalén+
+23+2+1+|N|Reinado universal de Jehová+
+23+2+5+|N|Juicio de Jehová contra los soberbios+
+23+3+1+|N|Juicio de Jehová contra Judá y Jerusalén+
+23+3+16+|N|Juicio contra las hijas de Sion+
+23+4+2+|N|Futuro glorioso de Jerusalén+
+23+5+1+|N|Parábola de la viña+
+23+5+8+|N|Ayes sobre los malvados+
+23+6+1+|N|Visión y llamamiento de Isaías+
+23+7+1+|N|Mensaje de Isaías a Acaz+
+23+8+1+|N|Sea Jehová vuestro temor+
+23+9+1+|N|Nacimiento y reinado del Mesías+
+23+9+8+|N|La ira de Jehová contra Israel+
+23+10+5+|N|Asiria, instrumento de Dios+
+23+11+1+|N|Reinado justo del Mesías+
+23+12+1+|N|Cántico de acción de gracias+
+23+13+1+|N|Profecía sobre Babilonia+
+23+14+1+|N|Escarnio contra el rey de Babilonia+
+23+14+24+|N|Asiria será destruida+
+23+14+28+|N|Profecía sobre Filistea+
+23+15+1+|N|Profecía sobre Moab+
+23+17+1+|N|Profecía sobre Damasco+
+23+17+4+|N|Juicio sobre Israel+
+23+18+1+|N|Profecía sobre Etiopía+
+23+19+1+|N|Profecía sobre Egipto+
+23+20+1+|N|Predicción de la conquista de Egipto y de Etiopía por Asiria+
+23+21+1+|N|Profecía sobre el desierto del mar+
+23+21+11+|N|Profecía sobre Duma+
+23+21+13+|N|Profecía sobre Arabia+
+23+22+1+|N|Profecía sobre el valle de la visión+
+23+22+15+|N|Sebna será sustituido por Eliaquim+
+23+23+1+|N|Profecía sobre Tiro+
+23+24+1+|N|El juicio de Jehová sobre la tierra+
+23+25+1+|N|Cántico de alabanza por el favor de Jehová+
+23+26+1+|N|Cántico de confianza en la protección de Jehová+
+23+27+1+|N|Liberación y regreso de Israel+
+23+28+1+|N|Condenación de Efraín+
+23+28+14+|N|Amonestación a Jerusalén+
+23+29+1+|N|Ariel y sus enemigos+
+23+29+9+|N|Ceguera e hipocresía de Israel+
+23+29+17+|N|Redención de Israel+
+23+30+1+|N|La futilidad de confiar en Egipto+
+23+30+18+|N|Promesa de la gracia de Dios a Israel+
+23+30+27+|N|El juicio de Jehová sobre Asiria+
+23+31+1+|N|Los egipcios son hombres y no dioses+
+23+32+1+|N|El Rey justo+
+23+32+9+|N|Advertencia a las mujeres de Jerusalén+
+23+33+1+|N|Jehová traerá salvación+
+23+34+1+|N|La ira de Jehová contra las naciones+
+23+35+1+|N|Futuro glorioso de Sion+
+23+36+1+|N|La invasión de Senaquerib+
+23+37+1+|N|Judá es librado de Senaquerib+
+23+38+1+|N|Enfermedad de Ezequías+
+23+39+1+|N|Ezequías recibe a los enviados de Babilonia+
+23+40+1+|N|Jehová consuela a Sion+
+23+40+12+|N|El incomparable Dios de Israel+
+23+41+1+|N|Seguridad de Dios para Israel+
+23+41+21+|N|Dios reta a los falsos dioses+
+23+42+1+|N|El Siervo de Jehová+
+23+42+10+|N|Alabanza por la liberación poderosa de Jehová+
+23+42+18+|N|Israel no aprende de la disciplina+
+23+43+1+|N|Jehová es el único Redentor+
+23+44+1+|N|Jehová es el único Dios+
+23+44+9+|N|La insensatez de la idolatría+
+23+44+21+|N|Jehová es el Redentor de Israel+
+23+45+1+|N|Encargo de Dios para Ciro+
+23+45+8+|N|Jehová el Creador+
+23+45+20+|N|Jehová y los ídolos de Babilonia+
+23+47+1+|N|Juicio sobre Babilonia+
+23+48+1+|N|Dios reprende la infidelidad de Israel+
+23+49+1+|N|Israel, siervo de Jehová+
+23+49+8+|N|Dios promete restaurar a Sion+
+23+50+1+|N|Jehová ayuda a quienes confían en él+
+23+51+1+|N|Palabras de consuelo para Sion+
+23+52+1+|N|Dios librará del cautiverio a Sion+
+23+52+13+|N|Sufrimientos del Siervo de Jehová+
+23+54+1+|N|El amor eterno de Jehová hacia Israel+
+23+55+1+|N|Misericordia gratuita para todos+
+23+56+1+|N|Recompensa de los que guardan el pacto de Dios+
+23+57+1+|N|Condenación de la idolatría de Israel+
+23+58+1+|N|El verdadero ayuno+
+23+58+13+|N|La observancia del día de reposo+
+23+59+1+|N|Confesión del pecado de Israel+
+23+60+1+|N|La futura gloria de Sion+
+23+61+1+|N|Buenas nuevas de salvación para Sion+
+23+63+1+|N|El día de la venganza de Jehová+
+23+63+7+|N|Bondad de Jehová hacia Israel+
+23+63+15+|N|Plegaria pidiendo misericordia y ayuda+
+23+65+1+|N|Castigo de los rebeldes+
+23+65+17+|N|Cielos nuevos y tierra nueva+
+23+66+1+|N|Los juicios de Jehová y la futura prosperidad de Sion+
+24+1+1+|N|Llamamiento y misión de Jeremías+
+24+2+1+|N|Jehová y la apostasía de Israel+
+24+3+6+|N|Jehová exhorta a Israel y a Judá al arrepentimiento+
+24+4+5+|N|Judá es amenazada de invasión+
+24+5+1+|N|Impiedad de Jerusalén y de Judá+
+24+6+1+|N|El juicio contra Jerusalén y Judá+
+24+7+1+|N|Mejorad vuestros caminos y vuestras obras+
+24+7+21+|N|Castigo de la rebelión de Judá+
+24+8+1+|N|Violación del pacto de libertar a los siervos hebreos+
+24+8+18+|N|Lamento sobre Judá y Jerusalén+
+24+9+12+|N|Amenaza de ruina y exilio+
+24+9+23+|N|El conocimiento de Dios es la gloria del hombre+
+24+10+1+|N|Los falsos dioses y el Dios verdadero+
+24+10+17+|N|Asolamiento de Judá+
+24+11+1+|N|El pacto violado+
+24+11+18+|N|Complot contra Jeremías+
+24+12+1+|N|Queja de Jeremías y respuesta de Dios+
+24+13+1+|N|La señal del cinto podrido+
+24+13+12+|N|La señal de las tinajas llenas+
+24+13+15+|N|Judá será llevada en cautiverio+
+24+14+1+|N|Mensaje con motivo de la sequía+
+24+15+1+|N|La implacable ira de Dios contra Judá+
+24+15+15+|N|Jehová reanima a Jeremías+
+24+16+1+|N|Juicio de Jehová contra Judá+
+24+17+1+|N|El pecado escrito en el corazón de Judá+
+24+17+19+|N|Observancia del día de reposo+
+24+18+1+|N|La señal del alfarero y el barro+
+24+18+18+|N|Conspiración del pueblo y oración de Jeremías+
+24+19+1+|N|La señal de la vasija rota+
+24+20+1+|N|Profecía contra Pasur+
+24+20+7+|N|Lamento de Jeremías+
+24+21+1+|N|Jerusalén será destruida+
+24+22+1+|N|Profecías contra los reyes de Judá+
+24+23+1+|N|Regreso del remanente+
+24+23+9+|N|Denunciación de los falsos profetas+
+24+24+1+|N|La señal de los higos buenos y malos+
+24+25+1+|N|Setenta años de desolación+
+24+25+15+|N|La copa de ira para las naciones+
+24+26+1+|N|Jeremías es amenazado de muerte+
+24+27+1+|N|La señal de los yugos+
+24+28+1+|N|Falsa profecía de Hananías+
+24+29+1+|N|Carta de Jeremías a los cautivos+
+24+30+1+|N|Dios promete que los cautivos volverán+
+24+31+27+|N|El nuevo pacto+
+24+32+1+|N|Jeremías compra la heredad de Hanameel+
+24+33+1+|N|Restauración de la prosperidad de Jerusalén+
+24+34+1+|N|Jeremías amonesta a Sedequías+
+24+35+1+|N|Obediencia de los recabitas+
+24+36+1+|N|El rey quema el rollo+
+24+37+1+|N|Encarcelamiento de Jeremías+
+24+38+1+|N|Jeremías en la cisterna+
+24+38+14+|N|Sedequías consulta secretamente a Jeremías+
+24+39+1+|N|Caída de Jerusalén+
+24+39+11+|N|Nabucodonosor cuida de Jeremías+
+24+39+15+|N|Dios promete librar a Ebed-melec+
+24+40+1+|N|Jeremías y el remanente con Gedalías+
+24+40+13+|N|Conspiración de Ismael contra Gedalías+
+24+42+1+|N|Mensaje a Johanán+
+24+43+1+|N|La emigración a Egipto+
+24+44+1+|N|Jeremías profetiza a los judíos en Egipto+
+24+45+1+|N|Mensaje a Baruc+
+24+46+1+|N|Profecías acerca de Egipto+
+24+47+1+|N|Profecía sobre los filisteos+
+24+48+1+|N|Profecía sobre Moab+
+24+49+1+|N|Profecía sobre los amonitas+
+24+49+7+|N|Profecía sobre Edom+
+24+49+23+|N|Profecía sobre Damasco+
+24+49+28+|N|Profecía sobre Cedar y Hazor+
+24+49+34+|N|Profecía sobre Elam+
+24+50+1+|N|Profecía sobre Babilonia+
+24+51+1+|N|Juicios de Jehová contra Babilonia+
+24+52+1+|N|Reinado de Sedequías+
+24+52+4+|N|Caída de Jerusalén+
+24+52+12+|N|Cautividad de Judá+
+24+52+31+|N|Joaquín es libertado y recibe honores en Babilonia+
+25+1+1+|N|Tristezas de Sion la cautiva+
+25+2+1+|N|Las tristezas de Sion vienen de Jehová+
+25+3+1+|N|Esperanza de liberación por la misericordia de Dios+
+25+4+1+|N|El castigo de Sion consumado+
+25+5+1+|N|Oración del pueblo afligido+
+26+1+1+|N|La visión de la gloria divina+
+26+2+1+|N|Llamamiento de Ezequiel+
+26+3+16+|N|El atalaya de Israel+
+26+3+22+|N|El profeta mudo+
+26+4+1+|N|Predicción del sitio de Jerusalén+
+26+6+1+|N|Profecía contra los montes de Israel+
+26+7+1+|N|El fin viene+
+26+8+1+|N|Visión de las abominaciones en Jerusalén+
+26+9+1+|N|Visión de la muerte de los culpables+
+26+10+1+|N|La gloria de Dios abandona el templo+
+26+11+1+|N|Reprensión de los príncipes malvados+
+26+11+14+|N|Promesa de restauración y renovación+
+26+12+1+|N|Salida de Ezequiel en señal de la cautividad+
+26+13+1+|N|Condenación de los falsos profetas+
+26+14+1+|N|Juicio contra los idólatras que consultan al profeta+
+26+14+12+|N|Justicia del castigo de Jerusalén+
+26+15+1+|N|Jerusalén es como una vid inútil+
+26+16+1+|N|Infidelidad de Jerusalén+
+26+17+1+|N|Parábola de las águilas y la vid+
+26+18+1+|N|El alma que pecare morirá+
+26+18+21+|N|El camino de Dios es justo+
+26+19+1+|N|Lamentación sobre los príncipes de Israel+
+26+20+1+|N|Modo de proceder de Dios con Israel+
+26+20+45+|N|Profecía contra el Neguev+
+26+21+1+|N|La espada afilada de Jehová+
+26+21+28+|N|Juicio contra los amonitas+
+26+22+1+|N|Los pecados de Jerusalén+
+26+23+1+|N|Las dos hermanas+
+26+24+1+|N|Parábola de la olla hirviente+
+26+24+15+|N|Muerte de la esposa de Ezequiel+
+26+25+1+|N|Profecía contra Amón+
+26+25+8+|N|Profecía contra Moab+
+26+25+12+|N|Profecía contra Edom+
+26+25+15+|N|Profecía contra los filisteos+
+26+26+1+|N|Profecía contra Tiro+
+26+28+20+|N|Profecía contra Sidón+
+26+29+1+|N|Profecías contra Egipto+
+26+33+1+|N|El deber del atalaya+
+26+33+10+|N|El camino de Dios es justo+
+26+33+21+|N|Nuevas de la caída de Jerusalén+
+26+34+1+|N|Profecía contra los pastores de Israel+
+26+35+1+|N|Profecía contra el Monte Seir+
+26+36+1+|N|Restauración futura de Israel+
+26+37+1+|N|El valle de los huesos secos+
+26+37+15+|N|La reunión de Judá e Israel+
+26+38+1+|N|Profecía contra Gog+
+26+40+1+|N|La visión del templo+
+26+43+1+|N|La gloria de Jehová llena el templo+
+26+43+6+|N|Leyes del templo+
+26+47+1+|N|Las aguas salutíferas+
+26+47+13+|N|Límites y repartición de la tierra+
+27+1+1+|N|Daniel y sus compañeros en Babilonia+
+27+2+1+|N|Daniel interpreta el sueño de Nabucodonosor+
+27+3+1+|N|Rescatados del horno de fuego+
+27+4+1+|N|La locura de Nabucodonosor+
+27+5+1+|N|La escritura en la pared+
+27+6+1+|N|Daniel en el foso de los leones+
+27+7+1+|N|Visión de las cuatro bestias+
+27+8+1+|N|Visión del carnero y del macho cabrío+
+27+9+1+|N|Oración de Daniel por su pueblo+
+27+9+20+|N|Profecía de las setenta semanas+
+27+10+1+|N|Visión de Daniel junto al río+
+27+11+2+|N|Los reyes del norte y del sur+
+27+12+1+|N|El tiempo del fin+
+28+1+1+|N|La esposa infiel de Oseas, y sus hijos+
+28+2+1+|N|El amor de Jehová hacia su pueblo infiel+
+28+3+1+|N|Oseas y la adúltera+
+28+4+1+|N|Controversia de Jehová con Israel+
+28+5+1+|N|Castigo de la apostasía de Israel+
+28+5+15+|N|Insinceridad del arrepentimiento de Israel+
+28+7+1+|N|Iniquidad y rebelión de Israel+
+28+8+1+|N|Reprensión de la idolatría de Israel+
+28+9+1+|N|Castigo de la persistente infidelidad de Israel+
+28+11+1+|N|Dios se compadece de su pueblo obstinado+
+28+12+1+|N|Efraín reprendido por su falsedad y opresión+
+28+13+1+|N|Destrucción total de Efraín predicha+
+28+14+1+|N|Súplica a Israel para que vuelva a Jehová+
+29+1+1+|N|Devastación de la tierra por la langosta+
+29+2+12+|N|La misericordia de Jehová+
+29+2+28+|N|Derramamiento del Espíritu de Dios+
+29+3+1+|N|Juicio de Jehová sobre las naciones+
+29+3+16+|N|Liberación de Judá+
+30+1+1+|N|Juicios contra las naciones vecinas+
+30+2+6+|N|Juicio contra Israel+
+30+3+1+|N|El rugido del león+
+30+3+9+|N|Destrucción de Samaria+
+30+4+4+|N|Aunque castigado, Israel no aprende+
+30+5+1+|N|Llamamiento al arrepentimiento+
+30+6+1+|N|Destrucción de Israel+
+30+7+1+|N|Tres visiones de destrucción+
+30+7+10+|N|Amós y Amasías+
+30+8+1+|N|El canastillo de fruta de verano+
+30+8+4+|N|El juicio sobre Israel se acerca+
+30+9+1+|N|Los juicios de Jehová son ineludibles+
+30+9+11+|N|Restauración futura de Israel+
+31+1+1+|N|La humillación de Edom+
+31+1+15+|N|La exaltación de Israel+
+32+1+1+|N|Jonás huye de Jehová+
+32+2+1+|N|Oración de Jonás+
+32+3+1+|N|Nínive se arrepiente+
+32+4+1+|N|El enojo de Jonás+
+33+1+1+|N|Lamento sobre Samaria y Jerusalén+
+33+2+1+|N|!!Ay de los que oprimen a los pobres!+
+33+3+1+|N|Acusación contra los dirigentes de Israel+
+33+4+1+|N|Reinado universal de Jehová+
+33+4+6+|N|Israel será redimido del cautiverio+
+33+5+1+|N|El reinado del libertador desde Belén+
+33+6+1+|N|Controversia de Jehová contra Israel+
+33+6+6+|N|Lo que pide Jehová+
+33+7+1+|N|Corrupción moral de Israel+
+33+7+8+|N|Jehová trae luz y libertad+
+33+7+14+|N|Compasión de Jehová por Israel+
+34+1+1+|N|La ira vengadora de Dios+
+34+1+15+|N|Anuncio de la caída de Nínive+
+34+2+13+|N|Destrucción total de Nínive+
+35+1+1+|N|Habacuc se queja de injusticia+
+35+1+5+|N|Los caldeos castigarán a Judá+
+35+1+12+|N|Protesta de Habacuc+
+35+2+1+|N|Jehová responde a Habacuc+
+35+2+6+|N|Ayes contra los injustos+
+35+3+1+|N|Oración de Habacuc+
+36+1+1+|N|El día de la ira de Jehová+
+36+2+1+|N|Juicios contra las naciones vecinas+
+36+3+1+|N|El pecado de Jerusalén, y su redención+
+37+1+1+|N|Exhortación a edificar el templo+
+37+2+1+|N|La gloria del nuevo templo+
+37+2+10+|N|La infidelidad del pueblo es reprendida+
+37+2+20+|N|Promesa de Jehová a Zorobabel+
+38+1+1+|N|Llamamiento a volver a Jehová+
+38+1+7+|N|La visión de los caballos+
+38+1+18+|N|Visión de los cuernos y los carpinteros+
+38+2+1+|N|Llamamiento a los cautivos+
+38+3+1+|N|Visión del sumo sacerdote Josué+
+38+4+1+|N|El candelabro de oro y los olivos+
+38+5+1+|N|El rollo volante+
+38+5+5+|N|La mujer en el efa+
+38+6+1+|N|Los cuatro carros+
+38+6+9+|N|Coronación simbólica de Josué+
+38+7+1+|N|El ayuno que Dios reprueba+
+38+7+8+|N|La desobediencia, causa del cautiverio+
+38+8+1+|N|Promesa de la restauración de Jerusalén+
+38+9+1+|N|Castigo de las naciones vecinas+
+38+9+9+|N|El futuro rey de Sion+
+38+10+1+|N|Jehová redimirá a su pueblo+
+38+11+4+|N|Los pastores inútiles+
+38+12+1+|N|Liberación futura de Jerusalén+
+38+13+7+|N|El pastor de Jehová es herido+
+38+14+1+|N|Jerusalén y las naciones+
+39+1+1+|N|Amor de Jehová por Jacob+
+39+1+6+|N|Jehová reprende a los sacerdotes+
+39+2+1+|N|Reprensión de la infidelidad de Israel+
+39+2+17+|N|El día del juicio se acerca+
+39+3+6+|N|El pago de los diezmos+
+39+3+13+|N|Diferencia entre el justo y el malo+
+39+4+1+|N|El advenimiento del día de Jehová+
+40+1+1+|N|Genealogía de Jesucristo+
+40+1+18+|N|Nacimiento de Jesucristo+
+40+2+1+|N|La visita de los magos+
+40+2+13+|N|Matanza de los niños+
+40+3+1+|N|Predicación de Juan el Bautista+
+40+3+13+|N|El bautismo de Jesús+
+40+4+1+|N|Tentación de Jesús+
+40+4+12+|N|Jesús principia su ministerio+
+40+5+1+|N|El Sermón del monte: Las bienaventuranzas+
+40+5+13+|N|La sal de la tierra+
+40+5+14+|N|La luz del mundo+
+40+5+17+|N|Jesús y la ley+
+40+5+21+|N|Jesús y la ira+
+40+5+27+|N|Jesús y el adulterio+
+40+5+31+|N|Jesús y el divorcio+
+40+5+33+|N|Jesús y los juramentos+
+40+5+38+|N|El amor hacia los enemigos+
+40+6+1+|N|Jesús y la limosna+
+40+6+5+|N|Jesús y la oración+
+40+6+16+|N|Jesús y el ayuno+
+40+6+19+|N|Tesoros en el cielo+
+40+6+22+|N|La lámpara del cuerpo+
+40+6+24+|N|Dios y las riquezas+
+40+6+25+|N|El afán y la ansiedad+
+40+7+1+|N|El juzgar a los demás+
+40+7+7+|N|La oración, y la regla de oro+
+40+7+13+|N|La puerta estrecha+
+40+7+15+|N|Por sus frutos los conoceréis+
+40+7+21+|N|Nunca os conocí+
+40+7+24+|N|Los dos cimientos+
+40+8+1+|N|Jesús sana a un leproso+
+40+8+5+|N|Jesús sana al siervo de un centurión+
+40+8+14+|N|Jesús sana a la suegra de Pedro+
+40+8+18+|N|Los que querían seguir a Jesús+
+40+8+23+|N|Jesús calma la tempestad+
+40+8+28+|N|Los endemoniados gadarenos+
+40+9+1+|N|Jesús sana a un paralítico+
+40+9+9+|N|Llamamiento de Mateo+
+40+9+14+|N|La pregunta sobre el ayuno+
+40+9+18+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús+
+40+9+27+|N|Dos ciegos reciben la vista+
+40+9+32+|N|Un mudo habla+
+40+9+35+|N|La mies es mucha+
+40+10+1+|N|Elección de los doce apóstoles+
+40+10+5+|N|Misión de los doce+
+40+10+16+|N|Persecuciones venideras+
+40+10+26+|N|A quién se debe temer+
+40+10+34+|N|Jesús, causa de división+
+40+10+40+|N|Recompensas+
+40+11+1+|N|Los mensajeros de Juan el Bautista+
+40+11+20+|N|Ayes sobre las ciudades impenitentes+
+40+11+25+|N|Venid a mí y descansad+
+40+12+1+|N|Los discípulos recogen espigas en el día de reposo+
+40+12+9+|N|El hombre de la mano seca+
+40+12+15+|N|El siervo escogido+
+40+12+22+|N|La blasfemia contra el Espíritu Santo+
+40+12+38+|N|La generación perversa demanda señal+
+40+12+43+|N|El espíritu inmundo que vuelve+
+40+12+46+|N|La madre y los hermanos de Jesús+
+40+13+1+|N|Parábola del sembrador+
+40+13+10+|N|Propósito de las parábolas+
+40+13+18+|N|Jesús explica la parábola del sembrador+
+40+13+24+|N|Parábola del trigo y la cizaña+
+40+13+31+|N|Parábola de la semilla de mostaza+
+40+13+33+|N|Parábola de la levadura+
+40+13+34+|N|El uso que Jesús hace de las parábolas+
+40+13+44+|N|El tesoro escondido+
+40+13+45+|N|La perla de gran precio+
+40+13+47+|N|La red+
+40+13+51+|N|Tesoros nuevos y viejos+
+40+13+53+|N|Jesús en Nazaret+
+40+14+1+|N|Muerte de Juan el Bautista+
+40+14+13+|N|Alimentación de los cinco mil+
+40+14+22+|N|Jesús anda sobre el mar+
+40+14+34+|N|Jesús sana a los enfermos en Genesaret+
+40+14+36+|N|Jesús explica la parábola de la cizaña+
+40+15+1+|N|Lo que contamina al hombre+
+40+15+21+|N|La fe de la mujer cananea+
+40+15+29+|N|Jesús sana a muchos+
+40+15+32+|N|Alimentación de los cuatro mil+
+40+16+1+|N|La demanda de una señal+
+40+16+5+|N|La levadura de los fariseos+
+40+16+13+|N|La confesión de Pedro+
+40+16+21+|N|Jesús anuncia su muerte+
+40+17+1+|N|La transfiguración+
+40+17+14+|N|Jesús sana a un muchacho lunático+
+40+17+22+|N|Jesús anuncia otra vez su muerte+
+40+17+24+|N|Pago del impuesto del templo+
+40+18+1+|N|¿Quién es el mayor?+
+40+18+6+|N|Ocasiones de caer+
+40+18+10+|N|Parábola de la oveja perdida+
+40+18+15+|N|Cómo se debe perdonar al hermano+
+40+18+23+|N|Los dos deudores+
+40+19+1+|N|Jesús enseña sobre el divorcio+
+40+19+13+|N|Jesús bendice a los niños+
+40+19+16+|N|El joven rico+
+40+20+1+|N|Los obreros de la viña+
+40+20+17+|N|Nuevamente Jesús anuncia su muerte+
+40+20+20+|N|Petición de Santiago y de Juan+
+40+20+29+|N|Dos ciegos reciben la vista+
+40+21+1+|N|La entrada triunfal en Jerusalén+
+40+21+12+|N|Purificación del templo+
+40+21+18+|N|Maldición de la higuera estéril+
+40+21+23+|N|La autoridad de Jesús+
+40+21+28+|N|Parábola de los dos hijos+
+40+21+33+|N|Los labradores malvados+
+40+22+1+|N|Parábola de la fiesta de bodas+
+40+22+15+|N|La cuestión del tributo+
+40+22+23+|N|La pregunta sobre la resurrección+
+40+22+34+|N|El gran mandamiento+
+40+22+41+|N|¿De quién es hijo el Cristo?+
+40+23+1+|N|Jesús acusa a escribas y fariseos+
+40+23+37+|N|Lamento de Jesús sobre Jerusalén+
+40+24+1+|N|Jesús predice la destrucción del templo+
+40+24+3+|N|Señales antes del fin+
+40+24+29+|N|La venida del Hijo del Hombre+
+40+25+1+|N|Parábola de las diez vírgenes+
+40+25+14+|N|Parábola de los talentos+
+40+25+31+|N|El juicio de las naciones+
+40+26+1+|N|El complot para prender a Jesús+
+40+26+6+|N|Jesús es ungido en Betania+
+40+26+14+|N|Judas ofrece entregar a Jesús+
+40+26+17+|N|Institución de la Cena del Señor+
+40+26+30+|N|Jesús anuncia la negación de Pedro+
+40+26+36+|N|Jesús ora en Getsemaní+
+40+26+47+|N|Arresto de Jesús+
+40+26+57+|N|Jesús ante el concilio+
+40+26+69+|N|Pedro niega a Jesús+
+40+27+1+|N|Jesús ante Pilato+
+40+27+3+|N|Muerte de Judas+
+40+27+11+|N|Pilato interroga a Jesús+
+40+27+15+|N|Jesús sentenciado a muerte+
+40+27+32+|N|Crucifixión y muerte de Jesús+
+40+27+57+|N|Jesús es sepultado+
+40+27+62+|N|La guardia ante la tumba+
+40+28+1+|N|La resurrección+
+40+28+11+|N|El informe de la guardia+
+40+28+16+|N|La gran comisión+
+41+1+1+|N|Predicación de Juan el Bautista+
+41+1+9+|N|El bautismo de Jesús+
+41+1+12+|N|Tentación de Jesús+
+41+1+14+|N|Jesús principia su ministerio+
+41+1+16+|N|Jesús llama a cuatro pescadores+
+41+1+21+|N|Un hombre que tenía un espíritu inmundo+
+41+1+29+|N|Jesús sana a la suegra de Pedro+
+41+1+32+|N|Muchos sanados al ponerse el sol+
+41+1+35+|N|Jesús recorre Galilea predicando+
+41+1+40+|N|Jesús sana a un leproso+
+41+2+1+|N|Jesús sana a un paralítico+
+41+2+13+|N|Llamamiento de Leví+
+41+2+18+|N|La pregunta sobre el ayuno+
+41+2+23+|N|Los discípulos recogen espigas en el día de reposo+
+41+3+1+|N|El hombre de la mano seca+
+41+3+7+|N|La multitud a la orilla del mar+
+41+3+13+|N|Elección de los doce apóstoles+
+41+3+20+|N|La blasfemia contra el Espíritu Santo+
+41+3+31+|N|La madre y los hermanos de Jesús+
+41+4+1+|N|Parábola del sembrador+
+41+4+21+|N|Nada oculto que no haya de ser manifestado+
+41+4+26+|N|Parábola del crecimiento de la semilla+
+41+4+30+|N|Parábola de la semilla de mostaza+
+41+4+33+|N|El uso que Jesús hace de las parábolas+
+41+4+35+|N|Jesús calma la tempestad+
+41+5+1+|N|El endemoniado gadareno+
+41+5+21+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús+
+41+6+1+|N|Jesús en Nazaret+
+41+6+7+|N|Misión de los doce discípulos+
+41+6+14+|N|Muerte de Juan el Bautista+
+41+6+30+|N|Alimentación de los cinco mil+
+41+6+45+|N|Jesús anda sobre el mar+
+41+6+53+|N|Jesús sana a los enfermos en Genesaret+
+41+7+1+|N|Lo que contamina al hombre+
+41+7+24+|N|La fe de la mujer sirofenicia+
+41+7+31+|N|Jesús sana a un sordomudo+
+41+8+1+|N|Alimentación de los cuatro mil+
+41+8+11+|N|La demanda de una señal+
+41+8+14+|N|La levadura de los fariseos+
+41+8+22+|N|Un ciego sanado en Betsaida+
+41+8+27+|N|La confesión de Pedro+
+41+8+31+|N|Jesús anuncia su muerte+
+41+9+2+|N|La transfiguración+
+41+9+14+|N|Jesús sana a un muchacho endemoniado+
+41+9+30+|N|Jesús anuncia otra vez su muerte+
+41+9+33+|N|¿Quién es el mayor?+
+41+9+38+|N|El que no es contra nosotros, por nosotros es+
+41+9+42+|N|Ocasiones de caer+
+41+10+1+|N|Jesús enseña sobre el divorcio+
+41+10+13+|N|Jesús bendice a los niños+
+41+10+17+|N|El joven rico+
+41+10+32+|N|Nuevamente Jesús anuncia su muerte+
+41+10+35+|N|Petición de Santiago y de Juan+
+41+10+46+|N|El ciego Bartimeo recibe la vista+
+41+11+1+|N|La entrada triunfal en Jerusalén+
+41+11+12+|N|Maldición de la higuera estéril+
+41+11+15+|N|Purificación del templo+
+41+11+20+|N|La higuera maldecida se seca+
+41+11+27+|N|La autoridad de Jesús+
+41+12+1+|N|Los labradores malvados+
+41+12+13+|N|La cuestión del tributo+
+41+12+18+|N|La pregunta sobre la resurrección+
+41+12+28+|N|El gran mandamiento+
+41+12+35+|N|¿De quién es hijo el Cristo?+
+41+12+38+|N|Jesús acusa a los escribas+
+41+12+41+|N|La ofrenda de la viuda+
+41+13+1+|N|Jesús predice la destrucción del templo+
+41+13+3+|N|Señales antes del fin+
+41+13+24+|N|La venida del Hijo del Hombre+
+41+14+1+|N|El complot para prender a Jesús+
+41+14+3+|N|Jesús es ungido en Betania+
+41+14+10+|N|Judas ofrece entregar a Jesús+
+41+14+12+|N|Institución de la Cena del Señor+
+41+14+26+|N|Jesús anuncia la negación de Pedro+
+41+14+32+|N|Jesús ora en Getsemaní+
+41+14+43+|N|Arresto de Jesús+
+41+14+51+|N|El joven que huyó+
+41+14+53+|N|Jesús ante el concilio+
+41+14+66+|N|Pedro niega a Jesús+
+41+15+1+|N|Jesús ante Pilato+
+41+15+6+|N|Jesús sentenciado a muerte+
+41+15+21+|N|Crucifixión y muerte de Jesús+
+41+15+42+|N|Jesús es sepultado+
+41+16+1+|N|La resurrección+
+41+16+9+|N|Jesús se aparece a María Magdalena+
+41+16+12+|N|Jesús se aparece a dos de sus discípulos+
+41+16+14+|N|Jesús comisiona a los apóstoles+
+41+16+19+|N|La ascensión+
+42+1+1+|N|Dedicatoria a Teófilo+
+42+1+5+|N|Anuncio del nacimiento de Juan+
+42+1+26+|N|Anuncio del nacimiento de Jesús+
+42+1+39+|N|María visita a Elisabet+
+42+1+57+|N|Nacimiento de Juan el Bautista+
+42+1+67+|N|Profecía de Zacarías+
+42+2+1+|N|Nacimiento de Jesús+
+42+2+8+|N|Los ángeles y los pastores+
+42+2+21+|N|Presentación de Jesús en el templo+
+42+2+39+|N|El regreso a Nazaret+
+42+2+41+|N|El niño Jesús en el templo+
+42+3+1+|N|Predicación de Juan el Bautista+
+42+3+21+|N|El bautismo de Jesús+
+42+3+23+|N|Genealogía de Jesús+
+42+4+1+|N|Tentación de Jesús+
+42+4+14+|N|Jesús principia su ministerio+
+42+4+16+|N|Jesús en Nazaret+
+42+4+31+|N|Un hombre que tenía un espíritu inmundo+
+42+4+38+|N|Jesús sana a la suegra de Pedro+
+42+4+40+|N|Muchos sanados al ponerse el sol+
+42+4+42+|N|Jesús recorre Galilea predicando+
+42+5+1+|N|La pesca milagrosa+
+42+5+12+|N|Jesús sana a un leproso+
+42+5+17+|N|Jesús sana a un paralítico+
+42+5+27+|N|Llamamiento de Leví+
+42+5+33+|N|La pregunta sobre el ayuno+
+42+6+1+|N|Los discípulos recogen espigas en el día de reposo+
+42+6+6+|N|El hombre de la mano seca+
+42+6+12+|N|Elección de los doce apóstoles+
+42+6+17+|N|Jesús atiende a una multitud+
+42+6+20+|N|Bienaventuranzas y ayes+
+42+6+27+|N|El amor hacia los enemigos, y la regla de oro+
+42+6+37+|N|El juzgar a los demás+
+42+6+43+|N|Por sus frutos los conoceréis+
+42+6+46+|N|Los dos cimientos+
+42+7+1+|N|Jesús sana al siervo de un centurión+
+42+7+11+|N|Jesús resucita al hijo de la viuda de Naín+
+42+7+18+|N|Los mensajeros de Juan el Bautista+
+42+7+36+|N|Jesús en el hogar de Simón el fariseo+
+42+8+1+|N|Mujeres que sirven a Jesús+
+42+8+4+|N|Parábola del sembrador+
+42+8+16+|N|Nada oculto que no haya de ser manifestado+
+42+8+19+|N|La madre y los hermanos de Jesús+
+42+8+22+|N|Jesús calma la tempestad+
+42+8+26+|N|El endemoniado gadareno+
+42+8+40+|N|La hija de Jairo, y la mujer que tocó el manto de Jesús+
+42+9+1+|N|Misión de los doce discípulos+
+42+9+7+|N|Muerte de Juan el Bautista+
+42+9+10+|N|Alimentación de los cinco mil+
+42+9+18+|N|La confesión de Pedro+
+42+9+21+|N|Jesús anuncia su muerte+
+42+9+28+|N|La transfiguración+
+42+9+37+|N|Jesús sana a un muchacho endemoniado+
+42+9+44+|N|Jesús anuncia otra vez su muerte+
+42+9+46+|N|¿Quién es el mayor?+
+42+9+49+|N|El que no es contra nosotros, por nosotros es+
+42+9+51+|N|Jesús reprende a Jacobo y a Juan+
+42+9+57+|N|Los que querían seguir a Jesús+
+42+10+1+|N|Misión de los setenta+
+42+10+13+|N|Ayes sobre las ciudades impenitentes+
+42+10+17+|N|Regreso de los setenta+
+42+10+21+|N|Jesús se regocija+
+42+10+25+|N|El buen samaritano+
+42+10+38+|N|Jesús visita a Marta y a María+
+42+11+1+|N|Jesús y la oración+
+42+11+14+|N|Una casa dividida contra sí misma+
+42+11+24+|N|El espíritu inmundo que vuelve+
+42+11+27+|N|Los que en verdad son bienaventurados+
+42+11+29+|N|La generación perversa demanda señal+
+42+11+33+|N|La lámpara del cuerpo+
+42+11+37+|N|Jesús acusa a fariseos y a intérpretes de la ley+
+42+12+1+|N|La levadura de los fariseos+
+42+12+4+|N|A quién se debe temer+
+42+12+8+|N|El que me confesare delante de los hombres+
+42+12+13+|N|El rico insensato1+
+42+12+22+|N|El afán y la ansiedad+
+42+12+32+|N|Tesoro en el cielo+
+42+12+35+|N|El siervo vigilante+
+42+12+41+|N|El siervo infiel+
+42+12+49+|N|Jesús, causa de división+
+42+12+54+|N|¿Cómo no reconocéis este tiempo?+
+42+12+57+|N|Arréglate con tu adversario+
+42+13+1+|N|Arrepentíos o pereceréis+
+42+13+6+|N|Parábola de la higuera estéril+
+42+13+10+|N|Jesús sana a una mujer en el día de reposo+
+42+13+18+|N|Parábola de la semilla de mostaza+
+42+13+20+|N|Parábola de la levadura+
+42+13+22+|N|La puerta estrecha+
+42+13+31+|N|Lamento de Jesús sobre Jerusalén+
+42+14+1+|N|Jesús sana a un hidrópico+
+42+14+7+|N|Los convidados a las bodas+
+42+14+15+|N|Parábola de la gran cena+
+42+14+25+|N|Lo que cuesta seguir a Cristo+
+42+14+34+|N|Cuando la sal pierde su sabor+
+42+15+1+|N|Parábola de la oveja perdida+
+42+15+8+|N|Parábola de la moneda perdida+
+42+15+11+|N|Parábola del hijo pródigo+
+42+16+1+|N|Parábola del mayordomo infiel+
+42+16+16+|N|La ley y el reino de Dios+
+42+16+18+|N|Jesús enseña sobre el divorcio+
+42+16+19+|N|El rico y Lázaro+
+42+17+1+|N|Ocasiones de caer+
+42+17+5+|N|Auméntanos la fe+
+42+17+7+|N|El deber del siervo+
+42+17+11+|N|Diez leprosos son limpiados+
+42+17+20+|N|La venida del Reino+
+42+18+1+|N|Parábola de la viuda y el juez injusto+
+42+18+9+|N|Parábola del fariseo y el publicano+
+42+18+15+|N|Jesús bendice a los niños+
+42+18+18+|N|El joven rico+
+42+18+31+|N|Nuevamente Jesús anuncia su muerte+
+42+18+35+|N|Un ciego de Jericó recibe la vista+
+42+19+1+|N|Jesús y Zaqueo+
+42+19+11+|N|Parábola de las diez minas+
+42+19+28+|N|La entrada triunfal en Jerusalén+
+42+19+45+|N|Purificación del templo+
+42+20+1+|N|La autoridad de Jesús+
+42+20+9+|N|Los labradores malvados+
+42+20+19+|N|La cuestión del tributo+
+42+20+27+|N|La pregunta sobre la resurrección+
+42+20+41+|N|¿De quién es hijo el Cristo?+
+42+20+45+|N|Jesús acusa a los escribas+
+42+21+1+|N|La ofrenda de la viuda+
+42+21+5+|N|Jesús predice la destrucción del templo+
+42+21+7+|N|Señales antes del fin+
+42+21+25+|N|La venida del Hijo del Hombre+
+42+22+1+|N|El complot para matar a Jesús+
+42+22+7+|N|Institución de la Cena del Señor+
+42+22+24+|N|La grandeza en el servicio+
+42+22+31+|N|Jesús anuncia la negación de Pedro+
+42+22+35+|N|Bolsa, alforja y espada+
+42+22+39+|N|Jesús ora en Getsemaní+
+42+22+47+|N|Arresto de Jesús+
+42+22+54+|N|Pedro niega a Jesús+
+42+22+63+|N|Jesús escarnecido y azotado+
+42+22+66+|N|Jesús ante el concilio+
+42+23+1+|N|Jesús ante Pilato+
+42+23+6+|N|Jesús ante Herodes+
+42+23+13+|N|Jesús sentenciado a muerte+
+42+23+26+|N|Crucifixión y muerte de Jesús+
+42+23+50+|N|Jesús es sepultado+
+42+24+1+|N|La resurrección+
+42+24+13+|N|En el camino a Emaús+
+42+24+36+|N|Jesús se aparece a los discípulos+
+42+24+50+|N|La ascensión+
+43+1+1+|N|El Verbo hecho carne+
+43+1+19+|N|Testimonio de Juan el Bautista+
+43+1+29+|N|El Cordero de Dios+
+43+1+35+|N|Los primeros discípulos+
+43+1+43+|N|Jesús llama a Felipe y a Natanael+
+43+2+1+|N|Las bodas de Caná+
+43+2+13+|N|Jesús purifica el templo+
+43+2+23+|N|Jesús conoce a todos los hombres+
+43+3+1+|N|Jesús y Nicodemo+
+43+3+16+|N|De tal manera amó Dios al mundo+
+43+3+22+|N|El amigo del esposo+
+43+3+31+|N|El que viene de arriba+
+43+4+1+|N|Jesús y la mujer samaritana+
+43+4+43+|N|Jesús sana al hijo de un noble+
+43+5+1+|N|El paralítico de Betesda+
+43+5+19+|N|La autoridad del Hijo+
+43+5+30+|N|Testigos de Cristo+
+43+6+1+|N|Alimentación de los cinco mil+
+43+6+16+|N|Jesús anda sobre el mar+
+43+6+22+|N|La gente busca a Jesús+
+43+6+25+|N|Jesús, el pan de vida+
+43+6+60+|N|Palabras de vida eterna+
+43+7+1+|N|Incredulidad de los hermanos de Jesús+
+43+7+10+|N|Jesús en la fiesta de los tabernáculos+
+43+7+25+|N|¿Es éste el Cristo?+
+43+7+32+|N|Los fariseos envían alguaciles para prender a Jesús+
+43+7+37+|N|Ríos de agua viva+
+43+7+40+|N|División entre la gente+
+43+7+45+|N|!!Nunca ha hablado hombre así!+
+43+7+53+|N|La mujer adúltera+
+43+8+12+|N|Jesús, la luz del mundo+
+43+8+21+|N|A donde yo voy, vosotros no podéis venir+
+43+8+31+|N|La verdad os hará libres+
+43+8+39+|N|Sois de vuestro padre el diablo+
+43+8+48+|N|La preexistencia de Cristo+
+43+9+1+|N|Jesús sana a un ciego de nacimiento+
+43+9+13+|N|Los fariseos interrogan al ciego sanado+
+43+9+35+|N|Ceguera espiritual+
+43+10+1+|N|Parábola del redil+
+43+10+7+|N|Jesús, el buen pastor+
+43+10+22+|N|Los judíos rechazan a Jesús+
+43+11+1+|N|Muerte de Lázaro+
+43+11+17+|N|Jesús, la resurrección y la vida+
+43+11+28+|N|Jesús llora ante la tumba de Lázaro+
+43+11+38+|N|Resurrección de Lázaro+
+43+11+45+|N|El complot para matar a Jesús+
+43+12+1+|N|Jesús es ungido en Betania+
+43+12+9+|N|El complot contra Lázaro+
+43+12+12+|N|La entrada triunfal en Jerusalén+
+43+12+20+|N|Unos griegos buscan a Jesús+
+43+12+27+|N|Jesús anuncia su muerte+
+43+12+37+|N|Incredulidad de los judíos+
+43+12+44+|N|Las palabras de Jesús juzgarán a los hombres+
+43+13+1+|N|Jesús lava los pies de sus discípulos+
+43+13+21+|N|Jesús anuncia la traición de Judas+
+43+13+31+|N|El nuevo mandamiento+
+43+13+36+|N|Jesús anuncia la negación de Pedro+
+43+14+1+|N|Jesús, el camino al Padre+
+43+14+15+|N|La promesa del Espíritu Santo+
+43+15+1+|N|Jesús, la vid verdadera+
+43+15+18+|N|El mundo os aborrecerá+
+43+16+5+|N|La obra del Espíritu Santo+
+43+16+16+|N|La tristeza se convertirá en gozo+
+43+16+25+|N|Yo he vencido al mundo+
+43+17+1+|N|Jesús ora por sus discípulos+
+43+18+1+|N|Arresto de Jesús+
+43+18+12+|N|Jesús ante el sumo sacerdote+
+43+18+15+|N|Pedro en el patio de Anás+
+43+18+19+|N|Anás interroga a Jesús+
+43+18+25+|N|Pedro niega a Jesús+
+43+18+28+|N|Jesús ante Pilato+
+43+19+17+|N|Crucifixión y muerte de Jesús+
+43+19+31+|N|El costado de Jesús traspasado+
+43+19+38+|N|Jesús es sepultado+
+43+20+1+|N|La resurrección+
+43+20+11+|N|Jesús se aparece a María Magdalena+
+43+20+19+|N|Jesús se aparece a los discípulos+
+43+20+24+|N|Incredulidad de Tomás+
+43+20+30+|N|El propósito del libro+
+43+21+1+|N|Jesús se aparece a siete de sus discípulos+
+43+21+15+|N|Apacienta mis ovejas+
+43+21+20+|N|El discípulo amado+
+44+1+1+|N|La promesa del Espíritu Santo+
+44+1+6+|N|La ascensión+
+44+1+12+|N|Elección del sucesor de Judas+
+44+2+1+|N|La venida del Espíritu Santo+
+44+2+14+|N|Primer discurso de Pedro+
+44+2+43+|N|La vida de los primeros cristianos+
+44+3+1+|N|Curación de un cojo+
+44+3+11+|N|Discurso de Pedro en el pórtico de Salomón+
+44+4+1+|N|Pedro y Juan ante el concilio+
+44+4+23+|N|Los creyentes piden confianza y valor+
+44+4+32+|N|Todas las cosas en común+
+44+5+1+|N|Ananías y Safira+
+44+5+12+|N|Muchas señales y maravillas+
+44+5+17+|N|Pedro y Juan son perseguidos+
+44+6+1+|N|Elección de siete diáconos+
+44+6+8+|N|Arresto de Esteban+
+44+7+1+|N|Defensa y muerte de Esteban+
+44+8+1+|N|Saulo persigue a la iglesia+
+44+8+4+|N|Predicación del evangelio en Samaria+
+44+8+26+|N|Felipe y el etíope+
+44+9+1+|N|Conversión de Saulo+
+44+9+20+|N|Saulo predica en Damasco+
+44+9+23+|N|Saulo escapa de los judíos+
+44+9+26+|N|Saulo en Jerusalén+
+44+9+32+|N|Curación de Eneas+
+44+9+36+|N|Dorcas es resucitada+
+44+10+1+|N|Pedro y Cornelio+
+44+11+1+|N|Informe de Pedro a la iglesia de Jerusalén+
+44+11+19+|N|La iglesia en Antioquía+
+44+12+1+|N|Jacobo, muerto; Pedro, encarcelado+
+44+12+6+|N|Pedro es librado de la cárcel+
+44+12+20+|N|Muerte de Herodes+
+44+13+1+|N|Bernabé y Saulo comienzan su primer viaje misionero+
+44+13+4+|N|Los apóstoles predican en Chipre+
+44+13+13+|N|Pablo y Bernabé en Antioquía de Pisidia+
+44+14+1+|N|Pablo y Bernabé en Iconio+
+44+14+8+|N|Pablo es apedreado en Listra+
+44+14+24+|N|El regreso a Antioquía de Siria+
+44+15+1+|N|El concilio en Jerusalén+
+44+15+36+|N|Pablo se separa de Bernabé, y comienza su segundo viaje+
+44+16+1+|N|Timoteo acompaña a Pablo y a Silas+
+44+16+6+|N|La visión del varón macedonio+
+44+16+11+|N|Encarcelados en Filipos+
+44+17+1+|N|El alboroto en Tesalónica+
+44+17+10+|N|Pablo y Silas en Berea+
+44+17+16+|N|Pablo en Atenas+
+44+18+1+|N|Pablo en Corinto+
+44+18+22+|N|Pablo regresa a Antioquía y comienza su tercer viaje misionero+
+44+18+24+|N|Apolos predica en Efeso+
+44+19+1+|N|Pablo en Efeso+
+44+19+23+|N|El alboroto en Efeso+
+44+20+1+|N|Viaje de Pablo a Macedonia y Grecia+
+44+20+7+|N|Visita de despedida de Pablo en Troas+
+44+20+13+|N|Viaje de Troas a Mileto+
+44+20+17+|N|Discurso de despedida de Pablo en Mileto+
+44+21+1+|N|Viaje de Pablo a Jerusalén+
+44+21+17+|N|Arresto de Pablo en el templo+
+44+21+37+|N|Defensa de Pablo ante el pueblo+
+44+22+6+|N|Pablo relata su conversión+
+44+22+17+|N|Pablo es enviado a los gentiles+
+44+22+22+|N|Pablo en manos del tribuno+
+44+22+30+|N|Pablo ante el concilio+
+44+23+12+|N|Complot contra Pablo+
+44+23+23+|N|Pablo es enviado a Félix el gobernador+
+44+24+1+|N|Defensa de Pablo ante Félix+
+44+25+1+|N|Pablo apela a César+
+44+25+13+|N|Pablo ante Agripa y Berenice+
+44+26+1+|N|Defensa de Pablo ante Agripa+
+44+26+4+|N|Vida anterior de Pablo+
+44+26+9+|N|Pablo el perseguidor+
+44+26+12+|N|Pablo relata su conversión+
+44+26+19+|N|Pablo obedece a la visión+
+44+26+24+|N|Pablo insta a Agripa a que crea+
+44+27+1+|N|Pablo es enviado a Roma+
+44+27+13+|N|La tempestad en el mar+
+44+27+39+|N|El naufragio+
+44+28+1+|N|Pablo en la isla de Malta+
+44+28+11+|N|Pablo llega a Roma+
+44+28+17+|N|Pablo predica en Roma+
+45+1+1+|N|Salutación+
+45+1+8+|N|Deseo de Pablo de visitar Roma+
+45+1+16+|N|El poder del evangelio+
+45+1+18+|N|La culpabilidad del hombre+
+45+2+1+|N|El justo juicio de Dios+
+45+2+17+|N|Los judíos y la ley+
+45+3+9+|N|No hay justo+
+45+3+21+|N|La justicia es por medio de la fe+
+45+4+1+|N|El ejemplo de Abraham+
+45+4+13+|N|La promesa realizada mediante la fe+
+45+5+1+|N|Resultados de la justificación+
+45+5+12+|N|Adán y Cristo+
+45+6+1+|N|Muertos al pecado+
+45+6+15+|N|Siervos de la justicia+
+45+7+1+|N|Analogía tomada del matrimonio+
+45+7+7+|N|El pecado que mora en mí+
+45+8+1+|N|Viviendo en el Espíritu+
+45+8+28+|N|Más que vencedores+
+45+9+1+|N|La elección de Israel+
+45+9+30+|N|La justicia que es por fe+
+45+11+1+|N|El remanente de Israel+
+45+11+11+|N|La salvación de los gentiles+
+45+11+25+|N|La restauración de Israel+
+45+12+1+|N|Deberes cristianos+
+45+14+1+|N|Los débiles en la fe+
+45+15+7+|N|El evangelio a los gentiles+
+45+15+22+|N|Pablo se propone ir a Roma+
+45+16+1+|N|Saludos personales+
+45+16+25+|N|Doxología final+
+46+1+1+|N|Salutación+
+46+1+4+|N|Acción de gracias por dones espirituales+
+46+1+10+|N|¿Está dividido Cristo?+
+46+1+18+|N|Cristo, poder y sabiduría de Dios+
+46+2+1+|N|Proclamando a Cristo crucificado+
+46+2+6+|N|La revelación por el Espíritu de Dios+
+46+3+1+|N|Colaboradores de Dios+
+46+4+1+|N|El ministerio de los apóstoles+
+46+5+1+|N|Un caso de inmoralidad juzgado+
+46+6+1+|N|Litigios delante de los incrédulos+
+46+6+12+|N|Glorificad a Dios en vuestro cuerpo+
+46+7+1+|N|Problemas del matrimonio+
+46+8+1+|N|Lo sacrificado a los ídolos+
+46+9+1+|N|Los derechos de un apóstol+
+46+10+1+|N|Amonestaciones contra la idolatría+
+46+10+23+|N|Haced todo para la gloria de Dios+
+46+11+2+|N|Atavío de las mujeres+
+46+11+17+|N|Abusos en la Cena del Señor+
+46+11+23+|N|Institución de la Cena del Señor+
+46+11+27+|N|Tomando la Cena indignamente+
+46+12+1+|N|Dones espirituales+
+46+13+1+|N|La preeminencia del amor+
+46+14+1+|N|El hablar en lenguas+
+46+15+1+|N|La resurrección de los muertos+
+46+16+1+|N|La ofrenda para los santos+
+46+16+5+|N|Planes de Pablo+
+46+16+13+|N|Salutaciones finales+
+47+1+1+|N|Salutación+
+47+1+3+|N|Aflicciones de Pablo+
+47+1+12+|N|Por qué Pablo pospuso su visita a Corinto+
+47+2+5+|N|Pablo perdona al ofensor+
+47+2+12+|N|Ansiedad de Pablo en Troas+
+47+2+14+|N|Triunfantes en Cristo+
+47+3+1+|N|Ministros del nuevo pacto+
+47+4+7+|N|Viviendo por la fe+
+47+5+11+|N|El ministerio de la reconciliación+
+47+6+14+|N|Somos templo del Dios viviente+
+47+7+2+|N|Regocijo de Pablo al arrepentirse los corintios+
+47+8+1+|N|La ofrenda para los santos+
+47+10+1+|N|Pablo defiende su ministerio+
+47+11+16+|N|Sufrimientos de Pablo como apóstol+
+47+12+1+|N|El aguijón en la carne+
+47+12+14+|N|Pablo anuncia su tercera visita+
+47+13+11+|N|Saludos y doxología final+
+48+1+1+|N|Salutación+
+48+1+6+|N|No hay otro evangelio+
+48+1+11+|N|El ministerio de Pablo+
+48+2+11+|N|Pablo reprende a Pedro en Antioquía+
+48+3+1+|N|El Espíritu se recibe por la fe+
+48+3+6+|N|El pacto de Dios con Abraham+
+48+3+19+|N|El propósito de la ley+
+48+4+8+|N|Exhortación contra el volver a la esclavitud+
+48+4+21+|N|Alegoría de Sara y Agar+
+48+5+1+|N|Estad firmes en la libertad+
+48+5+16+|N|Las obras de la carne y el fruto del Espíritu+
+48+6+11+|N|Pablo se gloría en la cruz de Cristo+
+48+6+18+|N|Bendición final+
+49+1+1+|N|Salutación+
+49+1+3+|N|Bendiciones espirituales en Cristo+
+49+1+15+|N|El espíritu de sabiduría y de revelación+
+49+2+1+|N|Salvos por gracia+
+49+2+11+|N|Reconciliación por medio de la cruz+
+49+3+1+|N|Ministerio de Pablo a los gentiles+
+49+3+14+|N|El amor que excede a todo conocimiento+
+49+4+1+|N|La unidad del Espíritu+
+49+4+17+|N|La nueva vida en Cristo+
+49+5+1+|N|Andad como hijos de luz+
+49+5+21+|N|Someteos los unos a los otros+
+50+1+1+|N|Salutación+
+50+1+3+|N|Oración de Pablo por los creyentes+
+50+1+12+|N|Para mí el vivir es Cristo+
+50+2+1+|N|Humillación y exaltación de Cristo+
+50+2+12+|N|Luminares en el mundo+
+50+2+19+|N|Timoteo y Epafrodito+
+50+3+1+|N|Prosigo al blanco+
+50+4+1+|N|Regocijaos en el Señor siempre+
+50+4+8+|N|En esto pensad+
+50+4+10+|N|Dádivas de los filipenses+
+50+4+21+|N|Salutaciones finales+
+51+1+1+|N|Salutación+
+51+1+3+|N|Pablo pide que Dios les conceda sabiduría espiritual+
+51+1+15+|N|Reconciliación por medio de la muerte de Cristo+
+51+1+24+|N|Ministerio de Pablo a los gentiles+
+51+2+8+|N|Plenitud de vida en Cristo+
+51+3+5+|N|La vida antigua y la nueva+
+51+3+18+|N|Deberes sociales de la nueva vida+
+51+4+7+|N|Salutaciones finales+
+52+1+1+|N|Salutación+
+52+1+2+|N|Ejemplo de los tesalonicenses+
+52+2+1+|N|Ministerio de Pablo en Tesalónica+
+52+2+17+|N|Ausencia de Pablo de la iglesia+
+52+4+1+|N|La vida que agrada a Dios+
+52+4+13+|N|La venida del Señor+
+52+5+12+|N|Pablo exhorta a los hermanos+
+52+5+25+|N|Salutaciones y bendición final+
+53+1+1+|N|Salutación+
+53+1+3+|N|Dios juzgará a los pecadores en la venida de Cristo+
+53+2+1+|N|Manifestación del hombre de pecado+
+53+2+13+|N|Escogidos para salvación+
+53+3+1+|N|Que la palabra de Dios sea glorificada+
+53+3+6+|N|El deber de trabajar+
+53+3+16+|N|Bendición final+
+54+1+1+|N|Salutación+
+54+1+3+|N|Advertencia contra falsas doctrinas+
+54+1+12+|N|El ministerio de Pablo+
+54+2+1+|N|Instrucciones sobre la oración+
+54+3+1+|N|Requisitos de los obispos+
+54+3+8+|N|Requisitos de los diáconos+
+54+3+14+|N|El misterio de la piedad+
+54+4+1+|N|Predicción de la apostasía+
+54+4+6+|N|Un buen ministro de Jesucristo+
+54+5+1+|N|Deberes hacia los demás+
+54+6+3+|N|Piedad y contentamiento+
+54+6+11+|N|La buena batalla de la fe+
+54+6+20+|N|Encargo final de Pablo a Timoteo+
+55+1+1+|N|Salutación+
+55+1+3+|N|Testificando de Cristo+
+55+2+1+|N|Un buen soldado de Jesucristo+
+55+2+14+|N|Un obrero aprobado+
+55+3+1+|N|Carácter de los hombres en los postreros días+
+55+4+1+|N|Predica la palabra+
+55+4+9+|N|Instrucciones personales+
+55+4+19+|N|Saludos y bendición final+
+56+1+1+|N|Salutación+
+56+1+4+|N|El amor y la fe de Filemón+
+56+1+5+|N|Requisitos de ancianos y obispos+
+56+2+1+|N|Enseñanza de la sana doctrina+
+56+3+1+|N|Justificados por gracia+
+56+3+12+|N|Instrucciones personales+
+56+3+15+|N|Salutaciones y bendición final+
+57+1+1+|N|Salutación+
+57+1+8+|N|Pablo intercede por Onésimo+
+57+1+23+|N|Salutaciones y bendición final+
+58+1+1+|N|Dios ha hablado por su Hijo+
+58+1+5+|N|El Hijo, superior a los ángeles+
+58+2+1+|N|Una salvación tan grande+
+58+2+5+|N|El autor de la salvación+
+58+3+1+|N|Jesús es superior a Moisés+
+58+3+7+|N|El reposo del pueblo de Dios+
+58+4+14+|N|Jesús el gran sumo sacerdote+
+58+5+11+|N|Advertencia contra la apostasía+
+58+7+1+|N|El sacerdocio de Melquisedec+
+58+8+1+|N|El mediador de un nuevo pacto+
+58+9+23+|N|El sacrificio de Cristo quita el pecado+
+58+10+26+|N|Advertencia al que peca deliberadamente+
+58+11+1+|N|La fe+
+58+12+1+|N|Puestos los ojos en Jesús+
+58+12+12+|N|Los que rechazan la gracia de Dios+
+58+13+1+|N|Deberes cristianos+
+58+13+20+|N|Bendición y salutaciones finales+
+59+1+1+|N|Salutación+
+59+1+2+|N|La sabiduría que viene de Dios+
+59+1+12+|N|Soportando las pruebas+
+59+1+19+|N|Hacedores de la palabra+
+59+2+1+|N|Amonestación contra la parcialidad+
+59+2+14+|N|La fe sin obras es muerta+
+59+3+1+|N|La lengua+
+59+3+13+|N|La sabiduría de lo alto+
+59+4+1+|N|La amistad con el mundo+
+59+4+11+|N|Juzgando al hermano+
+59+4+13+|N|No os gloriéis del día de mañana+
+59+5+1+|N|Contra los ricos opresores+
+59+5+7+|N|Sed pacientes y orad+
+60+1+1+|N|Salutación+
+60+1+3+|N|Una esperanza viva+
+60+1+13+|N|Llamamiento a una vida santa+
+60+2+4+|N|La piedra viva+
+60+2+9+|N|El pueblo de Dios+
+60+2+11+|N|Vivid como siervos de Dios+
+60+3+1+|N|Deberes conyugales+
+60+3+8+|N|Una buena conciencia+
+60+4+1+|N|Buenos administradores de la gracia de Dios+
+60+4+12+|N|Padeciendo como cristianos+
+60+5+1+|N|Apacentad la grey de Dios+
+60+5+12+|N|Salutaciones finales+
+61+1+1+|N|Salutación+
+61+1+3+|N|Partícipes de la naturaleza divina+
+61+1+16+|N|Testigos presenciales de la gloria de Cristo+
+61+2+1+|N|Falsos profetas y falsos maestros+
+61+3+1+|N|El día del Señor vendrá+
+62+1+1+|N|La palabra de vida+
+62+1+5+|N|Dios es luz+
+62+2+1+|N|Cristo, nuestro abogado+
+62+2+7+|N|El nuevo mandamiento+
+62+2+18+|N|El anticristo+
+62+3+1+|N|Hijos de Dios+
+62+4+1+|N|El Espíritu de Dios y el espíritu del anticristo+
+62+4+7+|N|Dios es amor+
+62+5+1+|N|La fe que vence al mundo+
+62+5+6+|N|El testimonio del Espíritu+
+62+5+13+|N|El conocimiento de la vida eterna+
+63+1+1+|N|Salutación+
+63+1+4+|N|Permaneced en la doctrina de Cristo+
+63+1+12+|N|Espero ir a vosotros+
+64+1+1+|N|Salutación+
+64+1+5+|N|Elogio de la hospitalidad de Gayo+
+64+1+9+|N|La oposición de Diótrefes+
+64+1+11+|N|Buen testimonio acerca de Demetrio+
+64+1+13+|N|Salutaciones finales+
+65+1+1+|N|Salutación+
+65+1+3+|N|Falsas doctrinas y falsos maestros+
+65+1+17+|N|Amonestaciones y exhortaciones+
+65+1+24+|N|Doxología+
+66+1+1+|N|La revelación de Jesucristo+
+66+1+4+|N|Salutaciones a las siete iglesias+
+66+1+9+|N|Una visión del Hijo del Hombre+
+66+2+1+|N|Mensajes a las siete iglesias: El mensaje a Efeso+
+66+2+8+|N|El mensaje a Esmirna+
+66+2+12+|N|El mensaje a Pérgamo+
+66+2+18+|N|El mensaje a Tiatira+
+66+3+1+|N|El mensaje a Sardis+
+66+3+7+|N|El mensaje a Filadelfia+
+66+3+14+|N|El mensaje a Laodicea+
+66+4+1+|N|La adoración celestial+
+66+5+1+|N|El rollo y el Cordero+
+66+6+1+|N|Los sellos+
+66+7+1+|N|Los 144 mil sellados+
+66+7+9+|N|La multitud vestida de ropas blancas+
+66+8+1+|N|El séptimo sello+
+66+8+6+|N|Las trompetas+
+66+10+1+|N|El ángel con el librito+
+66+11+1+|N|Los dos testigos+
+66+11+15+|N|La séptima trompeta+
+66+12+1+|N|La mujer y el dragón+
+66+13+1+|N|Las dos bestias+
+66+14+1+|N|El cántico de los 144 mil+
+66+14+6+|N|El mensaje de los tres ángeles+
+66+14+14+|N|La tierra es segada+
+66+15+1+|N|Los ángeles con las siete postreras plagas+
+66+16+1+|N|Las copas de ira+
+66+17+1+|N|Condenación de la gran ramera+
+66+18+1+|N|La caída de Babilonia+
+66+19+1+|N|Alabanzas en el cielo+
+66+19+9+|N|La cena de las bodas del Cordero+
+66+19+11+|N|El jinete del caballo blanco+
+66+20+1+|N|Los mil años+
+66+20+11+|N|El juicio ante el gran trono blanco+
+66+21+1+|N|Cielo nuevo y tierra nueva+
+66+21+9+|N|La nueva Jerusalén+
+66+22+6+|N|La venida de Cristo está cerca+
