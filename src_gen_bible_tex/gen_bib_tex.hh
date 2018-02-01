@@ -13,6 +13,15 @@
 #define GB_REFS_PTH "REFS.txt"
 #define GB_SUBTITU_PTH "SUBTITU.txt"
 
+#define GB_PREF_BOOK "book"
+#define GB_SUFI_BOOK ".tex"
+
+#define GB_BOOK_ABRV_IDX 1
+#define GB_BOOK_NAME_IDX 2
+#define GB_BOOK_TRANSLIT_IDX 3
+#define GB_BOOK_MEANING_IDX 4
+#define GB_BOOK_HEBREW_NM_IDX 5
+
 #define GB_OFFSET_STR_END 2
 
 #define GB_KEY_SEP '+'
@@ -54,7 +63,7 @@ cmp_int(int const & n1, int const & n2){
 	return 1;
 }
 
-extern const char* BOOKS_NAMES[][6];
+extern const char* GB_BOOKS_NAMES[][6];
 
 typedef std::ostream gb_ostream;
 typedef std::string gb_string;
@@ -92,7 +101,8 @@ public:
 	FILE* 		verses;
 	FILE* 		subtitles;
 	FILE* 		references;
-	FILE* 		format;
+
+	FILE* 		tex_output;
 
 	char* verse_line;
 	char* ref_line;
@@ -101,6 +111,16 @@ public:
 	size_t verse_sz;
 	size_t ref_sz;
 	size_t subtitu_sz;
+
+	verse_key 	verse_prv_vk;
+	verse_key 	verse_vk;
+	verse_key 	ref_vk;
+	verse_key 	subtitu_vk;
+
+	char 		the_title_kind;
+	char* 		the_title;
+	char* 		the_refs;
+	char* 		the_verse;
 
 	tex_gen(){
 		init_tex_gen();
@@ -111,7 +131,7 @@ public:
 	void 	init_tex_gen();
 
 	bool	get_args(int argc, char** argv);
-	FILE*	open_file(gb_string& nm);
+	FILE*	open_file(gb_string& nm, const char* mode = "r");
 
 	char*	get_line(FILE* ff);
 	char*	get_key(char* line, verse_key& vk, char sep = GB_KEY_SEP);
@@ -122,6 +142,13 @@ public:
 	char*	get_subtitle_kind(char* value, char& kind);
 	void	set_content_end(char* line, int line_sz);
 	void	reset_content_end(char* line, int line_sz);
+
+	void	gen_start_book(int num_book);
+	void	gen_verse();
+	void	gen_refs();
+	void	gen_end_book();
+
+	void	gen_bible();
 };
 
 

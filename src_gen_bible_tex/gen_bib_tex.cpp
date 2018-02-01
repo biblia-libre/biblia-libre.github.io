@@ -5,7 +5,26 @@
 
 #include "gen_bib_tex.hh"
 
-const char* BOOKS_NAMES[][6] = {
+#define GB_BUFF_SZ 1000
+char GB_BUFF[GB_BUFF_SZ];
+
+#define GB_FMT_BookNameMeaning "\\blSetBookNameMeaning{%s}\n"
+#define GB_FMT_BookNumber "\\blSetBookNumber{%d}\n"
+#define GB_FMT_HebrewBookName "\\blSetHebrewBookName{%s}\n"
+#define GB_FMT_BookName "\\blSetBookName{%s}\n"
+#define GB_FMT_BookNameTranslit "\\blSetBookNameTranslit{%s}\n"
+#define GB_FMT_StartBook "\\blStartBook\n"
+
+#define GB_FMT_ChapterNumber "\\blSetChapterNumber{%d}\n"
+#define GB_FMT_SubTitle "\\blSubTitle{%s}\n"
+#define GB_FMT_StartChapterN "\\lettrine{%d}\n"
+
+#define GB_FMT_StartVerse "\\blGetVerse{%d}"
+#define GB_FMT_StartVerseX "\\blGetVerseX{%d}"
+
+#define GB_FMT_EndBook "\\blEndBook\n"
+
+const char* GB_BOOKS_NAMES[][6] = {
 {"BAD_COD_NM", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
 {"genesis", "Gen", "Génesis", "Bereshit", "En el principio", "בראשית"},
 {"exodo", "Exo", "Exodo", "Shemot", "Nombres", "שמות"},
@@ -98,8 +117,8 @@ gb_abort_func(long val, const char* msg){
 
 
 FILE*
-tex_gen::open_file(gb_string& nm){
-	FILE* fpth = fopen(nm.c_str(), "r");
+tex_gen::open_file(gb_string& nm, const char* mode){
+	FILE* fpth = fopen(nm.c_str(), mode);
 	if(fpth == NULL){
 		fprintf(stderr, "ERROR. Can NOT open file %s\n", nm.c_str());
 		exit(1);;
@@ -111,18 +130,18 @@ void
 tex_gen::init_tex_gen(){
 
 	help_str =
-		"[ -h | -v | -tex ]\n"
-		"\t[ -pth_verses <verses_path> "
-		"| -pth_refs <refs_path> "
-		"| -pth_subtitu <subtitles_path> "
+		"[ -h | -v | -tex ] "
+		"[ -ver <verses_path> "
+		"| -ref <refs_path> "
+		"| -sub <subtitles_path> "
 		"]"
 		"\n"
 		"-h : print help.\n"
 		"-v : print version.\n"
-		"-tex : generate tex files.\n"
-		"-pth_verses : set the verses path to <verses_path>.\n"
-		"-pth_refs : set the references path to <refs_path>.\n"
-		"-pth_subtitu : set the subtitles path to <subtitles_path>.\n"
+		"-tex : generate all bible books LaTeX files (xelatex).\n"
+		"-ver : set the verses path to <verses_path>.\n"
+		"-ref : set the references path to <refs_path>.\n"
+		"-sub : set the subtitles path to <subtitles_path>.\n"
 		"\n"
 		;
 
@@ -137,7 +156,8 @@ tex_gen::init_tex_gen(){
 	verses = NULL;
 	subtitles = NULL;
 	references = NULL;
-	format = NULL;
+
+	tex_output = NULL;
 
 	verse_line = NULL;
 	ref_line = NULL;
@@ -172,17 +192,17 @@ tex_gen::get_args(int argc, char** argv)
 			prt_paths = true;
 		} else if(the_arg == "-with_images"){
 			op_with_images = true;
-		} else if((the_arg == "-pth_verses") && ((ii + 1) < argc)){
+		} else if((the_arg == "-ver") && ((ii + 1) < argc)){
 			int kk_idx = ii + 1;
 			ii++;
 
 			verses_pth = argv[kk_idx];
-		} else if((the_arg == "-pth_refs") && ((ii + 1) < argc)){
+		} else if((the_arg == "-ref") && ((ii + 1) < argc)){
 			int kk_idx = ii + 1;
 			ii++;
 
 			refs_pth = argv[kk_idx];
-		} else if((the_arg == "-pth_subtitu") && ((ii + 1) < argc)){
+		} else if((the_arg == "-sub") && ((ii + 1) < argc)){
 			int kk_idx = ii + 1;
 			ii++;
 
@@ -223,6 +243,8 @@ tex_gen::~tex_gen(){
 	if(subtitles != NULL){ fclose(subtitles); }
 	if(references != NULL){ fclose(references); }
 
+	if(tex_output != NULL){ fclose(tex_output); }
+
 	if(verse_line != NULL){ free(verse_line); }
 	if(ref_line != NULL){ free(ref_line); }
 	if(subtitu_line != NULL){ free(subtitu_line); }
@@ -238,7 +260,7 @@ int main(int argc, char **argv){
 		gb_err << "ARGS_OK\n";
 	}
 
-	txg.test_print_file();
+	//txg.test_print_file();
 
 	return 0;
 }
@@ -285,13 +307,13 @@ tex_gen::get_key(char* line, verse_key& vk, char the_sep){
 		switch(aa){
 		case 0:
 			vk.book = atoi(pt_str);
-		break;
+			break;
 		case 1:
 			vk.chapter = atoi(pt_str);
-		break;
+			break;
 		case 2:
 			vk.verse = atoi(pt_str);
-		break;
+			break;
 		}
 		*pt_sep = the_sep;
 		pt_str = pt_sep + 1;
@@ -372,13 +394,13 @@ tex_gen::test_print_file(){
 	switch(op_dbg_prt){
 	case 1:
 		print_file(verses);
-	break;
+		break;
 	case 2:
 		print_file(subtitles);
-	break;
+		break;
 	case 3:
 		print_file(references);
-	break;
+		break;
 	};
 }
 
@@ -421,4 +443,77 @@ tex_gen::reset_content_end(char* line, int line_sz){
 	line[idx] = GB_KEY_SEP;
 }
 
+void
+tex_gen::gen_start_book(int num_book){
+	if(tex_output != NULL){ fclose(tex_output); }
 
+	snprintf(GB_BUFF, GB_BUFF_SZ, "%s%d%s", GB_PREF_BOOK, num_book, GB_SUFI_BOOK);
+	gb_string nm = GB_BUFF;
+	tex_output = open_file(nm, "w+");
+
+	const char** book_dat = GB_BOOKS_NAMES[num_book];
+
+	fprintf(tex_output, GB_FMT_BookName, book_dat[GB_BOOK_NAME_IDX]);
+	fprintf(tex_output, GB_FMT_BookNameTranslit, book_dat[GB_BOOK_TRANSLIT_IDX]);
+	fprintf(tex_output, GB_FMT_BookNameMeaning, book_dat[GB_BOOK_MEANING_IDX]);
+	fprintf(tex_output, GB_FMT_HebrewBookName, book_dat[GB_BOOK_HEBREW_NM_IDX]);
+	fprintf(tex_output, GB_FMT_BookNumber, num_book);
+	fprintf(tex_output, GB_FMT_StartBook);
+}
+
+void
+tex_gen::gen_verse(){
+
+	bool new_chap = verse_vk.chapter > verse_prv_vk.chapter;
+	if(new_chap){
+		fprintf(tex_output, "%% =================================================\n\n");
+		fprintf(tex_output, GB_FMT_ChapterNumber, verse_vk.chapter);
+		fprintf(tex_output, "\n");
+	}
+
+	if(the_title != NULL){
+		fprintf(tex_output, "\n\n");
+		fprintf(tex_output, GB_FMT_SubTitle, the_title);
+		fprintf(tex_output, "\n");
+	}
+	if(new_chap){
+		switch(the_title_kind){
+		case 'N':
+		default:
+			fprintf(tex_output, GB_FMT_StartChapterN, verse_vk.chapter);
+			break;
+		};
+	}
+	if(the_refs == NULL){
+		fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
+	} else {
+		fprintf(tex_output, GB_FMT_StartVerseX, verse_vk.verse);
+		gen_refs();
+	}
+	fprintf(tex_output, "%s", the_verse);
+	fprintf(tex_output, " \n");
+}
+
+void
+tex_gen::gen_refs(){
+	verse_key ref;
+	fprintf(tex_output, "{");
+	while(get_ref(the_refs, ref)){
+		char sep = ' ';
+		if(*the_refs == '-'){ sep = '-'; }
+		fprintf(tex_output, "%s %d:%d%c", GB_BOOKS_NAMES[ref.book][GB_BOOK_ABRV_IDX], 
+				ref.chapter, ref.verse, sep);
+	}
+	fprintf(tex_output, "}");
+}
+
+void
+tex_gen::gen_end_book(){
+	fprintf(tex_output, "\n\n");
+	fprintf(tex_output, GB_FMT_EndBook);
+	fprintf(tex_output, "\n\n");
+}
+
+void
+tex_gen::gen_bible(){
+}
