@@ -511,7 +511,8 @@ tex_gen::gen_refs(){
 
 void
 tex_gen::gen_end_book(){
-	fprintf(tex_output, "\n\n");
+	//fprintf(tex_output, "\n\n");
+	fprintf(tex_output, "\\nopagebreak\n\n");
 	fprintf(tex_output, GB_FMT_EndBook);
 	fprintf(tex_output, "\n\n");
 }
@@ -555,4 +556,6 @@ tex_gen::gen_bible(){
 		gen_verse();
 		get_verse_line();
 	}
+
+	gen_end_book();
 }

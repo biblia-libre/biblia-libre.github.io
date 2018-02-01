@@ -6,6 +6,7 @@
 \usepackage{fancyhdr}
 \usepackage{lettrine}
 \usepackage{microtype}
+\usepackage{color}
 \usepackage{xcolor}
 \usepackage{geometry}
 %\usepackage[showframe]{geometry}
@@ -16,13 +17,19 @@
 \usepackage{fourier-orns}
 \usepackage{graphicx}
 \usepackage{booktabs}
-\usepackage{color}
 \usepackage{multicol}
 \usepackage[object=vectorian]{pgfornament}
+\usepackage[explicit]{titlesec}
 
 \renewcommand{\familydefault}{pplj} 
 \setdefaultlanguage{english}
 \setotherlanguage{hebrew}
+
+%\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\familydefault}{\rmdefault}
+
+%\titlespacing{\paragraph}{0pt}{0pt}{.5em}[]
+\titlespacing{\paragraph}{0pt}{0pt}{.1em}[]
 
 % \raggedbottom
 
@@ -85,8 +92,12 @@
 \definecolor{blDarkblue}{RGB}{0,0,80}
 \definecolor{blLightblue}{RGB}{80,80,80}
 \definecolor{blDarkgreen}{RGB}{0,80,0}
-\definecolor{blDarkgray}{RGB}{0,80,0}
+\definecolor{blDarkgray}{RGB}{0, 51, 153}
 \definecolor{blDarkred}{RGB}{80,0,0}
+
+\definecolor{blLayoutColor}{RGB}{0, 51, 153}
+% \definecolor{blLayoutColor}{blue}{0.6}
+\colorlet{blNormalColor}{black}
 
 % Header and Footer variables.
 %-----------------------------------------------------
@@ -135,13 +146,13 @@
 % Header and Footer look.
 %-----------------------------------------------------
 
-\newcommand{\blOrnament}{ \vspace{3ex}\noindent \textcolor{blDarkgray}{\hrulefill~ \raisebox{-2.5pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone   \floweroneright \decotwo \aldineleft\decothreeright \decofourright \leafleft} ~  \hrulefill \\ \vspace{3ex}}}
+\newcommand{\blOrnament}{ \vspace{3ex}\noindent \textcolor{blLayoutColor}{\hrulefill~ \raisebox{-2.5pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone   \floweroneright \decotwo \aldineleft\decothreeright \decofourright \leafleft} ~  \hrulefill \\ \vspace{3ex}}}
 
-\newcommand{\blOddOrnament}{\noindent \textcolor{blDarkgray}{ \raisebox{-1.9pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone}}}
+\newcommand{\blOddOrnament}{\noindent \textcolor{blLayoutColor}{ \raisebox{-1.9pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone}}}
 
-\newcommand{\blEvenOrnament}{\noindent \textcolor{blDarkgray}{\raisebox{-1.9pt}[10pt][10pt]{\decoone \floweroneright \decotwo \aldineleft \decothreeright \decofourright \leafleft} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafleft}}}
+\newcommand{\blEvenOrnament}{\noindent \textcolor{blLayoutColor}{\raisebox{-1.9pt}[10pt][10pt]{\decoone \floweroneright \decotwo \aldineleft \decothreeright \decofourright \leafleft} \hrulefill \raisebox{-1.9pt}[10pt][10pt]{\leafleft}}}
 
-\newcommand{\blTopOrnament}{\noindent \textcolor{blDarkgray}{\raisebox{-2.1pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{~~~\decofourleft \decotwo \decofourright~~~} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{ \leafleft}} \vspace{0mm}}
+\newcommand{\blTopOrnament}{\noindent \textcolor{blLayoutColor}{\raisebox{-2.1pt}[10pt][10pt]{\leafright} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{~~~\decofourleft \decotwo \decofourright~~~} \hrulefill \raisebox{-2.1pt}[10pt][10pt]{ \leafleft}} \vspace{0mm}}
 
 \newcommand\blGetOrnament[3][black]{
 	\resizebox{#2}{!}{\pgfornament[color = #1,ydelta=-40pt]{#3}}
@@ -149,16 +160,16 @@
 
 \newcommand\blBookOrnament{{\blSetWieynkFrakturVignetten\fontsize{50}{40}\selectfont P}}
 
+\newcommand\blGetBookHebrewTitle{\hfill \hfill {\blHebrewOne{50}{\blHebrewBookName}} \hfill \blBookOrnament}
+
+% \blGetOrnament[blLayoutColor]{0.7\linewidth}{85} \\
+% \blGetOrnament[blLayoutColor]{0.2\linewidth}{71} \\
+
 \newcommand\blGetBookTitle{
-	{\textcolor{blDarkgreen}{\center{
-		% \blGetOrnament[blDarkgreen]{0.7\linewidth}{85} \\
-		\blOrnament
-		 \hfill \hfill {\blHebrewOne{50}{\blHebrewBookName}} \hfill \blBookOrnament \\
-		% \blGetOrnament[blDarkgreen]{0.2\linewidth}{71} \\
-		\blBookNameMeaning \\ \blBookNameTranslit \\
-		(\blBookName) \\
-	}}}
-	\vspace{1cm}
+	\centerline{\textcolor{blLayoutColor}{\blGetBookHebrewTitle}}
+	\centerline{\textcolor{blLayoutColor}{\blBookNameTranslit}}
+	\centerline{\textcolor{blLayoutColor}{\blBookNameMeaning}}
+	\centerline{\textcolor{blLayoutColor}{(\blBookName)}}
 }
 
 
@@ -170,16 +181,16 @@
 
 \fancyhf{}
 
-\newcommand{\blTopInner}{\blBookName \space \blChapterNumber}
-\newcommand{\blTopCenter}{\thepage}
-\newcommand{\blTopOuter}{\blBookNameTranslit \space \blChapterNumber}
+\newcommand{\blTopInner}{\textcolor{blLayoutColor}{\blBookName \space \blChapterNumber}}
+\newcommand{\blTopCenter}{\textcolor{blLayoutColor}{\thepage}}
+\newcommand{\blTopOuter}{\textcolor{blLayoutColor}{\blBookNameTranslit \space \blChapterNumber}}
 
 \newcommand{\blBottomOuter}{\blChapterNumber \space \blHebrewOne{12}{\blHebrewBookName}}
 \newcommand{\blBottomOdd}{
-	\blEvenOrnament \\ \large \hfill \sffamily\bf \textcolor{blDarkgray}{\leafNE ~~~ \blBottomOuter}
+	\blEvenOrnament \\ \large \hfill \sffamily\bf \textcolor{blLayoutColor}{\leafNE ~~~ \blBottomOuter}
 }
 \newcommand{\blBottomEven}{
-	\blOddOrnament \\ \large \sffamily\bf \textcolor{blDarkgray}{\blBottomOuter ~~~ \reflectbox{\leafNE}} \hfill
+	\blOddOrnament \\ \large \sffamily\bf \textcolor{blLayoutColor}{\blBottomOuter ~~~ \reflectbox{\leafNE}} \hfill
 }
 
 \fancyhead[LO,RE]{\blTopInner}
@@ -201,13 +212,15 @@
 }
 
 \newcommand{\blEndBook}{%
-	\center{\textcolor{blDarkgray}{\reflectbox{\blBookOrnament}\blBookOrnament}}%
+	\vspace{1em}
+	\centerline{\textcolor{blLayoutColor}{\reflectbox{\blBookOrnament}\blBookOrnament}}%
 	\cleardoublepage%
 }
 
 \newcommand{\blSubTitle}[1]{
-	\vspace{2ex}
-	\centerline{\textcolor{blDarkgray}{\textbf{\fontsize{16}{40}\selectfont #1}}}%
+	\vspace{1em}
+	%\centerline{\textcolor{blLayoutColor}{\textbf{\fontsize{10}{3}\selectfont #1}}}%
+	\centerline{\textcolor{blLayoutColor}{\textbf{\large #1 } \small}}
 }
 
 
@@ -219,11 +232,80 @@
 
 %\thispagestyle{empty}
 
-\input{books/book1.tex}
+\small
 
 \input{books/book1.tex}
+\input{books/book2.tex}
+\input{books/book3.tex}
+\input{books/book4.tex}
+\input{books/book5.tex}
+\input{books/book6.tex}
+\input{books/book7.tex}
+\input{books/book8.tex}
+\input{books/book9.tex}
 
-\input{books/book1.tex}
+\input{books/book10.tex}
+\input{books/book11.tex}
+\input{books/book12.tex}
+\input{books/book13.tex}
+\input{books/book14.tex}
+\input{books/book15.tex}
+\input{books/book16.tex}
+\input{books/book17.tex}
+\input{books/book18.tex}
+\input{books/book19.tex}
+
+\input{books/book20.tex}
+\input{books/book21.tex}
+\input{books/book22.tex}
+\input{books/book23.tex}
+\input{books/book24.tex}
+\input{books/book25.tex}
+\input{books/book26.tex}
+\input{books/book27.tex}
+\input{books/book28.tex}
+\input{books/book29.tex}
+
+\input{books/book30.tex}
+\input{books/book31.tex}
+\input{books/book32.tex}
+\input{books/book33.tex}
+\input{books/book34.tex}
+\input{books/book35.tex}
+\input{books/book36.tex}
+\input{books/book37.tex}
+\input{books/book38.tex}
+\input{books/book39.tex}
+
+\input{books/book40.tex}
+\input{books/book41.tex}
+\input{books/book42.tex}
+\input{books/book43.tex}
+\input{books/book44.tex}
+\input{books/book45.tex}
+\input{books/book46.tex}
+\input{books/book47.tex}
+\input{books/book48.tex}
+\input{books/book49.tex}
+
+\input{books/book50.tex}
+\input{books/book51.tex}
+\input{books/book52.tex}
+\input{books/book53.tex}
+\input{books/book54.tex}
+\input{books/book55.tex}
+\input{books/book56.tex}
+\input{books/book57.tex}
+\input{books/book58.tex}
+\input{books/book59.tex}
+
+\input{books/book60.tex}
+\input{books/book61.tex}
+\input{books/book62.tex}
+\input{books/book63.tex}
+\input{books/book64.tex}
+\input{books/book65.tex}
+\input{books/book66.tex}
 
 %\end{multicols}
 \end{document}
