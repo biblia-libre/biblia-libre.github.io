@@ -97,6 +97,7 @@ public:
 
 	bool		op_with_images;
 	int			op_dbg_prt;
+	bool		op_gen_tex;
 
 	FILE* 		verses;
 	FILE* 		subtitles;
@@ -117,10 +118,15 @@ public:
 	verse_key 	ref_vk;
 	verse_key 	subtitu_vk;
 
-	char 		the_title_kind;
-	char* 		the_title;
-	char* 		the_refs;
+	char* 		verse_val;
+	char* 		ref_val;
+	char* 		subtitu_val;
+
+	char 		the_subtitu_kind;
+
 	char* 		the_verse;
+	char* 		the_refs;
+	char* 		the_subtitu;
 
 	tex_gen(){
 		init_tex_gen();
@@ -133,7 +139,8 @@ public:
 	bool	get_args(int argc, char** argv);
 	FILE*	open_file(gb_string& nm, const char* mode = "r");
 
-	char*	get_line(FILE* ff);
+	//char*	get_line(FILE* ff);
+	char*	get_line(FILE* ff, char*& line, size_t& sz);
 	char*	get_key(char* line, verse_key& vk, char sep = GB_KEY_SEP);
 	bool	get_ref(char*& value, verse_key& vk);
 
@@ -147,6 +154,10 @@ public:
 	void	gen_verse();
 	void	gen_refs();
 	void	gen_end_book();
+
+	void	get_verse_line();
+	void	get_ref_line();
+	void	get_subtitu_line();
 
 	void	gen_bible();
 };

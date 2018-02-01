@@ -17,7 +17,7 @@ char GB_BUFF[GB_BUFF_SZ];
 
 #define GB_FMT_ChapterNumber "\\blSetChapterNumber{%d}\n"
 #define GB_FMT_SubTitle "\\blSubTitle{%s}\n"
-#define GB_FMT_StartChapterN "\\lettrine{%d}\n"
+#define GB_FMT_StartChapterN "\\lettrine{%d}{}\n"
 
 #define GB_FMT_StartVerse "\\blGetVerse{%d}"
 #define GB_FMT_StartVerseX "\\blGetVerseX{%d}"
@@ -130,7 +130,7 @@ void
 tex_gen::init_tex_gen(){
 
 	help_str =
-		"[ -h | -v | -tex ] "
+		"[ -h | -v | -p | -tex ] "
 		"[ -ver <verses_path> "
 		"| -ref <refs_path> "
 		"| -sub <subtitles_path> "
@@ -138,6 +138,7 @@ tex_gen::init_tex_gen(){
 		"\n"
 		"-h : print help.\n"
 		"-v : print version.\n"
+		"-p : print paths to use.\n"
 		"-tex : generate all bible books LaTeX files (xelatex).\n"
 		"-ver : set the verses path to <verses_path>.\n"
 		"-ref : set the references path to <refs_path>.\n"
@@ -152,6 +153,7 @@ tex_gen::init_tex_gen(){
 		
 	op_with_images = false;
 	op_dbg_prt = -1;
+	op_gen_tex = false;
 
 	verses = NULL;
 	subtitles = NULL;
@@ -166,6 +168,21 @@ tex_gen::init_tex_gen(){
 	verse_sz = 0;
 	ref_sz = 0;
 	subtitu_sz = 0;
+
+	verse_prv_vk.init_verse_key();
+	verse_vk.init_verse_key();
+	ref_vk.init_verse_key();
+	subtitu_vk.init_verse_key();
+
+	verse_val = NULL;
+	ref_val = NULL;
+	subtitu_val = NULL;
+
+	the_subtitu_kind = 'N';
+
+	the_subtitu = NULL;
+	the_refs = NULL;
+	the_verse = NULL;
 };
 
 bool
@@ -188,10 +205,12 @@ tex_gen::get_args(int argc, char** argv)
 			prt_help = true;
 		} else if(the_arg == "-v"){
 			prt_version = true;
-		} else if(the_arg == "-paths"){
+		} else if(the_arg == "-p"){
 			prt_paths = true;
 		} else if(the_arg == "-with_images"){
 			op_with_images = true;
+		} else if(the_arg == "-tex"){
+			op_gen_tex = true;
 		} else if((the_arg == "-ver") && ((ii + 1) < argc)){
 			int kk_idx = ii + 1;
 			ii++;
@@ -261,40 +280,30 @@ int main(int argc, char **argv){
 	}
 
 	//txg.test_print_file();
+	if(txg.op_gen_tex){
+		txg.gen_bible();
+	}
 
 	return 0;
 }
 
 char*
-tex_gen::get_line(FILE* ff){
-	size_t read_sz;
-	char* resp = NULL;
-	if(ff == verses){
-		read_sz = getline(&verse_line, &verse_sz, verses);
-		verse_sz = read_sz;
-		resp = verse_line;
+tex_gen::get_line(FILE* ff, char*& line, size_t& sz){
+	size_t read_sz = getline(&line, &sz, ff);
+	sz = read_sz;
+	if((read_sz == -1) && (line != NULL)){ 
+		free(line);
+		line = NULL;
 	}
-	else if(ff == subtitles){
-		read_sz = getline(&subtitu_line, &subtitu_sz, subtitles);
-		subtitu_sz = read_sz;
-		resp = subtitu_line;
-	}
-	else if(ff == references){
-		read_sz = getline(&ref_line, &ref_sz, references);
-		ref_sz = read_sz;
-		resp = ref_line;
-	} 
-	else {
-		return NULL;
-	}
-
-	if(read_sz == -1){ return NULL; }
-	return resp;
+	return line;
 }
 
 char*
 tex_gen::get_key(char* line, verse_key& vk, char the_sep){
 	vk.init_verse_key();
+	if(line == NULL){
+		return NULL;
+	}
 	char* pt_str = line;
 	char* pt_sep = NULL;
 	for(int aa = 0; aa < 3; aa++){
@@ -348,44 +357,19 @@ int cmp_verse_key(verse_key& vk1, verse_key& vk2){
 
 void
 tex_gen::print_file(FILE* ff){
+	char* line = NULL;
+	size_t line_sz = 0;
+
 	char* ln = NULL;
 	char* val = NULL;
 	verse_key vk;
 	verse_key prv_vk;
 	verse_key ref;
 	char kk;
-	while((ln = get_line(ff)) != NULL){
+	while((ln = get_line(ff, line, line_sz)) != NULL){
 		printf("%s", ln);
 		val = get_key(ln, vk);
 		printf("KEY= %d %d %d \n\tVAL=%s", vk.book, vk.chapter, vk.verse, val);
-
-		/*
-		set_content_end(verse_line, verse_sz);
-		printf("\tVER=%s\n", val);
-		reset_content_end(verse_line, verse_sz);
-		*/
-
-		/*
-		char* sub = get_subtitle_kind(val, kk);
-		
-		set_content_end(subtitu_line, subtitu_sz);
-		printf("\t KIND=%c SUB=%s\n", kk, sub);
-		reset_content_end(subtitu_line, subtitu_sz);
-		*/
-
-		/*
-		while(get_ref(val, ref)){
-			printf("\tREF= %d %d %d %c\n", ref.book, ref.chapter, ref.verse, *val);
-		}
-		*/
-
-		/*
-		val = get_key(ln, vk);
-		printf("PRV_KEY= %d %d %d ", prv_vk.book, prv_vk.chapter, prv_vk.verse);
-		printf("KEY= %d %d %d \n\tVAL= %s", vk.book, vk.chapter, vk.verse, val);
-		GB_CK(cmp_verse_key(prv_vk, vk) == -1);
-		prv_vk = vk;
-		*/
 	}
 }
 
@@ -406,6 +390,9 @@ tex_gen::test_print_file(){
 
 char*
 tex_gen::get_subtitle_kind(char* value, char& kind){
+	if(value == NULL){
+		return NULL;
+	}
 	if(*value != GB_REF_SEP){
 		fprintf(stderr, "ERROR_1. Cannot find separator '%c' in subtitle:\n%s\n\n", GB_REF_SEP, value);
 		exit(1);;
@@ -423,9 +410,10 @@ tex_gen::get_subtitle_kind(char* value, char& kind){
 
 void
 tex_gen::set_content_end(char* line, int line_sz){
+	if(line == NULL){ return; }
 	int idx = line_sz - GB_OFFSET_STR_END;
 	if(line[idx] != GB_KEY_SEP){
-		fprintf(stderr, "ERROR. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_KEY_SEP, line,
+		fprintf(stderr, "ERROR_1. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_KEY_SEP, line,
 				idx, line[idx]);
 		exit(1);;
 	}
@@ -436,7 +424,7 @@ void
 tex_gen::reset_content_end(char* line, int line_sz){
 	int idx = line_sz - GB_OFFSET_STR_END;
 	if(line[idx] != GB_STR_END){
-		fprintf(stderr, "ERROR. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_STR_END, line,
+		fprintf(stderr, "ERROR_2. Cannot find end_of_line '%c' in line:\n%s\n%d(%c)\n", GB_STR_END, line,
 				idx, line[idx]);
 		exit(1);;
 	}
@@ -463,6 +451,13 @@ tex_gen::gen_start_book(int num_book){
 
 void
 tex_gen::gen_verse(){
+	bool new_book = verse_vk.book > verse_prv_vk.book;
+	if(new_book){
+		if(tex_output != NULL){
+			gen_end_book();
+		}
+		gen_start_book(verse_vk.book);
+	}
 
 	bool new_chap = verse_vk.chapter > verse_prv_vk.chapter;
 	if(new_chap){
@@ -471,24 +466,33 @@ tex_gen::gen_verse(){
 		fprintf(tex_output, "\n");
 	}
 
-	if(the_title != NULL){
+	if(cmp_verse_key(verse_vk, subtitu_vk) == 0){
+		GB_CK(the_subtitu != NULL);
 		fprintf(tex_output, "\n\n");
-		fprintf(tex_output, GB_FMT_SubTitle, the_title);
+		fprintf(tex_output, GB_FMT_SubTitle, the_subtitu);
 		fprintf(tex_output, "\n");
+		get_subtitu_line();
 	}
 	if(new_chap){
-		switch(the_title_kind){
+		switch(the_subtitu_kind){
 		case 'N':
 		default:
 			fprintf(tex_output, GB_FMT_StartChapterN, verse_vk.chapter);
 			break;
 		};
 	}
-	if(the_refs == NULL){
-		fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
-	} else {
+	if(cmp_verse_key(verse_vk, ref_vk) == 0){
+		GB_CK(the_refs != NULL);
 		fprintf(tex_output, GB_FMT_StartVerseX, verse_vk.verse);
+		fprintf(tex_output, "{");
 		gen_refs();
+		fprintf(tex_output, "}");
+		//fprintf(tex_output, "nota %d}", verse_vk.verse);
+		get_ref_line();
+
+		//fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
+	} else {
+		fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
 	}
 	fprintf(tex_output, "%s", the_verse);
 	fprintf(tex_output, " \n");
@@ -497,14 +501,12 @@ tex_gen::gen_verse(){
 void
 tex_gen::gen_refs(){
 	verse_key ref;
-	fprintf(tex_output, "{");
 	while(get_ref(the_refs, ref)){
 		char sep = ' ';
 		if(*the_refs == '-'){ sep = '-'; }
 		fprintf(tex_output, "%s %d:%d%c", GB_BOOKS_NAMES[ref.book][GB_BOOK_ABRV_IDX], 
 				ref.chapter, ref.verse, sep);
 	}
-	fprintf(tex_output, "}");
 }
 
 void
@@ -515,5 +517,42 @@ tex_gen::gen_end_book(){
 }
 
 void
+tex_gen::get_verse_line(){
+	verse_prv_vk = verse_vk;
+	get_line(verses, verse_line, verse_sz);
+	verse_val = get_key(verse_line, verse_vk);
+	set_content_end(verse_line, verse_sz);
+	the_verse = verse_val;
+}
+
+void
+tex_gen::get_ref_line(){
+	get_line(references, ref_line, ref_sz);
+	verse_key pvk = ref_vk;
+	ref_val = get_key(ref_line, ref_vk);
+	GB_CK((ref_line == NULL) || cmp_verse_key(pvk, ref_vk) == -1);
+	the_refs = ref_val;
+}
+
+void
+tex_gen::get_subtitu_line(){
+	get_line(subtitles, subtitu_line, subtitu_sz);
+	verse_key pvk = subtitu_vk;
+	subtitu_val = get_key(subtitu_line, subtitu_vk);
+	GB_CK((subtitu_line == NULL) || cmp_verse_key(pvk, subtitu_vk) == -1);
+
+	the_subtitu = get_subtitle_kind(subtitu_val, the_subtitu_kind);
+	set_content_end(subtitu_line, subtitu_sz);
+}
+
+void
 tex_gen::gen_bible(){
+	get_verse_line();
+	get_ref_line();
+	get_subtitu_line();
+
+	while(verse_line != NULL){
+		gen_verse();
+		get_verse_line();
+	}
 }
