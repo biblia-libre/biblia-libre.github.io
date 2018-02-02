@@ -22,15 +22,17 @@ char GB_BUFF[GB_BUFF_SZ];
 #define GB_FMT_StartVerse "\\blGetVerse{%d}"
 #define GB_FMT_StartVerseX "\\blGetVerseX{%d}"
 
+#define GB_FMT_textbf "\\textbf{%s}"
+
 #define GB_FMT_EndBook "\\blEndBook\n"
 
 const char* GB_BOOKS_NAMES[][6] = {
 {"BAD_COD_NM", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
-{"genesis", "Gen", "Génesis", "Bereshit", "En el principio", "בראשית"},
-{"exodo", "Exo", "Exodo", "Shemot", "Nombres", "שמות"},
-{"levitico", "Lev", "Levítico", "Vayikra", "EL llamo", "ויקרא"},
-{"numeros", "Num", "Números", "Bamidbar", "En el desierto", "במדבר"},
-{"deuteronomio", "Deu", "Deuteronomio", "Devarim", "Palabreas", "דברים"},
+{"genesis", "Gen", "Génesis", "Bereshit", "'En el principio'", "בראשית"},
+{"exodo", "Exo", "Exodo", "Shemot", "'Nombres'", "שמות"},
+{"levitico", "Lev", "Levítico", "Vayikra", "'EL llamo'", "ויקרא"},
+{"numeros", "Num", "Números", "Bamidbar", "'En el desierto'", "במדבר"},
+{"deuteronomio", "Deu", "Deuteronomio", "Devarim", "'Palabreas'", "דברים"},
 {"josue", "Jos", "Josué", "Yehoshua", "", "יהושע"},
 {"jueces", "Jue", "Jueces", "Shoftim", "", "שופטים"},
 {"rut", "Rut", "Rut", "Rut", "", "רות"},
@@ -46,7 +48,7 @@ const char* GB_BOOKS_NAMES[][6] = {
 {"job", "Job", "Job", "Yob", "", "איוב"},
 {"salmos", "Sal", "Salmos", "Tehilim", "", "תהלים"},
 {"proverbios", "Pro", "Proverbios", "Mishle", "", "משלי"},
-{"eclesiastes", "Ecl", "Eclesiastés", "Kohelet", "Recolector", "קהלת"},
+{"eclesiastes", "Ecl", "Eclesiastés", "Kohelet", "'Recolector'", "קהלת"},
 {"cantares", "Can", "Cantares", "Shir Heshirim", "", "שיר השירים"},
 {"isaias", "Isa", "Isaías", "Yeshayahu", "", "ישעיה"},
 {"jeremias", "Jer", "Jeremías", "Yirmiyahu", "", "ירמיה"},
@@ -91,7 +93,18 @@ const char* GB_BOOKS_NAMES[][6] = {
 {"2juan", "2Ju", "2 Juan", "Bet Yojanan", "", "ב יוחנן"},
 {"3juan", "3Ju", "3 Juan", "Gimel Yojanan", "", "ג יוחנן"},
 {"judas", "Jud", "Judas", "Yahuda", "", "יהודה"},
-{"apocalipsis", "Rev", "Revelación", "Jazon Yojanan", "", "חזון יוחנן"}
+{"apocalipsis", "Rev", "Revelación", "Jazon Yojanan", "", "חזון יוחנן"},
+{"book67", "book67_ABREV", "book67_NM", "book67_NM", "book67_TRADUC", "book67_HEBREW_NM"},
+{"book68", "book68_ABREV", "book68_NM", "book68_NM", "book68_TRADUC", "book68_HEBREW_NM"},
+{"book69", "book69_ABREV", "book69_NM", "book69_NM", "book69_TRADUC", "book69_HEBREW_NM"},
+{"book70", "book70_ABREV", "book70_NM", "book70_NM", "book70_TRADUC", "book70_HEBREW_NM"},
+{"book71", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book72", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book73", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book74", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book75", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book76", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
+{"book77", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"}
 };
 
 bool 
@@ -485,8 +498,10 @@ tex_gen::gen_verse(){
 		GB_CK(the_refs != NULL);
 		fprintf(tex_output, GB_FMT_StartVerseX, verse_vk.verse);
 		fprintf(tex_output, "{");
+		fprintf(tex_output, "\\textbf{%s %d:%d} (", GB_BOOKS_NAMES[ref_vk.book][GB_BOOK_ABRV_IDX], 
+				ref_vk.chapter, ref_vk.verse);
 		gen_refs();
-		fprintf(tex_output, "}");
+		fprintf(tex_output, ")}");
 		//fprintf(tex_output, "nota %d}", verse_vk.verse);
 		get_ref_line();
 
