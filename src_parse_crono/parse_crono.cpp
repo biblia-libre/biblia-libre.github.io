@@ -385,7 +385,84 @@ int complete_psalms(int argc, char **argv){
 	exit(EXIT_SUCCESS);
 }
 
+FILE *bible_data = NULL;
+
+void
+join_fields(ssize_t idx_sz, char* verse_idx){
+	assert(verse_idx != NULL);
+	assert(bible_data != NULL);
+
+	bool has_rewind = false;
+
+	char *verse = NULL;
+	size_t vlen = 0;
+	ssize_t vread;
+
+	bool ok1 = false;
+	while(true) {
+		vread = getline(&verse, &vlen, bible_data);
+		if(vread == -1){
+			if(! has_rewind){
+				has_rewind = true;
+				rewind(bible_data);
+				vread = getline(&verse, &vlen, bible_data);
+				assert(vread != -1);
+			} else {
+				break;
+			}
+		}
+		if(strncmp(verse, verse_idx, idx_sz) == 0){
+			printf("%s", verse);
+			ok1 = true;
+			break;
+		} 
+	}
+	if(! ok1){
+		printf("ERROR %s \n\n", verse_idx);
+	}
+	assert(ok1);
+
+	free(verse);
+}
+
+int join_crono_data(int argc, char **argv){
+	FILE *crn_data;
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t read;
+	char *line2 = NULL;
+	size_t len2 = 0;
+	ssize_t read2;
+
+	assert(sizeof(char) == 1);
+
+	if( argc < 3 ){
+		fprintf(stderr, "Usage: %s <crono_file> <bible_file>\n", argv[0]);
+		return(1);
+	}
+
+	crn_data = fopen(argv[1], "r");
+	if(crn_data == NULL){
+		exit(EXIT_FAILURE);
+	}
+
+	bible_data = fopen(argv[2], "r");
+	if(bible_data == NULL){
+		fprintf(stderr, "Cannot find file 'VERSES'\n");
+		exit(EXIT_FAILURE);
+	}
+
+	while ((read = getline(&line, &len, crn_data)) != -1) {
+		join_fields(read - 1, line);
+	}
+
+	free(line);
+	fclose(bible_data);
+	fclose(crn_data);
+	exit(EXIT_SUCCESS);
+}
+
 int main(int argc, char **argv){
-	return complete_ranges(argc, argv);
+	return join_crono_data(argc, argv);
 }
 
