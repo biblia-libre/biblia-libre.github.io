@@ -240,7 +240,152 @@ int parse_verse_ranges(int argc, char **argv){
 	exit(EXIT_SUCCESS);
 }
 
+FILE *all_verses = NULL;
+
+void
+fill_verses(ssize_t fst_sz, char* first, char* last){
+	assert(first != NULL);
+	assert(all_verses != NULL);
+
+	rewind(all_verses);
+
+	char *verse = NULL;
+	size_t vlen = 0;
+	ssize_t vread;
+
+	bool ok1 = false;
+	bool ok2 = false;
+	bool prt_vrse = false;
+	bool is_last = false;
+	while ((vread = getline(&verse, &vlen, all_verses)) != -1) {
+		if(strncmp(verse, first, fst_sz) == 0){
+			ok1 = true;
+			prt_vrse = true;
+		} else {
+			if(prt_vrse && (last == NULL)){
+				ok2 = true;
+				break; 
+			}
+		}
+		if((last != NULL) && (strncmp(verse, last, vread) == 0)){
+			ok2 = true;
+			is_last = true;
+		}
+		if(prt_vrse){
+			printf("%s", verse);
+		}
+		if(is_last){ break; }
+	}
+	assert(ok1);
+	assert(ok2);
+
+	free(verse);
+}
+
+int complete_ranges(int argc, char **argv){
+	FILE *stream;
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t read;
+	char *line2 = NULL;
+	size_t len2 = 0;
+	ssize_t read2;
+
+	assert(sizeof(char) == 1);
+
+	if( argc < 2 ){
+		fprintf(stderr, "Usage: %s <input_file>\n", argv[0]);
+		return(1);
+	}
+
+	all_verses = fopen("VERSES", "r");
+	if(all_verses == NULL){
+		fprintf(stderr, "Cannot find file 'VERSES'\n");
+		exit(EXIT_FAILURE);
+	}
+
+	stream = fopen(argv[1], "r");
+	if(stream == NULL){
+		exit(EXIT_FAILURE);
+	}
+
+	while ((read = getline(&line, &len, stream)) != -1) {
+		char* pt_ln = line;
+		char* pt_oeln = (line + read);
+
+		char* fst_rng = strchr(line, '>');
+		if(fst_rng != NULL){
+			if((read2 = getline(&line2, &len2, stream)) == -1) {
+				printf("ERROR ======================================\n");
+				exit(EXIT_FAILURE);
+			}
+			assert(*fst_rng == '>');
+			*fst_rng = '\0';
+
+			fill_verses((fst_rng - line), line, line2);
+
+			pt_ln = NULL;
+
+			*fst_rng = '>';
+		}
+		if(pt_ln != NULL){
+			printf("%s", pt_ln);
+		}
+
+		//printf("%s", line);
+		//printf("---------\n");
+	}
+
+	free(line);
+	free(line2);
+	fclose(all_verses);
+	fclose(stream);
+	exit(EXIT_SUCCESS);
+}
+
+int complete_psalms(int argc, char **argv){
+	FILE *stream;
+	char *line = NULL;
+	size_t len = 0;
+	ssize_t read;
+
+	assert(sizeof(char) == 1);
+
+	if( argc < 2 ){
+		fprintf(stderr, "Usage: %s <input_file>\n", argv[0]);
+		return(1);
+	}
+
+	all_verses = fopen("VERSES", "r");
+	if(all_verses == NULL){
+		fprintf(stderr, "Cannot find file 'VERSES'\n");
+		exit(EXIT_FAILURE);
+	}
+
+	stream = fopen(argv[1], "r");
+	if(stream == NULL){
+		exit(EXIT_FAILURE);
+	}
+
+	while ((read = getline(&line, &len, stream)) != -1) {
+		char* pt_ln = line;
+
+		if(strncmp(line, "19+", 3) != 0){
+			printf("%s", pt_ln);
+			continue;
+		}
+
+		//printf("%s", pt_ln);
+		fill_verses(read - 1, line, NULL);
+	}
+
+	free(line);
+	fclose(all_verses);
+	fclose(stream);
+	exit(EXIT_SUCCESS);
+}
+
 int main(int argc, char **argv){
-	return parse_verse_ranges(argc, argv);
+	return complete_ranges(argc, argv);
 }
 
