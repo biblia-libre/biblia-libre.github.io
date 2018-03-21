@@ -26,6 +26,9 @@ char GB_BUFF[GB_BUFF_SZ];
 
 #define GB_FMT_EndBook "\\blEndBook\n"
 
+const char* GB_CRONO_NAMES[6] = 
+{"the_bible", "crobib", "La Biblia Cronológica", "Hataniikh Hacronologi", "", "התנייך הכרונולוגי"};
+
 const char* GB_BOOKS_NAMES[][6] = {
 {"BAD_COD_NM", "BAD_NM_ABREV", "BAD_PRT_NM", "BAD_TRNSLIT_NM", "BAD_TRADUC", "BAD_HEBREW_NM"},
 {"genesis", "Gen", "Génesis", "Bereshit", "'En el principio'", "בראשית"},
@@ -143,7 +146,7 @@ void
 tex_gen::init_tex_gen(){
 
 	help_str =
-		"[ -h | -v | -p | -tex ] "
+		"[ -h | -v | -p | -tex | -crn ] "
 		"[ -ver <verses_path> "
 		"| -ref <refs_path> "
 		"| -sub <subtitles_path> "
@@ -153,6 +156,7 @@ tex_gen::init_tex_gen(){
 		"-v : print version.\n"
 		"-p : print paths to use.\n"
 		"-tex : generate all bible books LaTeX files (xelatex).\n"
+		"-crn : generate one big cronological bible LaTeX file (xelatex).\n"
 		"-ver : set the verses path to <verses_path>.\n"
 		"-ref : set the references path to <refs_path>.\n"
 		"-sub : set the subtitles path to <subtitles_path>.\n"
@@ -167,6 +171,7 @@ tex_gen::init_tex_gen(){
 	op_with_images = false;
 	op_dbg_prt = -1;
 	op_gen_tex = false;
+	op_gen_crn = false;
 
 	verses = NULL;
 	subtitles = NULL;
@@ -224,6 +229,8 @@ tex_gen::get_args(int argc, char** argv)
 			op_with_images = true;
 		} else if(the_arg == "-tex"){
 			op_gen_tex = true;
+		} else if(the_arg == "-crn"){
+			op_gen_crn = true;
 		} else if((the_arg == "-ver") && ((ii + 1) < argc)){
 			int kk_idx = ii + 1;
 			ii++;
@@ -295,6 +302,8 @@ int main(int argc, char **argv){
 	//txg.test_print_file();
 	if(txg.op_gen_tex){
 		txg.gen_bible();
+	} else if (txg.op_gen_crn){
+		txg.gen_crono_bible();
 	}
 
 	return 0;
@@ -463,6 +472,26 @@ tex_gen::gen_start_book(int num_book){
 }
 
 void
+tex_gen::gen_start_crono_bible(){
+	if(tex_output != NULL){ fclose(tex_output); }
+	int num_book = 1;
+
+	snprintf(GB_BUFF, GB_BUFF_SZ, "%s_%s%s", GB_PREF_BOOK, GB_CRONO_BIBLE_NM, GB_SUFI_BOOK);
+	gb_string nm = GB_BUFF;
+	tex_output = open_file(nm, "w+");
+
+	const char** book_dat = GB_CRONO_NAMES;
+
+	fprintf(tex_output, GB_FMT_BookName, book_dat[GB_BOOK_NAME_IDX]);
+	fprintf(tex_output, GB_FMT_BookNameTranslit, book_dat[GB_BOOK_TRANSLIT_IDX]);
+	fprintf(tex_output, GB_FMT_BookNameMeaning, book_dat[GB_BOOK_MEANING_IDX]);
+	fprintf(tex_output, GB_FMT_HebrewBookName, book_dat[GB_BOOK_HEBREW_NM_IDX]);
+	fprintf(tex_output, GB_FMT_BookNumber, num_book);
+	fprintf(tex_output, GB_FMT_StartBook);
+}
+
+
+void
 tex_gen::gen_verse(){
 	bool new_book = verse_vk.book > verse_prv_vk.book;
 	if(new_book){
@@ -551,11 +580,11 @@ tex_gen::get_ref_line(){
 }
 
 void
-tex_gen::get_subtitu_line(){
+tex_gen::get_subtitu_line(bool is_sorted){
 	get_line(subtitles, subtitu_line, subtitu_sz);
 	verse_key pvk = subtitu_vk;
 	subtitu_val = get_key(subtitu_line, subtitu_vk);
-	GB_CK((subtitu_line == NULL) || cmp_verse_key(pvk, subtitu_vk) == -1);
+	GB_CK((subtitu_line == NULL) || ! is_sorted || cmp_verse_key(pvk, subtitu_vk) == -1);
 
 	the_subtitu = get_subtitle_kind(subtitu_val, the_subtitu_kind);
 	set_content_end(subtitu_line, subtitu_sz);
@@ -569,6 +598,37 @@ tex_gen::gen_bible(){
 
 	while(verse_line != NULL){
 		gen_verse();
+		get_verse_line();
+	}
+
+	gen_end_book();
+}
+
+void
+tex_gen::gen_crono_verse(){
+	if(cmp_verse_key(verse_vk, subtitu_vk) == 0){
+		GB_CK(the_subtitu != NULL);
+		fprintf(tex_output, "\n\n");
+		fprintf(tex_output, GB_FMT_SubTitle, the_subtitu);
+		fprintf(tex_output, "\n");
+		get_subtitu_line(false);
+	}
+	//fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
+	fprintf(tex_output, "\\textbf{%s %d:%d} ", GB_BOOKS_NAMES[verse_vk.book][GB_BOOK_ABRV_IDX], 
+			verse_vk.chapter, verse_vk.verse);
+	fprintf(tex_output, "%s", the_verse);
+	fprintf(tex_output, " \n\n");
+}
+
+void
+tex_gen::gen_crono_bible(){
+	get_verse_line();
+	get_ref_line();
+	get_subtitu_line(false);
+
+	gen_start_crono_bible();
+	while(verse_line != NULL){
+		gen_crono_verse();
 		get_verse_line();
 	}
 

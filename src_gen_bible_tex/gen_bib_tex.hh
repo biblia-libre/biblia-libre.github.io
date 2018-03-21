@@ -9,6 +9,8 @@
 #include <iostream>
 #include <sstream>
 
+#define GB_CRONO_BIBLE_NM "crono_bible"
+
 #define GB_VERSES_PTH "REINA_VALERA.txt"
 #define GB_REFS_PTH "REFS.txt"
 #define GB_SUBTITU_PTH "SUBTITU.txt"
@@ -98,6 +100,7 @@ public:
 	bool		op_with_images;
 	int			op_dbg_prt;
 	bool		op_gen_tex;
+	bool		op_gen_crn;
 
 	FILE* 		verses;
 	FILE* 		subtitles;
@@ -150,16 +153,19 @@ public:
 	void	set_content_end(char* line, int line_sz);
 	void	reset_content_end(char* line, int line_sz);
 
+	void	gen_start_crono_bible();
 	void	gen_start_book(int num_book);
 	void	gen_verse();
+	void	gen_crono_verse();
 	void	gen_refs();
 	void	gen_end_book();
 
 	void	get_verse_line();
 	void	get_ref_line();
-	void	get_subtitu_line();
+	void	get_subtitu_line(bool is_sorted = true);
 
 	void	gen_bible();
+	void	gen_crono_bible();
 };
 
 

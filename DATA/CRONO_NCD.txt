@@ -8190,7 +8190,7 @@
 8+4+9+Booz dijo a los ancianos y a todos los presentes: “Testigos sois hoy de que yo compro a Noemí cuanto perteneció a Elimelec, a Quelyón y a Majalón,+
 8+4+10+y que tomo al mismo tiempo por mujer a Rut la moabita, mujer de Majalón, para que no se borre de entre sus hermanos y de la puerta de la ciudad el nombre del difunto. Testigos sois de ello.”+
 8+4+11+Respondió todo el pueblo que estaba en la puerta y los ancianos: “Somos testigos. Haga Yahvé que la mujer que entra en tu casa sea como Lía y Raquel, que edificaron la casa de Israel. Que por ella seas poderoso en Efrata y tengas renombre en Belén.+
-8+4+12+Que sea tu casa como la casa de Fares, el que Tamar dio a Judá, por^i descendencia que de esa joven te dé Yahvé.”+
+8+4+12+Que sea tu casa como la casa de Fares, el que Tamar dio a Judá, por la descendencia que de esa joven te dé Yahvé.”+
 8+4+13+Tomó Booz a Rut y la recibió por mujer, y entró a ella, y Yahvé le concedió concebir y parir un hijo.+
 8+4+14+Las mujeres decían a Noemí: “Bendito Yahvé, que no ha consentido que te faltase hoy un redentor. Que su nombre sea celebrado en Israel.+
 8+4+15+Que sea el consuelo de tu alma y el sostén de tu vejez, pues te lo ha dado tu nuera, que tanto te quiere, y es para ti mejor que siete hijos.”+
@@ -14066,7 +14066,7 @@
 21+4+13+Más vale mozo pobre y sabio que rey viejo y necio, que no sabe escuchar los consejos.+
 21+4+14+Aquél aun de la cárcel podrá salir para subir al trono, aunque en su reino haya nacido pobre.+
 21+4+15+Vi que todos los que andan y viven debajo del sol se iban con él, con el mozo que le quitó su puesto.+
-21+4+16+No tenía fin la muchedumbre del pueblo que lo seguía; sin embargo, los que vengan detrás tampoco estarán contentos de él, porque también esto es vanidad y apacentarse de viento.
+21+4+16+No tenía fin la muchedumbre del pueblo que lo seguía; sin embargo, los que vengan detrás tampoco estarán contentos de él, porque también esto es vanidad y apacentarse de viento.+
 21+5+1+No seas precipitado en tus palabras y que tu corazón no se apresure a proferir una palabra delante de Dios, que en los cielos está Dios, y tú en la tierra; sean, pues, pocas tus palabras."+
 21+5+2+Porque de la muchedumbre de las ocupaciones nacen los sueños, y de la muchedumbre de las palabras los despropósitos.+
 21+5+3+Si haces un voto a Dios, no tardes en cumplirlo, que no hallan favor los negligentes; lo que prometes cúmplelo."+
@@ -14466,7 +14466,7 @@
 13+7+5+Sus hermanos de todas las familias de Isacar hombres valerosos, hacían un total de ochenta y siete mil, registrados en las genealogías.+
 13+7+13+Hijos de Neftalí: Jajsiel, Guni, Jeser y Salum, hijos de Bila.+
 13+7+20+Hijos de Efraím: Sutelaj, Bered, su hijo; Tajat, su hijo; Eleada, su hijo; Tajat, su hijo;"+
-13+7+21+Zabad, su hijo; Sutelaj, su hijo; Ezer y Elead. Los hombres de Gat naturales del territorio ^los mataron cuando bajaban para recoger sus ganados."+
+13+7+21+Zabad, su hijo; Sutelaj, su hijo; Ezer y Elead. Los hombres de Gat naturales del territorio los mataron cuando bajaban para recoger sus ganados."+
 13+7+22+Efraím, su padre, hizo mucho tiempo duelo por ellos, y sus hermanos vinieron a consolarle.+
 13+7+23+Después entró a su mujer, que concibió y parió un hijo, llamándole Beria, porque su casa estaba en la desgracia.+
 13+7+24+Tuvo por hijo a Sera, que edificó a Betorón, el bajo y el alto, y a Uzensera.+
@@ -15006,7 +15006,7 @@
 11+21+3+Pero Nabot le respondió: “Guárdeme Yahvé de cederte la heredad de mis padres.”+
 11+21+4+Volvióse Ajab a su casa entristecido e irritado por la respuesta que le había dado Nabot de Jezrael: “No te cederé la heredad de mis padres.” Acostóse en su lecho, vuelto el rostro, y no quiso comer.+
 11+21+5+Jezabel, su mujer, vino a él y le dijo: “¿Por qué estás triste y no quieres comer?”+
-11+21+6+El le respondió: “He hablado a Nabot^de Jezrael y le he dicho: Cédeme tu viña en venta, y si no quieres, yo te daré otra viña en su lugar. Pero él me ha contestado: No te daré mi viña.”+
+11+21+6+El le respondió: “He hablado a Nabot de Jezrael y le he dicho: Cédeme tu viña en venta, y si no quieres, yo te daré otra viña en su lugar. Pero él me ha contestado: No te daré mi viña.”+
 11+21+7+Entonces Jezabel, su mujer, le dijo: “¿Y eres tú el rey de Israel? Levántate, come y que se alegre tu corazón. Yo te haré con la viña de Nabot de Jezrael.”+
 11+21+8+Escribió ella unas cartas en nombre de Ajab, sellólas con el sello de éste y se las mandó a los ancianos y a los magistrados que habitaban con Nabot en su ciudad.+
 11+21+9+He aquí lo que escribió en las cartas: “Promulgad un ayuno y traed a Nabot delante del pueblo,+
@@ -28353,7 +28353,7 @@
 46+10+17+Porque el pan es uno, somos muchos un solo cuerpo, pues todos participamos de ese único pan.+
 46+10+18+Mirad al Israel carnal. ¿No participan del altar los que comen de las víctimas?+
 46+10+19+¿Qué digo, pues? ¿Que las carnes sacrificadas a los ídolos son algo, o que los ídolos son algo?+
-46+10+20+Antes bien, digo que lo que^sacrifican los gentiles, a los demonios y no a Dios lo sacrifican. Y no quiero yo que vosotros entréis en comunión con los demonios.+
+46+10+20+Antes bien, digo que lo que sacrifican los gentiles, a los demonios y no a Dios lo sacrifican. Y no quiero yo que vosotros entréis en comunión con los demonios.+
 46+10+21+No podéis beber el cáliz del Señor y el cáliz de los demonios. No podéis tener parte en la mesa del Señor y en la mesa de los demonios.+
 46+10+22+¿O queremos provocar la ira del Señor? ¿Somos acaso más fuertes que El?+
 46+10+23+“Todo es lícito,” pero no todo conviene; “todo es lícito,” pero no todo edifica."+
