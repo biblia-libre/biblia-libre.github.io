@@ -1,3 +1,4 @@
 
-g++ parse_crono.cpp -o crono
+g++ parse_crono.cpp -o fix_crono
+cp fix_crono ../DATA
 
