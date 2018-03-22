@@ -614,9 +614,11 @@ tex_gen::gen_crono_verse(){
 		get_subtitu_line(false);
 	}
 	//fprintf(tex_output, GB_FMT_StartVerse, verse_vk.verse);
-	fprintf(tex_output, "\\textbf{%s %d:%d} ", GB_BOOKS_NAMES[verse_vk.book][GB_BOOK_ABRV_IDX], 
-			verse_vk.chapter, verse_vk.verse);
+	//fprintf(tex_output, "\\textbf{%s %d:%d} ", GB_BOOKS_NAMES[verse_vk.book][GB_BOOK_ABRV_IDX], 
+	//		verse_vk.chapter, verse_vk.verse);
 	fprintf(tex_output, "%s", the_verse);
+	fprintf(tex_output, "\\blGetCronoVerse{(%s.%d:%d)}", GB_BOOKS_NAMES[verse_vk.book][GB_BOOK_ABRV_IDX], 
+			verse_vk.chapter, verse_vk.verse);
 	fprintf(tex_output, " \n\n");
 }
 

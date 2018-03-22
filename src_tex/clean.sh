@@ -3,5 +3,5 @@
 rm *.log
 rm *.aux
 rm *.pdf
-rm books/book*.tex
+# rm books/book*.tex
 

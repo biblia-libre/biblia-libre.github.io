@@ -20,6 +20,9 @@
 \usepackage{multicol}
 \usepackage[object=vectorian]{pgfornament}
 \usepackage[explicit]{titlesec}
+\usepackage{anyfontsize}
+%\usepackage[dolayout]{xdoc2}
+%\usepackage{xdoc2}
 
 \renewcommand{\familydefault}{pplj} 
 \setdefaultlanguage{english}
@@ -58,17 +61,37 @@
 %-----------------------------------------------------
 
 \geometry{
-	letterpaper,
+	paper = letterpaper,
+	layout = letterpaper,
 	top = 20mm,
+	headsep = 2mm,
+	headheight = 17mm,
 	bottom = 20mm,
+	footskip = 2mm,
 	inner = 25mm,
 	outer = 10mm,
-	footskip = 8mm,
-	headsep = 3mm,
-	headheight = 20mm,
 }
+%	inner = 25mm,
+%	outer = 10mm,
 
 %\pagenumbering{gobble}
+
+% Verse indentation.
+%-----------------------------------------------------
+
+\newenvironment{verseindent}[1]
+  {\begin{list}
+          {}
+          {\setlength{\itemindent}{-#1}%%'
+           \setlength{\leftmargin}{#1}%%'
+           \setlength{\itemsep}{0pt}%%'
+           \setlength{\parsep}{\parskip}%%'
+           \setlength{\topsep}{\parskip}%%'
+           }
+    \setlength{\parindent}{-#1}%%
+    \item[]
+  }
+  {\end{list}}
 
 % Fonts to use. 
 %-----------------------------------------------------
@@ -142,6 +165,10 @@
 
 \newcommand{\blIniNum}[1]{%
 \blSetDSRomantiques\selectfont{#1}%
+}
+
+\newcommand{\blGetCronoVerse}[1]{%
+{\fontsize{6}{8}\selectfont #1}%
 }
 
 
@@ -222,7 +249,7 @@
 \newcommand{\blSubTitle}[1]{
 	\vspace{1em}
 	%\centerline{\textcolor{blLayoutColor}{\textbf{\fontsize{10}{3}\selectfont #1}}}%
-	\centerline{\textcolor{blLayoutColor}{\textbf{\large #1 } \small}}
+	\centerline{\textcolor{blLayoutColor}{\textbf{\large #1 } \small}}\nopagebreak%
 }
 
 
@@ -230,14 +257,15 @@
 %START OF DOCUMENT
 %====================================================================================================
 \begin{document}
-%\begin{multicols}{2}
 
-%\thispagestyle{empty}
+\fontsize{12}{14}\selectfont
 
-\small
+%\begin{verseindent}{3em}
 
 \input{books/book_crono_bible.tex}
+%\input{books/pru_crono.tex}
 
-%\end{multicols}
+%\end{verseindent}
+
 \end{document}
 
